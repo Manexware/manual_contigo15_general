@@ -1,5 +1,20 @@
 ![Logo Contigo](/assets/img/contigo_logo.png)
 # Manual General Sistema Contigo
+
+## Índice de Contenido
+- [Manual General Sistema Contigo](#manual-general-sistema-contigo)
+  - [Índice de Contenido](#índice-de-contenido)
+  - [1. Prerrequisitos](#1-prerrequisitos)
+    - [1.1 Información Básica](#11-información-básica)
+    - [1.2 Información de Correo](#12-información-de-correo)
+    - [1.3 Archivos de Importación](#13-archivos-de-importación)
+  - [2. Configuración Inicial](#2-configuración-inicial)
+    - [2.1 Creación de Usuarios](#21-creación-de-usuarios)
+  - [3. Primeros Pasos](#3-primeros-pasos)
+  - [4. Contabilidad](#4-contabilidad)
+  - [5. Algunos de Nuestros Clientes](#5-algunos-de-nuestros-clientes)
+  - [6. Contactanos](#6-contactanos)
+
 ## 1. Prerrequisitos
 
 ### 1.1 Información Básica
