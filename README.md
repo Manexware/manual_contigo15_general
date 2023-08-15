@@ -16,8 +16,23 @@
 - Usuario
 - Contraseña
 
+### 1.3 Archivos de Importación
+- Excel de Contactos
+- Excel de Productos
 
 ## 2. Configuración Inicial
+
+### 2.1 Creación de Usuarios
+__Datos del usuario__: Esta tarea solo puede ser realizada por el administrador, debe dirigirse al módulo de __Ajustes__, seleccionar en el menú la opción __Usuarios y Compañías__ y seguido la opción __Usuarios__.
+
+![menu general](/assets/img/menu_general.png)
+
+![menu ajustes](/assets/img/menu_ajustes.png)
+
+![submenu ajustes](/assets/img/submenu_ajustes.png)
+
+Para crear un usuario, se debe llenar los campos Nombre, Dirección de email y foto (opcional) con un tamaño máximo de 1024x1024px.
+
 
 ## 3. Primeros Pasos
 
