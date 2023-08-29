@@ -91,6 +91,86 @@ El sistema Contigo tiene los datos básicos del plan contable, pero es necesario
 En el caso de querer visualizar más información respecto a una cuenta en específico, deberá dar clic al botón “Configurar”, de esta manera se abrirá una vista formulario en el cual podrá visualizar tanto el código, el nombre de la cuenta, el tipo de la misma, pero habrá campos adicionales como:
 ![submenu ajustes](/assets/img/planctados.png)
 ![submenu ajustes](/assets/img/planctatres.png)
+
+__Tipo__: Aquí se define el tipo de cuenta, ya sean capitales, activos, pasivos; cabe recalcar que las cuentas por cobrar y pagar deberán definirse de manera correcta y darle el respectivo permiso de conciliación.
+
+__Impuestos determinados__: En esta opción se mostrará diferentes porcentajes de impuesto a usar si son compras o ventas.
+
+__Etiquetas__: Ayuda a definir qué tipo de actividad es, ya sea de operaciones, financiera o actividades extraordinarias.
+
+__Diarios permitidos__: Se definen los diarios contables que pueden ser usados dentro de ese plan contable. Si se llena esta opción sólo podrán usar dichas cuentas siempre y cuando el asiento contable posea dicho diario.
+
+__Obsoleto__: De igual manera no es posible eliminar una cuenta una vez que se haya registrado una transacción en ella. Puede hacerla inutilizable deberá marcar el check de __“Obsoleto”__.
+
+__Grupo__: Se define automáticamente, en este apartado se define a qué grupo de cuenta pertenece (grupo previamente creado).
+
+__Centralizado__:  En el caso de que se desee que se muestren los detalles de la cuenta en el libro mayor, deberá marcar esta opción.
+
+El sistema Contigo permite de igual manera visualizar las cuentas según su nivel, el nivel lo define de manera automática siempre y cuando se digite el código de la cuenta contable.
+<p align="center">
+  <img src="/assets/img/nivelescta.png">
+</p>
+Por ejemplo, en la imagen de arriba solo se están visualizando las cuentas nivel 1.
+
+### 2.3 Grupos de cuentas
+Debe dirigirse al módulo de __Contabilidad__, seleccionar el menú de __Configuración__, buscar el apartado de __Contabilidad__ y seleccionar la opción __Grupos de Cuentas__.
+
+Los grupos de cuentas sirven para listar múltiples cuentas como subcuentas de una cuenta más grande y, por lo tanto, consolidar reportes como la balanza de comprobación. De forma predeterminada, los grupos se gestionan según el código del grupo.
+
+Para la creación de un grupo de cuentas, se deberá definir el nombre de la misma y el prefijo de esta; dependiendo de los dígitos seleccionados al momento de guardar el registro el sistema enlazará todas las cuentas contables que posean dicho prefijo.
+
+![submenu ajustes](/assets/img/grupoctas.png)
+
+### 2.4 Impuestos
+Esta tarea solo puede ser realizada por el administrador, debe dirigirse al módulo de __Contabilidad__, seleccionar el menú de __Configuración__, buscar el apartado de __Contabilidad__ y seleccionar la opción __Impuestos__.
+
+Los impuestos son tributos que cada persona, familia o empresa debe pagar al Estado para costear las necesidades colectivas, contribuyendo así con una parte de sus ingresos.
+
+Al momento de crear un nuevo impuesto es necesario agregar el nombre del impuesto, si se desea se puede añadir un nombre corto y seleccionar el ámbito de este (ventas, compras, ninguno y ajustes).
+
+![submenu ajustes](/assets/img/impuestosuno.png)
+__Definición__: Esta pestaña nos ayuda a determinar el cálculo del impuesto, su importe, la cuenta de impuestos y la cuenta de impuestos para las notas de crédito.
+![submenu ajustes](/assets/img/impuestosdos.png)
+__Opciones avanzadas__: Esta opción nos permite añadir la etiqueta de factura, el grupo de impuestos, si se debe incluir en el precio, si tiene base imponible y añadir más etiquetas para reconocimiento de este.
+![submenu ajustes](/assets/img/impuestostres.png)
+__Código de impuestos__: Nos permite ingresar el código base y el código de impuestos para las ventas y compras; de la misma manera el reembolso de ventas y compras con la diferencia del código de devoluciones.     
+
+![submenu ajustes](/assets/img/impuestosfour.png)
+
+
+### 2.5 Información de la compañía 
+Esta tarea solo puede ser realizada por el administrador, debe dirigirse al módulo de __Administración__, seleccionar la opción __Compañías__.
+Por defecto hay un registro con el nombre de My Company (Rio Tinto Group), es necesario ingresar a dicho registro para poder configurar con los respectivos datos de la empresa.
+
+Proceden a llenar cada uno de los campos con su respectiva información según la empresa, especialmente los campos obligatorios empezando por el nombre de la compañía.
+
+![submenu ajustes](/assets/img/companyuno.png)
+
+__Información General__: Se debe registrar todos los datos de la compañía y si la compañía posee factura electrónica, llenar en el sistema sus respectivos campos para su posterior utilización.
+
+![submenu ajustes](/assets/img/companydos.png)
+
+![submenu ajustes](/assets/img/companytres.png)
+
+![submenu ajustes](/assets/img/companyfour.png)
+
+__Contabilidad__: Nos permite indicar al sistema las retenciones, sustentos tributarios, las cuentas contables y la cuenta de transferencia entre bancos que la empresa utiliza para toda su actividad contable.
+![submenu ajustes](/assets/img/contuno.png)
+
+![submenu ajustes](/assets/img/contdos.png)
+
+![submenu ajustes](/assets/img/contres.png)
+
+![submenu ajustes](/assets/img/contfour.png)
+
+![submenu ajustes](/assets/img/contfive.png)
+
+![submenu ajustes](/assets/img/contseis.png)
+
+![submenu ajustes](/assets/img/contsiete.png)
+
+![submenu ajustes](/assets/img/contocho.png)
+
 ## 3. Primeros Pasos
 
 ## 4. Contabilidad
