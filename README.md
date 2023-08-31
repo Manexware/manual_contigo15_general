@@ -1008,6 +1008,32 @@ __Confirmar:__  Antes de validar la factura del proveedor es necesario hacer cli
 
 __Cancelar:__  Permitirá suspender el proceso de guardar el registro del documento.
 
+![submenu ajustes](./assets/img/cancelarfactproveedor.png)
+__Imprimir:__ Esta opción nos permite realizar el reporte de la factura realizada.
+<p align="center">
+  <img src="./assets/img/imprimirfactproveedor.png">
+</p>
+<p align="center">
+  <img src="./assets/img/factproveedorpdf.png">
+</p>
+
+__Comprobante:__ Imprime un archivo PDF que muestra los datos de los asientos contables.
+
+(fotopendiente)
+
+__Registrar pago:__ Esta opción permitirá realizar el pago de dicha factura, al momento de hacer clic en el botón “Registrar pago” se abrirá una ventana emergente, para completar el pago se deberá llenar los siguientes campos: la cantidad a pagar que debe ser igual al monto total de la factura, la fecha de pago, la fecha del depósito, el circular, el diario de pago que se derivará a tres opciones (Banco, Efectivo y Retenciones Clientes) y la cuenta contable, aunque este campo sólo aparecerá si el diario de pago es banco o efectivo.
+Pero en el caso de que el diario de pago sea bancos o retenciones clientes, aparecerá en la vista el tipo de método de pago del cual se podrá seleccionar de manera manual o cheque.
+![submenu ajustes](./assets/img/registrarpagoproveedor.png)
+
+Al momento de registrar el pago tenemos lo que es el campo de cuenta contable de pago que se dará  ayuda indicando a qué cuenta contable se está dirigiendo la factura, pero en el caso de que el pago de la factura se derive a diferentes cuentas contables, se tendrá en la parte de abajo el ítem de líneas de contrapartida, que permitirá agregar dichas cuentas contables al pago de la factura.
+
+En el caso de que el pago en las líneas de contrapartida no sea igual al valor total del pago facturado, la diferencia del mismo pago será tomada por la cuenta contable de pago que se encuentra en la parte superior.
+
+Al momento de guardar la retención, se generará un pago pendiente el cual mostrará en los valores totales de la factura un ítem llamado créditos pendientes, dicho ítem que se mostrará todos los valores de pago pendientes y nos dará la opción de añadir dicho pago al monto total de la factura, en el caso de que se le añada el pago, el monto total de la factura se sumará con el valor pendiente dando como resultado un monto total diferente.
+<p align="center">
+  <img src="./assets/img/montototalapagarproveedor.png">
+</p>
+
 
 
 
