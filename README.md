@@ -605,10 +605,417 @@ Al igual que en anteriores apartados, se le permite al usuario descargar un arch
 
 ![submenu ajustes](./assets/img/cuentasbancariasdatos.png)
 
+### 5.2.10 Cuentas Bancarias / Cuentas Bancarias
+
+Seleccionar el módulo de __Contactos__, dirigirse al menú de __Configuración__ y buscar en __Cuentas Bancarias__ la opción __Cuentas Bancarias.__
+Esta opción permite la creación, edición y eliminación de cuentas bancarias, al momento de crearla se deberá colocar el tipo de cuenta (Ahorros, Corriente o Virtual), el número de cuenta, el titular, el banco, el nombre del titular o contacto, correo y nos da a elegir si se mostrará en facturas o no.
+![submenu ajustes](./assets/img/vistacuentasbancarias.png)
+![submenu ajustes](./assets/img/editarcuentabancaria.png)
+También el usuario podrá archivar, duplicar o suprimir el registro:
+<p align="center">
+  <img src="./assets/img/accionescuentabancaria.png">
+</p>
+De igual manera, el sistema permite la descarga de un archivo xlsx (excel) para la visualización de los registros:
+<p align="center">
+  <img src="./assets/img/cuentasbancariasdescarga.png">
+</p>
+
+![submenu ajustes](./assets/img/excelcuentasbancarias.png)
+
+### 5.2.11 Tipo de Identificación
+Seleccionar el módulo de __Contactos__, dirigirse al menú de __Configuración__ y buscar en __Cuentas Bancarias__ la opción __Tipo de Identificación.__
+Esta opción permite visualizar los formatos de documentos, con opciones a archivarlos, exportarlos, desarchivarlos, marcar la casilla para cambiar el estado a activo e inactivos.
+![submenu ajustes](./assets/img/vistatipodedocumentacion.png)
+Permite exportar los documentos,archivarlos y desarchivarlos:
+<p align="center">
+  <img src="./assets/img/accionestipodedocumentacion.png">
+</p>
+
+![submenu ajustes](./assets/img/exportartiposdedocumentacion.png)
+![submenu ajustes](./assets/img/exceltipodedocumentacion.png)
+
+
+## 6. Contabilidad
+![submenu ajustes](./assets/img/modulocontabilidad.png)
+### 6.1 Clientes
+#### 6.1.1 Facturas/Clientes
+Seleccionar el módulo de __Contabilidad__, dirigirse al menú de __Clientes__ y buscar la opción __Facturas.__
+
+Una factura es un documento de carácter mercantil que indica una compraventa de un bien o servicio y que, entre otras cosas, debe incluir toda la información de la operación.
+Al momento de seleccionar la pestaña, el sistema  permitirá crear facturas, eliminarlas, etc.
+![submenu ajustes](./assets/img/crearfacturasclientes.png)
+Se procede a llenar los campos obligatorios (campos de color azul), se selecciona al cliente, se llena la fecha de la factura; en el caso de la fecha de vencimiento, se puede establecer utilizando una fecha específica o un término; luego se selecciona el tipo de descuento (Porcentaje o Cantidad), en el caso que se quiera realizar un descuento a todos los productos de la factura, se procede a llenar el campo de descuento global y se aplicará dicho descuento a los productos ingresados.
+![submenu ajustes](./assets/img/detallefactura.png)
+Las líneas de factura, sirven para agregar los productos a la factura, para agregar un producto dar clic en __Agregar línea__, automáticamente se puede seleccionar un producto que esté en el sistema y al momento de añadirlo en la línea se cargarán por defecto los datos del producto como la descripción, el tipo de cuenta (se puede seleccionar otro tipo si se desea), el impuesto que por defecto es IVA 12% o código 401, el precio dependerá del producto (para más información revisar __Productos__), en el caso que un producto tenga un descuento específico, se lo puede añadir en la línea, indica la cantidad de dicho producto y el subtotal dependerá del resultado de: cantidad * precio del producto - descuento + impuestos.
+<p align="center">
+  <img src="./assets/img/calculosfacturas.png">
+</p>
+Al momento de completar las líneas de factura, el sistema le mostrará los cálculos realizados para la obtención del total a cobrar.
+
+Por defecto la forma de pago se genera automáticamente como “Sin utilización del sistema financiero”, si desea especificar otra forma de pago, deberá escoger manualmente.
+![submenu ajustes](./assets/img/formadepago.png)
+
+Si se desea ingresar algún tipo de dato adicional, se lo podrá realizar en la parte de “Información Adicional”, para agregar un dato adicional dar clic en agregar línea y llenar el campo nombre y el campo descripción.
+![submenu ajustes](./assets/img/infoadicional.png)
+
+La factura se rige por los siguientes estados: __Borrador__ y __Publicado__
+<p align="center">
+  <img src="./assets/img/estadosfacturas.png">
+</p>
+
+Para cambiar el estado de la factura, se debe hacer lo siguiente: Se debe dirigir a la esquina superior izquierda, donde se encontrará con los siguientes botones.
+![submenu ajustes](./assets/img/botonesfacturas.png)
+__Confirmar:__ Permite cambiar el estado a Publicado, al momento de que la factura esté en este estado no se podrá realizar ediciones en las líneas de factura y mostrará una serie de opciones que serán detalladas a continuación:
+![submenu ajustes](./assets/img/facturapublicada.png)
+
+__Generar Edoc:__ Al momento de dar clic en esta opción se generará el documento electrónico de la factura.
+(imagenporinsertar)
+
+__Ride:__ Al dar click aparecerá el documento factura completa.
+
+<p align="center">
+  <img src="./assets/img/generaride.png">
+</p>
+
+__Enviar e imprimir:__ Esta opción visualizará el documento ya procesado dentro del sistema para enviar e imprimir.
+
+__Vista Previa:__ Este botón muestra en pantalla cómo se verá la factura, podremos descargar dicha previsualización en formato PDF o enviarla a imprimir.  Para poder previsualizar la factura se deberá tener llenos los siguientes campos: Fecha de la factura, RUC del cliente, secuencia interna de la factura, tipo de comprobante y la forma de pago.
+<p align="center">
+  <img src="./assets/img/vistapreviafactura.png">
+</p>
+
+__Añadir nota de crédito:__ Esta opción le permite crear créditos de forma rápida y sencilla. Se recomienda utilizar este método al ingresar facturas al sistema, ya que optimiza el tiempo dentro del proceso de creación de notas de crédito. El proceso es fácil. Seleccione el método de crédito y la fecha de cancelación.
+<p align="center">
+  <img src="./assets/img/añadirnotadecredito.png">
+</p>
+
+__Crear nota de débito:__ Esta opción le permite crear deditos de forma rápida y sencilla. Se recomienda utilizar este método al ingresar en el  sistema, ya que optimiza el tiempo dentro del proceso de creación de notas de débito. El proceso es fácil. Seleccione el método de débito y la fecha de la nota de débito.
+<p align="center">
+  <img src="./assets/img/crearnotadedebito.png">
+</p>
+
+__Agregar Retención:__  Para añadir una retención a la factura, se debe dar clic en esta opción, se llenan los campos obligatorios como el número de documento, la fecha, periodo fiscal, el número de autorización, el diario, cliente y el detalle de la retención.
+![submenu ajustes](./assets/img/agregarretencion.png)
+![submenu ajustes](./assets/img/borradorretenciones.png)
+Al momento de guardar la retención, se generará un pago pendiente el cual mostrará en los valores totales de la factura un ítem llamado “créditos pendientes”, dicho ítem nos mostrará todos los valores de pago pendientes y se  dará la opción de añadir dicho pago al monto total de la factura; en el caso de que se le añada el pago, el monto total de la factura se sumará con el valor pendiente dando como resultado un monto total diferente.
+<p align="center">
+  <img src="./assets/img/montototalfactura.png">
+</p>
+
+__Anular Facturas:__ Permite la anulación de la factura enviando la misma a un estado adicional llamado Anulado, dicho estado sólo aparecerá si se anuló la factura.
+<p align="center">
+  <img src="./assets/img/anularfacturas.png">
+</p>
+<p align="center">
+  <img src="./assets/img/vistaanulado.png">
+</p>
+Cuando la factura está en este estado, solo mostrará los siguientes botones: “Generar Edoc”, “Ride”, “ Vista Previa” y “Restablecer a Borrador”.  
+Si se desea reactivar dicha factura se debe hacer clic en “Restablecer a borrador”, en ese momento el sistema cambiará de estado anulado a borrador, es el mismo estado que tienen las facturas al momento de recién creadas; luego se procederá a modificar los datos existentes y después se valida cuando esté completada.
+<p align="center">
+  <img src="./assets/img/botonesfacturas2.png">
+</p>
+Se añadirá a nuestras facturas creadas los términos y condiciones en la sección final del documento, solo se podrá editar dicho término si la factura se encuentra en estado de borrador.
+<p align="center">
+  <img src="./assets/img/terminosycondiciones.png">
+</p>
+
+__Compartir:__ Esta acción se permitirá enviar el documento a uno o más de los destinatarios designados, dichos destinatarios deben tener definido el correo en su perfil de contacto.Compartir: Esta acción se permitirá enviar el documento a uno o más de los destinatarios designados, dichos destinatarios deben tener definido el correo en su perfil de contacto.
+<p align="center">
+  <img src="./assets/img/accionesfcts.png">
+</p>
+<p align="center">
+  <img src="./assets/img/compartirdocumento.png">
+</p>
+
+#### 6.1.2 Notas de Credito
+En el módulo de Contabilidad, seleccionar el menú Clientes y luego la opción Notas de Crédito.
+Una nota de crédito es un documento legal que se utiliza en transacciones de compraventa donde interviene un descuento posterior a la emisión de la factura, una anulación total, un cobro de un gasto incurrido de más o la devolución de bienes.
+Para la correcta creación de una nota de crédito, es recomendable realizarla a través de la factura (para más información revisar “Factura Clientes”).
+El sistema permitirá la edición del documento, al momento de editarlo es necesario llenar los campos obligatorios que existen en el mismo, la vista que proyectará el sistema es casi idéntica a la factura con la diferencia que se debe especificar el número de documento tributario para poder generar la nota; también es idéntica a la de nota de débito. La nota de crédito podremos validarla, previsualizarla, cancelarla, registrar pagos, etc.
+<p align="center">
+  <img src="./assets/img/vistanotasdecreditos.png">
+</p>
+<p align="center">
+  <img src="./assets/img/notadecreditocreada.png">
+</p>
+<p align="center">
+  <img src="./assets/img/detallenotadecredito.png">
+</p>
+<p align="center">
+  <img src="./assets/img/formadepagonotacredito.png">
+</p>
+Se sabe que es una nota de crédito porque en la pestaña “Otra Información” existe el “Tipo de comprobante” que indica “Nota de Crédito”.
+<p align="center">
+  <img src="./assets/img/otrainfonotacredito.png">
+</p>
+Entre otras se encontrara  lo que es el botón de __“imprimir”:__ 
+<p align="center">
+  <img src="./assets/img/btnimprimir.png">
+</p>
+
+__Facturas:__ La factura es un documento que indicará una compraventa de un producto que se ha registrado en la compra.
+<p align="center">
+  <img src="./assets/img/facturanotadecredito.png">
+</p>
+
+Se presenta un boton de __acciones__:
+<p align="center">
+  <img src="./assets/img/accionesnotadecredito.png">
+</p>
+
+__Duplicar:__ Duplica la información de la nota de crédito ya creada en el sistema.
+
+__Suprimir:__ Se eliminará el documento dentro de la nota de crédito. 
+
+__Generar un enlace de pago:__ Los enlaces de pago no son más que una url que podemos enviar al cliente a través de cualquier medio y al clicar en él, el consumidor accede directamente a la página final de pago de nuestro producto o servicio.
+<p align="center">
+  <img src="./assets/img/enlacedepago.png">
+</p>
+
+__Compartir:__ Consiste en un enlace o URL único o abierto, que se genera para cada compra y que puedes compartir con tu cliente a través de diferentes canales como correo electrónico, mensajes de texto, entre otros.
+<p align="center">
+  <img src="./assets/img/compartirnotadecredito.png">
+</p>
+
+__Cambiar a reembolso/nota de crédito:__ 
+<p align="center">
+  <img src="./assets/img/cambiar%20a%20reembolso.png">
+</p>
+
+#### 6.1.3 Facturas de Reembolso de Gastos
+En el módulo de __Contabilidad__, seleccionar el menú __Clientes__ y luego la opción __Facturas de Reembolso de Gastos.__
+
+Las facturas de reembolso de gastos son deducibles del Impuesto a la Renta y, el IVA pagado, constituye crédito tributario.
+
+Para solicitar el reembolso, el intermediario deberá emitir una factura con el concepto de reembolso de gastos, en la cual se detallarán los comprobantes de venta con el motivo del reembolso.
+
+Además, quien solicita el reembolso debe adjuntar los originales de los comprobantes por los que se pide el reembolso.  Los comprobantes de venta deben estar a nombre del intermediario. Esta factura por reembolso no está sujeta a retenciones en la fuente de Impuesto a la Renta ni de IVA.
+
+En el caso de que el intermediario del reembolso sea un empleado en relación de dependencia con la empresa, éste podrá emitir una liquidación de compra de bienes y prestación de servicios en sustitución de la factura por el reembolso.
+<p align="center">
+  <img src="./assets/img/facturarembolsos.png">
+</p>
+<p align="center">
+  <img src="./assets/img/lineafacturareembolsos.png">
+</p>
+<p align="center">
+  <img src="./assets/img/formadepagoreembolsos.png">
+</p>
+
+#### 6.1.4 Notas de Débito
+En el módulo de __Contabilidad__, seleccionar en el menú __Clientes__ la opción __Notas de Débito.__
+
+La nota de débito es un documento que se le enviará al comprador o cliente para avisarle que ha aumentado la cantidad de su deuda por algún motivo. Con este documento se le avisará que se le ha cargado, o que debe una cantidad de dinero por el concepto que se especifica en la nota.  Al contrario que la nota de crédito es la notificación a un comprador de que se le debe cobrar más dinero.
+
+El sistema permitirá la edición del documento; al momento de editarlo es necesario llenar los campos obligatorios que existen en el mismo, la vista que proyectará el sistema es casi idéntica a la factura con la diferencia que se debe especificar el número de documento tributario que se generará  en  la nota; también es idéntica a la de nota de crédito.  La nota de débito se podrá validar, previsualizar, cancelarla, registrar pagos, etc.
+
+![submenu ajustes](./assets/img/borradornotadedebito.png)
+<p align="center">
+  <img src="./assets/img/formadepagonotadedebito.png">
+</p>
+
+Sabemos que es una nota de crédito porque en la pestaña “Otra Información” existe el “Tipo de comprobante” que indica “Nota de Débito”.
+<p align="center">
+  <img src="./assets/img/otrainfonotadedebito.png">
+</p>
+
+#### 6.1.5  Retenciones Ventas
+En el módulo de __Contabilidad__, seleccionar el menú __Clientes__ y la opción __Retención Ventas.__
+
+La retención es la cantidad que se retiene de un sueldo, salario u otra percepción para el pago de un impuesto, de deudas en virtud de embargo, es decir, te retienen ahora para asegurar el pago del impuesto.  Para la correcta creación de una retención ventas, es recomendable realizarla a través de la factura (para más información revisar Factura Clientes).
+
+Al momento de editar una retención de venta, se deben llenar los campos obligatorios, el número de la retención, la empresa, el documento de origen, el número de autorización, la fecha de vencimiento de dicha autorización, el diario, el comprobante, la fecha de emisión y el responsable de dicha retención.
+
+__Detalle de retención:__ Llenar el año fiscal y el impuesto ya sea IVA o RENTA; la base del impuesto se llenará de manera automática, el valor porcentual y el valor retenido.
+
+__Información Extra:__ Seleccionar el tipo de comprobante. En la esquina superior izquierda, debajo de la opción Guardar nos aparecerá una barra para poder Validar .
+![submenu ajustes](./assets/img/retencionesventas.png)
+![submenu ajustes](./assets/img/detalleretencionventas.png)
+
+#### 6.1.6 Detalle de Retención en Ventas
+En el módulo de __Contabilidad__, seleccionar en el menú la opción __Detalle de Retención Ventas.__
+Como su propio nombre lo indica, muestra todas las retenciones en ventas de los clientes a una vista sencilla.
+![submenu ajustes](./assets/img/vistadetalleretencionventa.png)
+
+#### 6.1.7 Pagos
+En el módulo de __Contabilidad__, seleccionar el menú __Clientes__ y luego la opción __Pagos.__
+
+Un pago es lo que una persona o entidad realiza para poder cancelar o suprimir una obligación que se tenía contraída.  El pago puede efectuarse mediante la entrega de un bien, servicio o activo financiero a cambio de otro bien, servicio o activo financiero.
+
+Se recomienda  realizar los pagos a través de las opciones que se dará las facturas, notas de crédito y notas de débito dentro del sistema de contigo.
+
+__Seleccionar el tipo de pago:__ “Enviar dinero”, “Recibir dinero” o “Transferencia interna”; llenar la fecha de pago, la circular de este, la fecha del depósito, el tipo de empresa (que por defecto está en seleccionado cliente), la empresa y la cantidad.
+Por último, el sistema permite ingresar las líneas de contrapartida.
+
+También el sistema permitirá imprimir el recibo de pago, el comprobante de pago y el cheque este último siempre y cuando el pago sea en cheques.
+
+![submenu ajustes](./assets/img/editarpagos.png)
+![submenu ajustes](./assets/img/vistapagos.png)
+En el momento de seleccionar al cliente, si existen pagos pendientes el sistema de manera automática nos mostrará el número de pagos pendientes y la cantidad de estos.
+<p align="center">
+  <img src="./assets/img/movpendientrescruce.png">
+</p>
+
+En el caso de que se desee cancelar el asiento para volver a realizarlo, es necesario configurar el diario para que permita la cancelación de pagos (para más información dirigirse a Diarios).
+<p align="center">
+  <img src="./assets/img/cancelarasientoerror.png">
+</p>
+
+Al momento de realizar un pago en cheque es necesario primero configurar la chequera en el sistema (para más información revisar __Chequeras__ ), la opción de cheques sólo aparecerá si el pago es __enviar dinero__ o una __transferencia interna__ y se selecciona la opción de cheques.
+
+Se procederá a llenar el punto de emisión correspondiente, la ciudad y la fecha del depósito, si se deja la fecha de depósito en blanco el sistema utilizará la fecha de pago como fecha de depósito.
+![submenu ajustes](./assets/img/pagosborrador.png)
+Imprimir: El sistema nos permitirá realizar los siguientes reportes ,“recibo de pago”, “cheque”.
+<p align="center">
+  <img src="./assets/img/btnimprimirnd.png">
+</p>
+<p align="center">
+  <img src="./assets/img/opcimprimirpagos.png">
+</p>
+<p align="center">
+  <img src="./assets/img/recibopagopdf.png">
+</p>
+
+__Acciones:__ La opción de pagos cuenta con las opciones duplicar, suprimir y enviar recibo por correo electrónico.
+<p align="center">
+  <img src="./assets/img/accionespago.png">
+</p>
+En la parte superior encontraremos dos botones:
+<p align="center">
+  <img src="./assets/img/botonespagos.png">
+</p>
+
+__Factura:__
+<p align="center">
+  <img src="./assets/img/facturaenpagos.png">
+</p>
+<p align="center">
+  <img src="./assets/img/detallefacturaenpagos.png">
+</p>
+
+__Asiento contables:__
+<p align="center">
+  <img src="./assets/img/asientoscontablespagos.png">
+</p>
+
+__Nota:__ En el caso de que se necesite crear un pago con múltiples facturas, primero se debe visualizar que las facturas estén en estado Abierto.
+
+Se seleccionan las facturas del mismo cliente, por consiguiente, se debe dirigir en la opción Acción y seleccionar Registrar Pago.
+<p align="center">
+  <img src="./assets/img/accionregistropago.png">
+</p>
+
+Después de dar clic en la opción Registrar Pago, se debe llenar el formulario seleccionando la cantidad, el diario de pago, la fecha del pago y seleccionar en la opción grupo de facturas; al finalizar dar clic en el botón Validar.
+
+![submenu ajustes](./assets/img/registrarpago.png)
+
+Para terminar de registrar el pago, se debe editar el nuevo formulario que el sistema mostrar, que es el mismo formulario de pagos, pero con la diferencia que es un pago de múltiples facturas.
+
+![submenu ajustes](./assets/img/llenarfacturaenpagos.png)
+<p align="center">
+  <img src="./assets/img/facturaapartirdepagos.png">
+</p>
+
+#### 6.1.8 Vehìculo
+Estos campos son útiles para llevar un registro organizado de los vehículos y sus propietarios, así como para proporcionar una forma de identificar y comunicarse con las personas asociadas con los vehículos en caso de necesidad.
+![submenu ajustes](./assets/img/vehiculos.png)
+
+#### 6.1.9 Guías de Remisión
+En el módulo de Contabilidad, seleccionar en el menú Clientes la opción Guías de Remisión.
+
+Este documento sirve para sustentar el traslado de mercaderías dentro de la nación. De esta forma habrá constancia de que es un traslado legal.
+La función de este documento es identificar actividades que se puedan estar realizando fuera del marco legal y además tener un control tributario, que garantice que no se evadan los tributos.
+
+Al momento de generar una nueva guía se debe: 
+
+    • Configurar primero el punto de emisión (ver Punto de Emisión), seleccionar el transportista (ver Contactos), el destinatario (ver Contactos) y la factura (ver Factura en el menú de Clientes).
+    • Se llenarán todos los campos obligatorios y los que se considere necesario llenar.
+    • Al momento de seleccionar el destinatario automáticamente se cargarán los datos de este en las siguientes columnas: Identificación, teléfono, cédula y correo.
+    • Al momento de seleccionar la factura, automáticamente se cargarán en ítems de guía, los datos de la factura de igual manera en Detalle electrónico.
+
+![submenu ajustes](./assets/img/borradorguiaderemision.png)
+![submenu ajustes](./assets/img/infodestinatarioguiaremision.png)
+![submenu ajustes](./assets/img/detalleelectronicoguiaremision.png)
+
+#### 6.1.10 Productos
+En el módulo de __Contabilidad__, seleccionar en el menú __Clientes__ la opción __Productos.__
+
+Un producto es una opción elegible, viable y repetible que la oferta pone a disposición de la demanda, para satisfacer una necesidad o atender un deseo a través de su uso o consumo. 
+La diferencia entre un producto cliente y un proveedor es que el producto cliente puede ser vendido.
+
+Se podrá añadir una imagen o foto que identifica el producto, el nombre del producto y si el producto puede ser vendido o puede ser comprado.	
+![submenu ajustes](./assets/img/ejemploproducto.png)
+
+En la esquina superior derecha podremos observar tres recuadros: Precio extra, Entrada y Salida, y Unidades vendidos la primera nos permite ver todos los movimientos que ha tenido dicho producto en la empresa, mientras que la segunda nos permite archivar y desarchivar el producto; en el caso de que se archive este producto no aparecerá en las compras o ventas hasta que se desarchive.
+<p align="center">
+  <img src="./assets/img/botonesproductos.png">
+</p>
+
+__Información General:__ Se permitirá ingresar detalles específicos del producto y también dejará notas para una mejor referencia como el tipo de producto, referencia interna, código de barras, categoría del producto (si se desea añadir una nueva categoría, el sistema le permitirá crearla desde el ítem de selección), el precio de venta, precio al por mayor, el impuesto a cliente y el costo; también se podrá añadir una nota interna.
+![submenu ajustes](./assets/img/infogeneralproductos.png)
+
+__Compra:__ Esta opción sólo aparecerá si está marcado ‘Puede ser Comprado’ y especificará el número de impuesto del proveedor para futuras facturas.
+![submenu ajustes](./assets/img/compraproductos.png)
+__Inventario:__ Permitirá ingresar cómo será la operación y logística de dicho producto, agregar descripción para pedidos de entrega y recepciones.
+![submenu ajustes](./assets/img/inventarioproductos.png)
+__Contabilidad:__ Permite seleccionar la cuenta de ingreso (A cobrar) y la cuenta de gastos (A pagar) de dicho producto.
+![submenu ajustes](./assets/img/contabilidadproductos.png)
+
+También el sistema permitirá imprimir en este caso la etiqueta del producto y el código de barra del producto. 
+<p align="center">
+  <img src="./assets/img/imprimiretiquetas.png">
+</p>
+
+#### 6.1.11 Clientes
+En el módulo de __Contabilidad__, seleccionar en el menú de __Clientes__ la opción __Clientes.__
+
+Automáticamente se abrirá la vista de Clientes que es igual a la vista de Contactos (para más información dirigirse a Contactos), por defecto se añadirá un filtro con el nombre de ‘Clientes’. Dicho contacto aparecerá en la opción de cliente si y sólo si está marcada la opción en Ventas y Compras el ítem de ‘Es Cliente’.
+
+![submenu ajustes](./assets/img/contabilidadclientes.png)
+
+
+### 6.2 Proveedores
+![submenu ajustes](./assets/img/modulocontabilidad.png)
+
+#### 6.2.1 Facturas/Proveedores
+En el módulo de __Contabilidad__, seleccionar en el menú de __Proveedores__ la opción __Facturas.__
+
+Una factura es un documento de carácter mercantil que indicará una compraventa de un bien o servicio y que, entre otras cosas, debe incluir toda la información de la operación.
+Al momento de seleccionar la pestaña, se permitirá crear facturas, eliminarlas, etc.
+![submenu ajustes](./assets/img/facturaproveedor.png)
+Se procedera a llenar los campos obligatorios (campos de color azul), es importante añadir el número de la factura, el número de la autorización, la fecha de vencimiento de la autorización, el tipo de comprobante que por defecto es “Factura”, seleccionar el diario correspondiente, el proveedor,  la fecha de la factura; en el caso de la fecha de vencimiento esta se colocará automáticamente dependiendo del plazo de pago (en este caso el plazo es de 2 meses, por lo tanto, del 1 de julio se le suman esos 2 meses dando como resultado final 30 de agosto); el punto de emisión que se encuentra en la vista corresponde solamente a las retenciones que se realizarán en las facturas agregadas y el digito cambiará según la secuencia establecida.
+![submenu ajustes](./assets/img/detallefactproveedor.png)
+Las líneas de factura, sirven para agregar los productos a la factura, para agregar un producto dar clic en “Agregar línea”, automáticamente puedes seleccionar un producto que esté en el sistema y al momento de añadirlo en la línea se cargarán por defecto los datos del producto como la descripción del mismo, el tipo de cuenta (se puede seleccionar otro tipo si se desea), el impuesto (que por defecto es IVA 12% o código 500 si el producto cuenta con retención); es necesario añadir la línea según el número de retención aplicado en dicho producto, en este caso el código de la retención es 303, el precio dependerá del producto (para más información revisar __Productos__), si en el caso de que un producto tenga un descuento específico se lo puede añadir en la línea, indicas la cantidad de dicho producto y el subtotal dependerá de la suma de : cantidad + precio del producto + descuento + impuestos.
+
+<p align="center">
+  <img src="./assets/img/montototalproveedor.png">
+</p>
+En el caso de que la factura exceda los mil dólares, el sistema le notificará que se debe crear una forma de pago para dicha factura, esta se encuentra la parte inferior, para ingresar una forma de pago se debe hacer clic en agregar línea, se selecciona la forma de dicho pago para esa factura, el total, los plazos y la unidad de tiempo.
+<p align="center">
+  <img src="./assets/img/formadepagoproveedor.png">
+</p>
+
+La factura se rige por los siguientes estados: “Borrador”, “Publicado”.
+<p align="center">
+  <img src="./assets/img/estadofactproveedor.png">
+</p>
+Para cambiar el estado de la factura, se deberá hacer lo siguiente: se dirige a la esquina superior izquierda, donde nos encontraremos con los siguientes botones.
+<p align="center">
+  <img src="./assets/img/botonestadosproveedor.png">
+</p>
+
+__Confirmar:__  Antes de validar la factura del proveedor es necesario hacer clic en esta opción, ya que nos ayuda a guardar el cálculo de los impuestos y añade las líneas correspondientes en retenciones.
+
+__Cancelar:__  Permitirá suspender el proceso de guardar el registro del documento.
 
 
 
 
-## 6. Algunos de Nuestros Clientes
+
+
+
+
+
+
 
 ## 7. Contactanos
