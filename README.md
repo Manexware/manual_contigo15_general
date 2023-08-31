@@ -425,9 +425,190 @@ Si la actividad se encuentra en una fecha posterior, se marcará como futuro, si
 ### 4.11 Adjuntos
 El sistema nos permite adjuntar todo tipo de archivos, para que los adjuntos se suban o se descarguen de forma rápida es recomendable que el archivo a adjuntar sea ligero. Dependiendo del número de adjuntos en la nota dentro del registro, dicho número se verá reflejado en el icono de clic de la parte superior derecha.
 <p align="center">
-  <img src="./assets/img/poneradjuntos.png">
+  <img src="./assets/img/adjuntosyseguidores.png">
 </p>
 
-## 5. Algunos de Nuestros Clientes
+### 4.12 Seguidores
+Podremos añadir seguidores en nuestro registro, de forma tal que ellos puedan tener acceso para ver la información, notas, adjuntos y otros datos; de igual manera que en los adjuntos, el sistema nos mostrará en la parte superior derecha el número de seguidores, permitiéndonos añadir a más usuarios y también a eliminarlos.
+<p align="center">
+  <img src="./assets/img/adjuntosyseguidores.png">
+</p>
 
-## 6. Contactanos
+## 5.Contactos
+### 5.1 Contactos
+Nos dirigimos al módulo de Contactos, opción Contactos.
+
+En contactos se puede añadir a un nuevo contacto o editarlo ,seguido de  la imagen o foto que lo identifica, seleccionar si este corresponde a una persona o compañía, el nombre de la empresa o compañía a la que pertenece, podemos ingresar la dirección, la provincia, la parroquia, etc. Se puede seleccionar el tipo de identificación (cédula, Ruc, pasaporte, placa o consumidor final), una vez que se selecciona cedula o Ruc nos indica que debemos ingresar los números de dichos identificadores, podemos seleccionar si la persona es natural o jurídica, el tipo de sexo, el estado civil, el puesto de trabajo, teléfono, móvil, el correo electrónico, el nombre del sitio web, el título, el idioma, el tipo de cliente si es público o privado, la zona horaria o la etiqueta, guardar.
+![submenu ajustes](./assets/img/contactos.png)
+En la parte superior se encuentra una serie de opciones que muestran:La reuniones planificadas,oportunidades de ventas, el total de ventas realizadas, el total facturado,el número de tickets,saldos y pagos para conciliar. Si se desea saber más al respecto, al momento de hacer clic en una de estas opciones el sistema lo enviará a dicha vista para su análisis respectivo.
+<p align="center">
+  <img src="./assets/img/contactoopciones.png">
+</p>
+Contactos y direcciones:Podrá añadir contactos relacionados al existente y podrá especificar si es un contacto, dirección de factura, dirección de envió, otras direcciones y direcciones privadas.
+<p align="center">
+  <img src="./assets/img/contactosydirecciones.png">
+</p>
+Notas internas: Podrá generar una nota para guardar información respecto a dicho usuario.
+<p align="center">
+  <img src="./assets/img/notasinternas.png">
+</p>
+Ventas y Compras: Parte fundamental de la creación de contactos, es la que nos permite especificar datos relevantes para los procesos contables.
+
+![submenu ajustes](./assets/img/ventasycompras.png)
+Facturación: Permite ingresar las cuentas y asientos contables que el contacto creado específica.
+![submenu ajustes](./assets/img/facturacion.png)
+Información Adicional: Permite agregar información , cómo agregar línea, que aparece en las facturas.
+![submenu ajustes](./assets/img/informacionadicional.png)
+### 5.2 configuracion
+### 5.2.1 Etiquetas de Contacto
+Nos dirigimos al módulo de Contactos, dirigirse al menú de Configuración y buscar la opción Etiquetas de Contacto. 
+
+Esta opción nos permite generar etiquetas a los clientes, la función de la etiqueta es la de identificar de manera rápida a un cliente por algún tipo de atributo. 
+![submenu ajustes](./assets/img/etiquetasdecontacto.png)
+Las etiquetas creadas solo aparecerán en los contactos si están marcadas como activas, caso contrario no aparecerá dicha etiqueta y la categoría padre es una etiqueta creada anteriormente en el sistema que derivará más etiquetas.
+![submenu ajustes](./assets/img/configuracionetiquetasdecontacto.png)
+### 5.2.2 Títulos de contacto
+Seleccionar el módulo de Contactos, dirigirse al menú de Configuración y buscar la opción Títulos de contacto.
+
+Esta opción nos permite la creación de títulos profesionales o formalidades con su abreviatura para posteriores utilizaciones.
+![submenu ajustes](./assets/img/titulosdecontacto.png)
+
+### 5.2.3 Industrias
+Seleccionar el módulo de __Contactos__, dirigirse al menú de __Configuración__ y buscar la opción __Industrias.__
+
+Esta opción nos muestra cada una de las industrias actualmente existentes.
+
+![submenu ajustes](./assets/img/industrias.png)
+
+Dentro de este apartado, se encuentra el botón gráfico para exportar todo los datos:
+
+<p align="center">
+  <img src="./assets/img/industriasdescarga.png">
+</p>
+
+![submenu ajustes](./assets/img/industriadedatos.png)
+
+### 5.2.4 Localización / Países
+Seleccionar el módulo de __Contactos__, dirigirse al menú de __Configuración__ y buscar en __Localización__ la opción __Países.__
+
+Nos permite la creación, edición y eliminación de los países. Por defecto el sistema mostrará todos los países existentes actualmente, con sus respectivos datos. Un país está conformado por 8 datos importantes que son el nombre del país, la bandera del país, la moneda, el código del país, en nuestro caso también estará el código ecuatoriano, código de la llamada del país, la etiqueta del IVA, por último, pero no menos importante sus estados o también conocidos como provincias en el caso de Ecuador.
+
+![submenu ajustes](./assets/img/localizacionespaises.png)
+![submenu ajustes](./assets/img/localizacionpaises.png)
+Nota: Es importante añadir los estados a los países que más utilicen, ya que nos ayudará a identificar de manera precisa las ubicaciones que se emplean en los módulos de __Contactos__ y __Contabilidad.__
+
+Dentro de este apartado, se encuentra el botón gráfico para exportar todo los datos:
+<p align="center">
+  <img src="./assets/img/localizacionpaisesdescarga.png">
+</p>
+
+![submenu ajustes](./assets/img/localizacionpaisesdatos.png)
+
+### 5.2.5 Localización / Provincia
+Seleccionar el módulo de __Contactos__, seleccionar el menú de __Configuración__ y buscar en __Localización__ la opción __Provincias.__
+
+De igual manera que en la creación de países, se debe ingresar el nombre de la provincia, el código de ésta, el país y las ciudades de dicha provincia.
+
+![submenu ajustes](./assets/img/localizacionprovincia.png)
+
+Nota: Es recomendable crear las ciudades en esta opción. Al momento de ingresar a esta opción el sistema mostrará de manera descendente las provincias según el código de provincia. Si se desea buscar las provincias de un país específico es recomendable utilizar el filtro de la parte superior (Para más información revisar Filtros).
+
+Dentro de este apartado, se encuentra el botón gráfico para exportar todo los datos:
+<p align="center">
+  <img src="./assets/img/localizacionprovinciadescarga.png">
+</p>
+
+
+![submenu ajustes](./assets/img/localizacionprovinciadatos.png)
+
+### 5.2.6 Localización / Grupo de paises 
+Seleccionar el módulo de __Contactos__, dirigirse al menú de __Configuración__ y buscar en __Localización__ la opción __Grupo de países__.
+
+Nos permite agrupar países para la formación de “continentes” en el sistema e inclusive añadir alguna tarifa pre creada en el sistema.
+
+![submenu ajustes](./assets/img/localizaciongrupodepaises.png)
+![submenu ajustes](./assets/img/localizaciongruposdepaises.png)
+
+También permite realizar dos  acciones tales como:
+
+__Duplicar:__ Clona el registro
+
+__Suprimir:__ Elimina el registro
+
+<p align="center">
+  <img src="./assets/img/gruposdepaisesaccion.png">
+</p>
+
+Dentro de este apartado, se encuentra el botón gráfico para exportar todo los datos:
+
+<p align="center">
+  <img src="./assets/img/gruposdepaisesdescarga.png">
+</p>
+
+![submenu ajustes](./assets/img/gruposdepaisesdatos.png)
+
+
+### 5.2.7 Localización / Ciudades
+Seleccionar el módulo de __Contactos__, dirigirse al menú de __Configuración__ y buscar en __Localización__ la opción __Ciudades__.
+
+Al igual que países y provincias, podremos crear, editar y eliminar las ciudades en esta opción del sistema.
+
+![submenu ajustes](./assets/img/localizacionciudades.png)
+![submenu ajustes](./assets/img/localizacionciudadesdelsistema.png)
+
+También permite realizar dos  acciones tales como:
+
+__Duplicar:__ Clona el registro
+
+__Suprimir:__ Elimina el registro
+<p align="center">
+  <img src="./assets/img/localizacionciudadesaccion.png">
+</p>
+Dentro de este apartado, se encuentra el botón gráfico para exportar todo los datos:
+
+<p align="center">
+  <img src="./assets/img/localizacionciudadesdescarga.png">
+</p>
+
+![submenu ajustes](./assets/img/localizacionciudadesdatos.png)
+
+### 5.2.8 Localización / Parroquias
+
+Seleccionar el módulo de __Contactos__, dirigirse al menú de __Configuración__ y buscar en __Localización__ la opción __Parroquias.__
+
+Es una subclasificación de las ciudades, sirven para complementar datos referentes a la ubicación, en este caso el sistema cuenta con todas las parroquias de las ciudades del Ecuador.
+![submenu ajustes](./assets/img/localizacionparroquias.png)
+![submenu ajustes](./assets/img/localizacionparroquiasprovincia.png)
+
+Dentro de este apartado, se encuentra el botón gráfico para exportar todo los datos:
+
+<p align="center">
+  <img src="./assets/img/localizacionparroquiasdescarga.png">
+</p>
+
+![submenu ajustes](./assets/img/localizacionparroquiasdatos.png)
+
+### 5.2.9 Cuentas Bancarias / Bancos
+Seleccionar el módulo de __Contactos__, seleccionar el menú de __Configuración__ y buscar en __Cuentas Bancarias__ la opción __Bancos__.
+
+Esta opción permite crear, editar y eliminar Bancos en el sistema, estos bancos son de vital importancia crearlos ya que están estrictamente relacionados a nuestra contabilidad.  Al momento de crear un banco, los datos más relevantes son el nombre del banco y el código de identificación bancaria (BIC/SWIFT).
+
+![submenu ajustes](./assets/img/cuentasbancarias.png)
+![submenu ajustes](./assets/img/cuentasbancaria.png)
+
+
+Al igual que en anteriores apartados, se le permite al usuario descargar un archivo excel de estos datos ingresados:
+
+<p align="center">
+  <img src="./assets/img/cuentasbancariasdescarga.png">
+</p>
+
+![submenu ajustes](./assets/img/cuentasbancariasdatos.png)
+
+
+
+
+
+## 6. Algunos de Nuestros Clientes
+
+## 7. Contactanos
