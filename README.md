@@ -1424,16 +1424,130 @@ Genera un reporte con la información del Anexo Transaccional Simplificado, se d
 
 
 ### 6.5 Configuracion
+
 #### 6.5.1 Contabilidad / Plan de Cuentas
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Plan de Cuentas__.
+
+El Plan de Cuentas es un conjunto de normas que establecen los procedimientos y métodos necesarios para el registro de la actividad económica de una empresa.
+
+__Importante:__ Es necesario revisar el plan de cuentas para verificar si están todas las cuentas que son necesarias para la empresa, si no se encuentran todas las cuentas requeridas para tu negocio; el sistema contigo te permite crearlas para utilizarlas posteriormente.
+
+![submenu ajustes](./assets/img/contabilidadplandecuentas.png)
 
 
+Al momento de generar una nueva cuenta, es necesario añadir el código de esta, si depende de una cuenta padre, el nombre de la cuenta, el tipo de cuenta, si contiene impuesto por defecto, si tiene etiqueta, grupo, si permite conciliación, si esta descatalogado, nivel (dependiendo de la cuenta padre, indicará el nivel de manera automática), búsqueda rápida y habilitarla para que pueda ser utilizada dentro del sistema.
+
+![submenu ajustes](./assets/img/contaplandecuentas.png)
+![submenu ajustes](./assets/img/configuracionplandecuentas.png)
+
+El sistema nos permite realizar las siguientes acciones:
+
+<p align="center">
+  <img src="./assets/img/contplandecuentasaccion.png">
+</p>
+
+__Duplicar__: Nos permite duplicar dicho registro.
+
+__Suprimir__:  Nos permite borrar.
+
+#### 6.5.2 Contabilidad / Impuestos
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Impuestos__.
+
+Un impuesto es un tributo que se paga al estado para soportar los gastos públicos. Estos pagos obligatorios son exigidos tanto a personas físicas, como a personas jurídicas. Al momento de generar un nuevo impuesto es necesario añadir el nombre de este y el ámbito del impuesto (compra, venta, ninguno y ajustes).
+
+![submenu ajustes](./assets/img/contabilidadimpuestos.png)
+
+__Definición:__  De igual manera se debe añadir el cálculo del impuesto, el importe, la cuenta de impuestos y la cuenta de impuestos en notas de crédito.
+![submenu ajustes](./assets/img/contabilidadimpuestosdefinicion.png)
+
+__Opciones avanzadas:__ Se añade la etiqueta que tendrá en facturas, el grupo de impuestos, etiquetas, si incluye en el precio, si contiene base imponible de impuestos subsiguientes.
+
+![submenu ajustes](./assets/img/contabilidadimpuestoavanzado.png)
 
 
+#### 6.5.3 Contabilidad / Posiciones Fiscales
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Posiciones Fiscales__.
+
+Una posición fiscal define, para cada cliente, un conjunto de impuestos, de modo que, si un cliente dispone de una posición fiscal específica, los impuestos pueden variar. Al momento de generar una nueva posición fiscal es necesario indicar el nombre de esta, en el caso de que se desee que se detecte de manera automática hay que dar clic en la casilla del lado derecho, esto indica si se debe aplicar automáticamente esta posición fiscal.
+
+![submenu ajustes](./assets/img/posicionesfiscales.png)
 
 
+__Mapeo de impuestos:__  Se agregan los impuestos que incluirá la posición fiscal, se añade el impuesto sobre el producto y el impuesto para aplicar.
+
+![submenu ajustes](./assets/img/mapeodeimpuesto.png)
+__Mapeo de cuentas:__  Se agregan las cuentas que incluirá la posición fiscal, se añade la cuenta del producto y la cuenta alternativa.
+
+![submenu ajustes](./assets/img/mapeodecuentas.png)
+Si se desea añadir alguna advertencia, se procede a llenar la casilla de Advertencia legal.
+
+![submenu ajustes](./assets/img/advertencialegal.png)
+
+#### 6.5.4 Contabilidad / Grupos de Diarios
+Se refiere a una forma de organizar y categorizar los registros contables según diferentes criterios. Estos grupos ayudan a clasificar y gestionar las transacciones financieras de una empresa de manera más eficiente. 
+
+![submenu ajustes](./assets/img/contabilidadgrupodiarios.png)
+
+#### 6.5.5 Contabilidad / Diarios Contables
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Diarios Contables__.
+
+El libro diario es el registro contable principal de cualquier sistema contable, en el cual se anotan todas las operaciones. Es un documento que registra de forma cronológica las transacciones económicas que una empresa realiza. Estas transacciones están relacionadas con la actividad principal de la firma.
+
+Para generar un diario, es necesario agregar el nombre de este, el tipo (venta, compra, efectivo, banco y miscelánea), el código corto, el próximo número, cuenta deudora por defecto, cuenta acreedora por defecto, si se desea transferir dicho diario a compañías, propina producto, si es caja chica, si es liquidación de gastos, si es tarjeta de crédito, si contiene un producto en descuento y el tipo de cuenta bancaria.
+
+![submenu ajustes](./assets/img/contabilodaddiarioscontables.png)
+
+__Configuración avanzada:__ Se indica el método de pago para los pagos recibidos de dicho diario (manual o electrónico), para pagos salientes (manual o cheques), cuentas de beneficios, cuentas de pérdidas, si se desea mostrar la cuenta, si permite la cancelación de asientos y si se valida en la conciliación bancaria.
+
+![submenu ajustes](./assets/img/contabilidadconfiguracionavanzada.png)
+
+#### 6.5.6 Contabilidad /Monedas 
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Monedas__.
+
+Las monedas se especifican de cada país al momento de enviar una transacción de dinero de un lugar a otro dentro de la estructura podemos ver sus ingresos y  actualizaciones.
+
+![submenu ajustes](./assets/img/contabilidadmonedas.png)
+Al momento de crear nos envía un formulario donde se llenará los campos solicitados para  registrar dando grabar sin embargo también tenemos descartar para interrumpir el proceso que no queramos guardar aun.
+
+![submenu ajustes](./assets/img/contabilidadmoneda.png)
+La tasa podemos ver la fecha donde podemos agregar línea  donde se refleja unidad por USD y USD por unidad.
 
 
+#### 6.5.7  Facturación / Incoterms
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Incoterms__.
 
+Los incoterms (palabra derivada del sigloide en lengua inglesa international commercial terms, que se traduce al español como «términos de comercio internacional) son términos, de tres letras cada uno, que reflejan las normas de aceptación voluntaria por las partes en un contrato de compraventa internacional de mercaderías acerca de las condiciones de entrega de las mercancías.  Se usan para aclarar los costes de las transacciones comerciales internacionales, delimitando las responsabilidades entre el comprador y el vendedor, y reflejan la práctica actual en el transporte internacional de mercancías.
+
+Al momento de generar un nuevo Incoterms es necesario ingresar el nombre y el código de este.
+
+![submenu ajustes](./assets/img/facturación incoterms.png)
+
+
+#### 6.5.8 Contabilidad / Tipos de Cuentas
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Tipos de Cuentas__.
+
+Al momento de generar una nueva cuenta bancaria, es necesario indicar el nombre de esta, el tipo, el tipo de informe y si se desea adelantar en el balance de cuentas; también se puede añadir una breve descripción de esta.
+
+![submenu ajustes](./assets/img/contabilidadtiposdecuenta.png)
+
+#### 6.5.9 Contabilidad / Etiquetas de cuenta
+Se refiere a una etiqueta o descripción adicional que se adjunta a una cuenta contable específica en un sistema contable para proporcionar información complementaria o para identificar la cuenta de manera más detallada. 
+
+![submenu ajustes](./assets/img/contabilidadetiqutasdecuenta.png)
+
+#### 6.5.10 Contabilidad / Grupos de cuentas
+Los grupos de cuentas son categorías organizativas utilizadas en contabilidad para agrupar cuentas similares con el propósito de facilitar la contabilización, la generación de informes financieros y el análisis.
+
+![submenu ajustes](./assets/img/gruposdecuentas.png)
+
+![submenu ajustes](./assets/img/grupodecuentas.png)
+
+#### 6.5.11 Contabilidad / Grupos de impuestos
+Los grupos de impuestos son categorías organizativas utilizadas en contabilidad y finanzas para agrupar diferentes tipos de impuestos y obligaciones tributarias con el fin de simplificar su cálculo, registro y presentación.
+
+![submenu ajustes](./assets/img/gruposdeimpuestos.png)
 
 
 
