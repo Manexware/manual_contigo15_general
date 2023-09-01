@@ -1780,30 +1780,278 @@ Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilid
 ### 6.4 Informes
 #### 6.4.1 Administración / Análisis de Facturas
 
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Administración__ la opción __Facturas__.
+
+Esta opción nos permite ver cuánto se ha facturado en lo que va de los meses trabajados, se podrá ver tanto el valor facturado de los proveedores como el de los clientes.
+
+
+![submenu ajustes](./assets/img/administracionanalisisdefacturas.png)
+
+
+#### 6.4.2 Administración / Cuentas por Pagar
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Administración__ la opción __Cuentas por Pagar.__
+
+El sistema mostrará los apuntes contables realizados, la fecha de creación, los montos vencidos dentro de 30, 60, 90 o más días y el total pendiente; de esta manera nos permite visualizar los pagos realizados hacia nuestros clientes/proveedores y observar los pagos pendientes de realizar.
+
+![submenu ajustes](./assets/img/cuentasporpagar.png)
+
+#### 6.4.3 Administración / Cuentas por Cobrar
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Administración__ la opción Cuentas por __Cobrar__.
+
+El sistema mostrará los apuntes contables realizados, la fecha de creación, los montos vencidos dentro de 30, 60, 90 o más días y el total pendiente; de esta manera nos permite visualizar los pagos realizados hacia nuestros clientes/proveedores y observar los cobros pendientes de realizar.
+
+
+![submenu ajustes](./assets/img/Administracioncuentasporcobrar.png)
 
 
 
+#### 6.4.4 Administración / Información de Ventas
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Administración__ la opción __Información de Ventas__.
 
+Genera un reporte con la información de venta en un rango de fechas especificado; podremos seleccionar Diario (Facturas de cliente, Guías de Remisión, Retenciones Cliente), la fecha inicial, la fecha final y cuales son las tablas que va a elegir, el borrador, publicado o anulado, “Borrador” si va a mostrar los valores hechos en borrador, “Publicado” si quiere mostrar los valores ya publicados, “Anulados” si quiere mostrar los valores anulados o puede elegir los tres, después de presionar en “Generar Reporte” se descargará un archivo.
 
+![submenu ajustes](./assets/img/administracioninformedeventas.png)
 
+#### 6.4.5 Administración / Información de Compras
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Administración__ la opción __Información de Compras__.
 
+Genera un reporte con la información de compra en un rango de fechas especificado; podremos seleccionar Diario (Facturas de proveedor, Retenciones Proveedor), la fecha inicial, la fecha final y cuales son las tablas que va a elegir, el borrador, publicado o anulado, “Borrador” si va a mostrar los valores hechos en borrador, “Publicado” si quiere mostrar los valores ya publicados, “Anulados” si quiere mostrar los valores anulados o puede elegir los tres, después de presionar en “Generar Reporte” se descargará un archivo.
 
+![submenu ajustes](./assets/img/admiformaciondecompras.png)
+
+![submenu ajustes](./assets/img/informaciondeCompras.png)
+
+#### 6.4.6 Informes de Contabilidad OCA/Libro mayor
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Informes de Contabilidad__ OCA la opción __Libro mayor__.
+
+Genera una tabla con todo el balance con la información de un periodo desde una fecha inicial hasta una fecha final, los movimientos de destino en el cual se puede elegir entre dos opciones: Todos los asientos publicados o solo todos los asientos que son los asientos que han sido creados pero no han sido publicados, además de haber un grupo llamado “agrupado por: ” (Empresas, Impuestos o Ninguna), sigue por elegir entre varias opciones entre las cuales se encuentra: Activar centralización que mostrará los valores con las fechas, Ocultar saldos finales con valor 0, Mostrar Moneda Extranjera, Mostrar etiquetas analíticas y Mostrar Cuenta Analítica, también tendremos filtros, filtros de cuenta en el cual si desea que les muestre solo las cuentas a pagar, las cuentas a cobrar o ambas, también puede poner desde que código hasta que código pero también hay una barra para poner los código que quiere ver, en filtrar empresa se encuentra una barra para poner cuantas empresas desea mostrar, filtrar por etiquetas analíticas permite ver cuales datos desea ver que contienen la etiquetas que deseamos y filtrado adicional que nos permite combinar todos los registros según el dominio que hayamos editado, sino elige ningun cambio por los filtros el resultado sería que esté mostrará todas las tablas de datos que hayamos insertados, al final puedes mostrar la tabla o importarla a XLS o a Pdf, se mostrará una tabla conformada por fecha, asiento, diario, cuenta, impuestos, empresas, referencias, cuentas analiticas, el debe, el haber y el saldo acumulado
+
+![submenu ajustes](./assets/img/informaciondeCompras.png)
+
+#### 6.4.7 Informes de Contabilidad OCA/Libro diario
+
+![submenu ajustes](./assets/img/informesdecontabilidadOCAlibrodiario.png)
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Informes__ de Contabilidad OCA la opción __Libro diario__.
+
+Genera una tabla con el balance en base a los diarios, con la información de periodo, una fecha de inicio, una fecha final, también hay opciones, acerca de cuál va a ser el asiento objetivo (Todos refiriéndose a todos los asientos, posteado solamente a los que sí están publicados, sin postear refiriéndose a los que no están publicados), también está ordenar asientos por número de asientos o por las fechas de los asientos dichos, está también agrupar por diario o sin agrupar, habrán unas opciones múltiples, monedas extranjera que muestra la monedas que está usando, cuenta con nombre que muestra los nombres de la cuenta, mostrar auto secuencia, que como el nombre indica va a mostrar los asientos de forma secuencial, al final se encuentra una opción que se llama diario, en este puede poner que diarios quiere que le muestre, al final puedes mostrar la tabla o importarla a XLS o a Pdf, va a salir una tabla conformada por secuencia, asiento, fecha, cuenta, empresa, Ref. Etiqueta, los impuestos, el debe, el haber, actual, importe moneda
+![submenu ajustes](./assets/img/librodiario.png)
+![submenu ajustes](./assets/img/diariodecontabilidad.png)
+
+#### 6.4.8 Informes de Contabilidad OCA/Balance de Sumas y Saldos
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Informes__ de Contabilidad OCA la opción __Balance de Sumas y Saldos__.
+
+Genera una tabla con el balance en base de sumas y saldos, con la información de periodo, una fecha de inicio, una fecha final, en el lado derecho hay varias opciones   la primera de ellas “Movimientos destino” (Todos los asientos publicados, todos los asientos) es de una sola opción, las demás son de opción múltiple, ocultar cuentas a 0 que no va a mostrar un saldo inicial igual a 0, le sigue una opción Mostrar detalles de la empresa, Mostrar jerarquía, mostrar moneda extranjera para saber que moneda se está usando, en el lado izquierdo hay una opción que se llama diario, en este puede pedirle que diarios quiere que les muestre. En el filtro cuentas, habrán algunas opciones de opción múltiple, estas son Sólo cuentas a cobrar y Sólo cuentas a pagar, después se encuentra Desde código … A … que permite mostrar desde qué código ya hasta que código, al final puedes mostrar la tabla con la opción de vista o exportar a XLS o a Pdf, en cualquiera que vaya a ser seleccionada el resultado será que va a salir una tabla conformado por el filtro periodo, el filtro movimiento destino, el filtrar por cuenta 0 y limitar niveles de jerarquía.
+
+![submenu ajustes](./assets/img/balancedesumasysaldo.png)
+![submenu ajustes](./assets/img/balancedesumaysaldo.png)
+
+#### 6.4.9 Informes de Contabilidad OCA/Pérdidas y Ganancias
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Informes__ de Contabilidad OCA la opción __Pérdidas y Ganancias__.
+
+Genera una tabla con las pérdidas y ganancias, con la información de periodo, una fecha de inicio, una fecha final, en el lado derecho hay varias opciones la primera de ellas es el rango de fechas, fecha de que tendrá que poner en que desde que fecha quiere mostrar y fecha hasta en el que tendrá que poner hasta que fecha es el límite en el que quieren que le muestre los valores, en el lado derecho se encuentran otras opciones como Movimientos de destinos, en el cual se encuentran dos opciones del cual tendrá que elegir solo, las dos son entradas publicadas para solo mostrar las entradas que han sido publicadas o puede elegir todas las entradas, para mostrar tanto las publicadas como las no publicadas, las que le siguen son opcionales, ocultar cuentas en 0, cuando esa opcion está seleccionado no se mostrarán saldos iniciales que tengan 0, el siguiente es “Mostrar jerarquía” si selecciona esta opción los diarios se mostrarán de  forma jerarquica, además aparecerán otras opciones, como “Limitar niveles de jerarquía” que nos permite mostrar la jerarquía pero hasta cierto nivel, el cual será modificado con “Niveles de jerarquía para mostrar” pero también si no quiere mostrar los niveles principales elija la opción “No mostrar los niveles principales”, por ultimo tenemos la opción “Mostrar moneda extranjera” esta opción sirve para mostrar la moneda extranjera usada, en el lado izquierdo se encuentra “Diario” para elegir que diarios ya registrados va a usar, al terminar todo esto elija como Mostrar la tabla “Vista” si quiere que se muestre en el propio sistema, o lo quiere exportar a PDF o XLS, se mostrará una tabla con las fechas, el codigo,la cuenta, el balance, balance inicial y balance final
+![submenu ajustes](./assets/img/perdidasyganancias.png)
+![submenu ajustes](./assets/img/perdidasygananciass.png)
+
+![submenu ajustes](./assets/img/perdidayganancia.png)
+
+#### 6.4.10 Informes de Contabilidad OCA/Balance General
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Informes__ de Contabilidad OCA la opción __Balance General__.
+
+Genera una tabla con el balance general, con la información de periodo, una fecha de inicio, una fecha final, en el lado derecho hay varias opciones la primera de ellas “Movimientos destino” (Todos los asientos publicados, todos los asientos) es de una sola opción, las demás son de opción múltiple, ocultar cuentas a 0 que no va a mostrar saldo inicial que sea cero, le sigue una opción Mostrar detalles de la empresa, Mostrar jerarquía, mostrar moneda extranjera para saber que moneda se está usando, en el lado izquierdo hay una opción que se llama diario, este podemos pedirle que diarios quiere que le muestre. En filtrar cuentas, habrán algunas opciones de opción múltiple, estas son Sólo cuentas a cobrar y Sólo cuentas a pagar, después se encuentra Desde código … A … que mostrara desde que código hasta que código, al final puedes mostrar la tabla o exportar a XLS o a Pdf,
+
+![submenu ajustes](./assets/img/balancegeneral.png)
+
+![submenu ajustes](./assets/img/balancesgeneral.png)
+
+#### 6.4.11 Informes de Contabilidad OCA/Partidas abiertas
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Informes__ de Contabilidad OCA la opción __Partidas abiertas__.
+
+Genera una tabla en base a las partidas abiertas que están disponibles hecha con la información de fecha actual con una fecha anterior, en el lado derecho hay varias opciones la primera de ellas “Movimientos destino” (Todos los asientos publicados, todos los asientos) es de una sola opción, las demás son de opción múltiple, Mostrar detalles de la empresa, ocultar cuentas a 0 que no nos va a mostrar que tengan saldo inicial a 0, Mostrar Moneda extranjera, que nos muestra la moneda que se usó en caso de que sea extranjera, en el lado izquierdo hay una opción que se llama Filtrar empresa, en este puede pedirle que empresas quiere que le muestre, Solo cuentas a cobrar y Solo cuentas a pagar son opciones de las cuales opcionalmente puede elegir las dos, después se encuentra Desde código … A … que permite mostrar desde qué código ya hasta que código, al final puedes mostrar la tabla o importarla a XLS o a Pdf
+
+![submenu ajustes](./assets/img/partidasabierta.png)
+![submenu ajustes](./assets/img/partidasabiertas.png)
+
+#### 6.4.12 Informes de Contabilidad OCA/Calidad de la deuda
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Informes__ de Contabilidad OCA la opción __Calidad de la deuda__.
+
+Genera una tabla en base a la calidad de la deuda que están disponibles hecha con la información de fecha actual con una fecha de inicio, en el lado derecho hay varias opciones la primera de ellas “Movimientos destino” (Todos los asientos publicados, todos los asientos incluso si no han sido publicados) es de una sola opción, la segunda es opcional Mostrar detalles Apuntes, en el lado izquierdo hay una opción que se llama “Filtrar empresa”, en este puede pedirle que empresas quiere que les muestre, Solo cuentas a cobrar y Solo cuentas a pagar son opciones de las cuales opcionalmente podemos elegir las dos, después se encuentra Desde código … A … que permite mostrar desde qué código ya hasta que código, al final puedes mostrar la tabla o importarla a XLS o a Pdf, 
+![submenu ajustes](./assets/img/calidaddeladeuda.png)
+![submenu ajustes](./assets/img/calidaddeladeudas.png)
+
+#### 6.4.13 Informes de Contabilidad OCA/Informe de Impuestos
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Informes__ de Contabilidad OCA la opción __Informe de impuestos__.
+
+Genera una tabla en base a la información de los impuestos, esta tabla está hecha con la información de fecha de comienzo y una fecha final, después de eso hay varias opciones la primera de ellas “Movimientos destino” (Todos los asientos publicados, todos los asientos incluso si no han sido publicados) es de una sola opción obligatoria, la segunda opción es Basados en (Etiquetas de impuestos que usan las propias etiquetas de los impuestos y Grupos de impuestos en el que son agrupados en tax groups) y es obligatoria, la última opción es Detalle de impuestos y esta es opcional, al final puedes mostrar la tabla o importarla a XLS o a Pdf, esto mostrará una tabla conformada por los códigos, el nombre, el valor neto y el impuesto
+
+![submenu ajustes](./assets/img/informesdeimpuesto.png)
+![submenu ajustes](./assets/img/informesdeimpuestos.png)
+
+__NOTA__: Los campos en color celeste son campos obligatorios.
+
+__Movimientos destino__:Se debe seleccionar si se requiere visualizar elementos específicos.
+
+__Basados en__: Se debe seleccionar si se necesita organizar, categorizar y mostrar los elementos de impuestos.
+
+__Detalle de impuestos__: Muestra información desglosada de ese impuesto.
+
+Una vez seleccionadas las opciones deseadas por el usuario, nos muestra tres alternativas:
+![submenu ajustes](./assets/img/infodeimpuestos.png)
+__Ver__: Se redirige al usuario dentro del sistema a una página para que pueda visualizar el balance.
+![submenu ajustes](./assets/img/infodeimpuestosrio.png)
+__Exportar PDF__: Se descarga la información en un archivo pdf para su visualización.
+![submenu ajustes](./assets/img/informedeimpuestosexportarpdf.png)
+__Exportar XLSX__ : Se descarga la información en un archivo de excel.
+![submenu ajustes](./assets/img/informedeimpuestoexportarxlsx.png)
+
+#### 6.4.14 Reportes Financieros/Plan Contable
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Reportes__ Financieros la opción __Plan Contable__.
+
+Genera un reporte con la información del plan contable de la empresa, por defecto seleccionará la compañía y los niveles que se desean visualizar en el reporte.
+
+Importante: El plan contable cuenta con niveles (del 1 al 6), al momento de seleccionar el nivel en el plan contable por ejemplo 5, el reporte mostrará desde el nivel 1 hasta el nivel 5.
+
+![submenu ajustes](./assets/img/reporfinancierosplancontable.png)
+![submenu ajustes](./assets/img/plancontable.png)
+
+#### 6.4.15 SRI/Generar y Exportar A.T.S.
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __SRI__ la opción __Generar y Exportar A.T.S__.
+
+Genera un reporte con la información del Anexo Transaccional Simplificado, se debe especificar el año fiscal, el periodo y si se desea mostrar los documentos electrónicos. Al momento de exportar se abrirá una nueva ventana en donde tendremos que descargar el XML generado.
+![submenu ajustes](./assets/img/exportarats.png)
+![submenu ajustes](./assets/img/exportar.png)
 
 
 
 
 
 ### 6.5 Configuracion
+
 #### 6.5.1 Contabilidad / Plan de Cuentas
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Plan de Cuentas__.
+
+El Plan de Cuentas es un conjunto de normas que establecen los procedimientos y métodos necesarios para el registro de la actividad económica de una empresa.
+
+__Importante:__ Es necesario revisar el plan de cuentas para verificar si están todas las cuentas que son necesarias para la empresa, si no se encuentran todas las cuentas requeridas para tu negocio; el sistema contigo te permite crearlas para utilizarlas posteriormente.
+
+![submenu ajustes](./assets/img/contabilidadplandecuentas.png)
 
 
+Al momento de generar una nueva cuenta, es necesario añadir el código de esta, si depende de una cuenta padre, el nombre de la cuenta, el tipo de cuenta, si contiene impuesto por defecto, si tiene etiqueta, grupo, si permite conciliación, si esta descatalogado, nivel (dependiendo de la cuenta padre, indicará el nivel de manera automática), búsqueda rápida y habilitarla para que pueda ser utilizada dentro del sistema.
+
+![submenu ajustes](./assets/img/contaplandecuentas.png)
+![submenu ajustes](./assets/img/configuracionplandecuentas.png)
+
+El sistema nos permite realizar las siguientes acciones:
+
+<p align="center">
+  <img src="./assets/img/contplandecuentasaccion.png">
+</p>
+
+__Duplicar__: Nos permite duplicar dicho registro.
+
+__Suprimir__:  Nos permite borrar.
+
+#### 6.5.2 Contabilidad / Impuestos
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Impuestos__.
+
+Un impuesto es un tributo que se paga al estado para soportar los gastos públicos. Estos pagos obligatorios son exigidos tanto a personas físicas, como a personas jurídicas. Al momento de generar un nuevo impuesto es necesario añadir el nombre de este y el ámbito del impuesto (compra, venta, ninguno y ajustes).
+
+![submenu ajustes](./assets/img/contabilidadimpuestos.png)
+
+__Definición:__  De igual manera se debe añadir el cálculo del impuesto, el importe, la cuenta de impuestos y la cuenta de impuestos en notas de crédito.
+![submenu ajustes](./assets/img/contabilidadimpuestosdefinicion.png)
+
+__Opciones avanzadas:__ Se añade la etiqueta que tendrá en facturas, el grupo de impuestos, etiquetas, si incluye en el precio, si contiene base imponible de impuestos subsiguientes.
+
+![submenu ajustes](./assets/img/contabilidadimpuestoavanzado.png)
 
 
+#### 6.5.3 Contabilidad / Posiciones Fiscales
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Posiciones Fiscales__.
+
+Una posición fiscal define, para cada cliente, un conjunto de impuestos, de modo que, si un cliente dispone de una posición fiscal específica, los impuestos pueden variar. Al momento de generar una nueva posición fiscal es necesario indicar el nombre de esta, en el caso de que se desee que se detecte de manera automática hay que dar clic en la casilla del lado derecho, esto indica si se debe aplicar automáticamente esta posición fiscal.
+
+![submenu ajustes](./assets/img/posicionesfiscales.png)
 
 
+__Mapeo de impuestos:__  Se agregan los impuestos que incluirá la posición fiscal, se añade el impuesto sobre el producto y el impuesto para aplicar.
+
+![submenu ajustes](./assets/img/mapeodeimpuesto.png)
+__Mapeo de cuentas:__  Se agregan las cuentas que incluirá la posición fiscal, se añade la cuenta del producto y la cuenta alternativa.
+
+![submenu ajustes](./assets/img/mapeodecuentas.png)
+Si se desea añadir alguna advertencia, se procede a llenar la casilla de Advertencia legal.
+
+![submenu ajustes](./assets/img/advertencialegal.png)
+
+#### 6.5.4 Contabilidad / Grupos de Diarios
+Se refiere a una forma de organizar y categorizar los registros contables según diferentes criterios. Estos grupos ayudan a clasificar y gestionar las transacciones financieras de una empresa de manera más eficiente. 
+
+![submenu ajustes](./assets/img/contabilidadgrupodiarios.png)
+
+#### 6.5.5 Contabilidad / Diarios Contables
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Diarios Contables__.
+
+El libro diario es el registro contable principal de cualquier sistema contable, en el cual se anotan todas las operaciones. Es un documento que registra de forma cronológica las transacciones económicas que una empresa realiza. Estas transacciones están relacionadas con la actividad principal de la firma.
+
+Para generar un diario, es necesario agregar el nombre de este, el tipo (venta, compra, efectivo, banco y miscelánea), el código corto, el próximo número, cuenta deudora por defecto, cuenta acreedora por defecto, si se desea transferir dicho diario a compañías, propina producto, si es caja chica, si es liquidación de gastos, si es tarjeta de crédito, si contiene un producto en descuento y el tipo de cuenta bancaria.
+
+![submenu ajustes](./assets/img/contabilodaddiarioscontables.png)
+
+__Configuración avanzada:__ Se indica el método de pago para los pagos recibidos de dicho diario (manual o electrónico), para pagos salientes (manual o cheques), cuentas de beneficios, cuentas de pérdidas, si se desea mostrar la cuenta, si permite la cancelación de asientos y si se valida en la conciliación bancaria.
+
+![submenu ajustes](./assets/img/contabilidadconfiguracionavanzada.png)
+
+#### 6.5.6 Contabilidad /Monedas 
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Monedas__.
+
+Las monedas se especifican de cada país al momento de enviar una transacción de dinero de un lugar a otro dentro de la estructura podemos ver sus ingresos y  actualizaciones.
+
+![submenu ajustes](./assets/img/contabilidadmonedas.png)
+Al momento de crear nos envía un formulario donde se llenará los campos solicitados para  registrar dando grabar sin embargo también tenemos descartar para interrumpir el proceso que no queramos guardar aun.
+
+![submenu ajustes](./assets/img/contabilidadmoneda.png)
+La tasa podemos ver la fecha donde podemos agregar línea  donde se refleja unidad por USD y USD por unidad.
 
 
+#### 6.5.7  Facturación / Incoterms
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Incoterms__.
 
+Los incoterms (palabra derivada del sigloide en lengua inglesa international commercial terms, que se traduce al español como «términos de comercio internacional) son términos, de tres letras cada uno, que reflejan las normas de aceptación voluntaria por las partes en un contrato de compraventa internacional de mercaderías acerca de las condiciones de entrega de las mercancías.  Se usan para aclarar los costes de las transacciones comerciales internacionales, delimitando las responsabilidades entre el comprador y el vendedor, y reflejan la práctica actual en el transporte internacional de mercancías.
+
+Al momento de generar un nuevo Incoterms es necesario ingresar el nombre y el código de este.
+
+![submenu ajustes](./assets/img/facturación incoterms.png)
+
+
+#### 6.5.8 Contabilidad / Tipos de Cuentas
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Tipos de Cuentas__.
+
+Al momento de generar una nueva cuenta bancaria, es necesario indicar el nombre de esta, el tipo, el tipo de informe y si se desea adelantar en el balance de cuentas; también se puede añadir una breve descripción de esta.
+
+![submenu ajustes](./assets/img/contabilidadtiposdecuenta.png)
+
+#### 6.5.9 Contabilidad / Etiquetas de cuenta
+Se refiere a una etiqueta o descripción adicional que se adjunta a una cuenta contable específica en un sistema contable para proporcionar información complementaria o para identificar la cuenta de manera más detallada. 
+
+![submenu ajustes](./assets/img/contabilidadetiqutasdecuenta.png)
+
+#### 6.5.10 Contabilidad / Grupos de cuentas
+Los grupos de cuentas son categorías organizativas utilizadas en contabilidad para agrupar cuentas similares con el propósito de facilitar la contabilización, la generación de informes financieros y el análisis.
+
+![submenu ajustes](./assets/img/gruposdecuentas.png)
+
+![submenu ajustes](./assets/img/grupodecuentas.png)
+
+#### 6.5.11 Contabilidad / Grupos de impuestos
+Los grupos de impuestos son categorías organizativas utilizadas en contabilidad y finanzas para agrupar diferentes tipos de impuestos y obligaciones tributarias con el fin de simplificar su cálculo, registro y presentación.
+
+![submenu ajustes](./assets/img/gruposdeimpuestos.png)
 
 
 
