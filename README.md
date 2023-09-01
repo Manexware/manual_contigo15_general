@@ -1034,6 +1034,232 @@ Al momento de guardar la retención, se generará un pago pendiente el cual most
   <img src="./assets/img/montototalapagarproveedor.png">
 </p>
 
+__Agregar nota de crédito:__ Esta opción permite la creación de notas de crédito de manera rápida y sencilla, si la factura está ingresada al sistema es recomendable utilizar este método, ya que permite la optimización del tiempo dentro del proceso de creación de notas de crédito. El proceso es simple: se selecciona el método de crédito (en este caso es el número de la factura) y la fecha de la nota de crédito.
+<p align="center">
+  <img src="./assets/img/agregarnotadecreditoproveedor.png">
+</p>
+<p align="center">
+  <img src="./assets/img/crearnotadedebitoproveedor.png">
+</p>
+
+__Cancelar:__  Permite la cancelación de la factura enviando la misma en un estado adicional llamado cancelado, dicho estado sólo aparecerá si se canceló la factura.
+<p align="center">
+  <img src="./assets/img/estadocancelarproveedor.png">
+</p>
+
+Cuando la factura está en este estado, solo mostrará los siguientes botones: “Documento Electrónico”, “ Previsualizar” y “Cambiar a Borrador”.  
+Si se desea reactivar dicha factura se debe hacer clic en “Cambiar a borrador”, en ese momento el sistema cambiará de estado cancelado a borrador, es el mismo estado que tienen las facturas al momento de recién creadas; luego se procede a modificar los datos existentes y después de válida cuando esté completada.
+
+<p align="center">
+  <img src="./assets/img/grabardescartarproveedor.png">
+</p>
+
+__Nota:__ Cuando la factura se encuentra en los estados “Validado” o “Cancelado”, nos mostrará dentro de la vista de la factura los siguientes botones.
+<p align="center">
+  <img src="./assets/img/botonesfactproveedores.png">
+</p>
+
+La primera opción mostrará las retenciones creadas que correspondan a dicha factura.
+
+La segunda opción va a aparecer para los clientes que estén usando el módulo de inventario, sirve para crear un movimiento de inventario para reducir o aumentar el stock.
+
+__Compartir:__ Esta acción nos permite enviar el documento a uno o más de los destinatarios designados, dichos destinatarios deben tener registrado su correo electrónico en su perfil de contacto.
+<p align="center">
+  <img src="./assets/img/accionesproveedor.png">
+</p>
+
+![submenu ajustes](./assets/img/compartirdocproveedor.png)
+
+__Procesar XML:__ Esta opción permitirá procesar datos de un documento con extensión XML al sistema; primero se debe subir el archivo y después de que el archivo esté cargado, de manera automática el sistema llenará los campos con los datos del XML. Si el proveedor no existe, creará de manera automática los datos de este y los utilizará a la vez en el documento.
+<p align="center">
+  <img src="./assets/img/subirxmlproveedor.png">
+</p>
+
+#### 6.2.2 Notas de Crédito
+En el módulo de __Contabilidad__, seleccionar en el menú __Proveedores__ la opción __Notas de Crédito.__
+
+Una nota de crédito es un documento legal que se utiliza en transacciones de compraventa donde interviene un descuento posterior a la emisión de la factura, una anulación total, un cobro de un gasto incurrido de más o la devolución de bienes.
+
+Para la correcta creación de una nota de crédito, es recomendable realizarla a través de la factura (para más información revisar Factura Proveedores).
+El sistema permitirá la edición del documento, al momento de editarlo es necesario llenar los campos obligatorios que existen en el mismo, la vista que proyectará el sistema es casi idéntica a la factura con la diferencia que se debe especificar el número de documento tributario para poder generar la nota;  también es idéntica a la de nota de débito. La nota de crédito podremos validarla, previsualizarla, cancelarla, registrar pagos, etc.
+![submenu ajustes](./assets/img/notacreditoproveedor.png)
+
+![submenu ajustes](./assets/img/detallefacturasproveedor.png)
+![submenu ajustes](./assets/img/formapagoproveedor.png)
+
+#### 6.2.3 Retenciones Compras
+
+En el módulo de __Contabilidad__, seleccionar en el menú __Proveedores__ la opción __Retenciones Compras.__
+
+La retención es la cantidad que se retiene de un sueldo, salario u otra percepción para el pago de un impuesto, de deudas en virtud de embargo, es decir, te retienen ahora para asegurar el pago del impuesto. Para la correcta creación de una retención ventas, es recomendable realizarla a través de la factura (para más información revisar Factura Proveedores).
+
+Al momento de editar una retención de compra, se deben llenar los campos obligatorios, como colocar el número de la retención, la empresa, el documento de origen, el número de autorización, la fecha de vencimiento de dicha autorización, el diario, el comprobante la fecha de emisión y el responsable de dicha retención.
+
+__Detalle de retención:__  Llenar con el año fiscal, el impuesto ya sea IVA o RENTA, la base del impuesto se llenará de manera automática, el valor porcentual y el valor retenido.
+
+__Información Extra:__  Seleccionar el tipo de comprobante. 
+
+En la esquina superior izquierda, debajo de la opción Guardar nos aparecerá una barra para poder validar , y generar el documento electrónico.
+<p align="center">
+  <img src="./assets/img/barraretencioncompras.png">
+</p>
+
+![submenu ajustes](./assets/img/ejemploretencionesencompras.png)
+![submenu ajustes](./assets/img/detalleelectronicoretencion.png)
+
+#### 6.2.4 Detalle de Retenciones en Compras
+En el módulo de __Contabilidad__, seleccionar en el menú __Proveedores__ la opción __Detalle de Retenciones Compras.__
+
+Como su propio nombre lo indica, muestra todas las retenciones en compras de los proveedores a una vista sencilla.
+![submenu ajustes](./assets/img/detalleretencionencompras.png)
+
+#### 6.2.5 Liquidaciones de Compras
+En el módulo de __Contabilidad__, seleccionar el menú __Proveedores__ y luego la opción __Liquidaciones de Compras.__
+
+La Liquidación de compra es un comprobante de pago emitido por las personas naturales o jurídicas, sociedades conyugales, sucesiones indivisas, sociedades de hecho u otros entes colectivos por las adquisiciones que efectúen a personas naturales productoras y/o acopiadoras de productos primarios derivados de la actividad agropecuaria, pesca artesanal y extracción de madera, de productos silvestres, minería aurífera artesanal, artesanía, desperdicios y desechos metálicos, desechos de papel y desperdicios de caucho, siempre que estas personas no otorguen comprobantes de pago por carecer de número de RUC.
+
+El sistema permitirá la creación y edición del documento, al momento de generar una nueva liquidación es necesario llenar los campos obligatorios que existen en el mismo, la vista que proyectará el sistema es casi idéntica a la factura con la diferencia que se debe especificar el tipo de documento, que en este caso será una liquidación de compra, si se selecciona otro tipo aparecerán unos datos que se deberán llenar; estos son el número de documento tributario, el número de la autorización y la fecha del mismo para poder generar el documento. Podrá validar la liquidación de compra, previsualizar, cancelar, registrar pagos, generar notas de créditos, etc.
+![submenu ajustes](./assets/img/liquidacioncompras.png)
+
+#### 6.2.6 Pagos
+En el módulo de __Contabilidad__, seleccionar en el menú __Proveedores__ la opción __Pagos.__
+
+Un pago es lo que una persona o entidad realiza para poder cancelar o suprimir una obligación que se tenía contraída.  El pago puede efectuarse mediante la entrega de un bien, servicio o activo financiero a cambio de otro bien, servicio o activo financiero.
+
+Es recomendable realizar los pagos a través de las opciones que dan las facturas, notas de crédito y notas de débito dentro del sistema de contigo.
+
+Seleccionar el tipo de pago ya sea enviar dinero, recibir dinero o transferencia interna; llenar la fecha de pago, la circular de este, la fecha de depósito, el tipo de empresa que, por defecto está tiene seleccionado “Cliente”, la empresa y la cantidad.
+
+Por último, el sistema permite ingresar las líneas de contrapartida.
+
+También el sistema permitirá imprimir el recibo de pago, el comprobante de pago y el cheque, este último siempre y cuando el pago sea en cheques.
+
+![submenu ajustes](./assets/img/pagosvistaproveedor.png)
+
+![submenu ajustes](./assets/img/listviewproveedores.png)
+En el momento de seleccionar al cliente, si existen pagos pendientes el sistema de manera automática nos mostrará el número de pagos pendientes y la cantidad de estos.
+
+__Desglose de pago:__ Consiste en detallar el gasto total, lo cual permitirá realizar un seguimiento de los gastos se deberá cancelar la proporción del impuesto que tuvo vigente de aquel año.
+
+<p align="center">
+  <img src="./assets/img/pagoavanzadoproveedores.png">
+</p>
+
+Para realizar un pago en cheque es necesario primero configurar la cuenta bancaria y chequera en el sistema (para más información revisar __Cuentas Bancarias__  y __Chequeras__ ), la opción de cheques sólo aparecerá si el pago es __enviar dinero__ o una __transferencia interna__ y se selecciona la opción de cheques.
+
+Se procede a llenar el punto de emisión correspondiente, la ciudad y la fecha del depósito, si se deja la fecha de depósito en blanco el sistema utilizará la fecha de pago como fecha de depósito.
+
+__Imprimir:__ El sistema permitirá realizar los siguientes reportes.
+<p align="center">
+  <img src="./assets/img/btnimprimirnd.png">
+</p>
+<p align="center">
+  <img src="./assets/img/opcionesimprimirproveedores.png">
+</p>
+
+__Recibo de pago:__ El recibo de pago es la transacción realizada donde se especificará la cantidad que el cliente ha comprado.
+<p align="center">
+  <img src="./assets/img/recibodepagoproveedor.png">
+</p>
+
+__Cheque:__ Específica en diseño de cuanto es el  monto.
+<p align="center">
+  <img src="./assets/img/chequeproveedor.png">
+</p>
+
+__Acciones:__ La opción de pagos cuenta con las opciones de duplicar, suprimir y enviar recibo por correo.
+<p align="center">
+  <img src="./assets/img/accionespago.png">
+</p>
+
+#### 6.2.7 Productos
+En el módulo de __Contabilidad__, seleccionar en el menú __Clientes__ la opción __Productos.__
+
+Un producto es una opción elegible, viable y repetible que la oferta pone a disposición de la demanda, para satisfacer una necesidad o atender un deseo a través de su uso o consumo.  La diferencia entre un producto cliente y un producto proveedor es que el producto cliente puede ser vendido.
+
+Se puede añadir una imagen o foto que identifica el producto, el nombre del producto y si el producto puede ser vendido o puede ser comprado.
+
+![submenu ajustes](./assets/img/ejemploproductoproveedor.png)
+
+En la esquina superior derecha podremos observar 6 recuadros: precios extra, a mano , previsto, entrada y salida, regla de reabastecer.
+<p align="center">
+  <img src="./assets/img/botonesproveedorvista.png">
+</p>
+
+
+__Información General:__ Permitir ingresar detalles específicos del producto y también dejar notas para una mejor referencia como el tipo de producto, referencia interna, código de barras, categoría del producto (si se desea añadir una nueva categoría, el sistema le permitirá crearla desde el ítem de selección), el precio de venta, precio al por mayor, el impuesto al cliente y el costo; también se podrá añadir una nota interna.	
+<p align="center">
+  <img src="./assets/img/infogeneralproductos.png">
+</p>
+
+__Compra:__ Esta opción sólo aparecerá si está marcado ‘Puede ser Comprado’ y especifica el número de impuesto del proveedor para futuras facturas.
+
+<p align="center">
+  <img src="./assets/img/apartadocompraproveedor.png">
+</p>
+
+__Inventario:__ Nos permite ingresar cómo será la operación y logística de dicho producto, agregar descripción para pedidos de entrega y recepciones.
+<p align="center">
+  <img src="./assets/img/apartadoinventarioproveedor.png">
+</p>
+
+__Contabilidad:__ Permite seleccionar la cuenta de ingreso (A cobrar) y la cuenta de gastos (A pagar) de dicho producto.
+<p align="center">
+  <img src="./assets/img/apartadocontabilidadproveedor.png">
+</p>
+
+También el sistema en la parte superior en las izquierda nos permite imprimir en este caso la etiqueta del producto , actualización de cantidad y reabastecer .
+<p align="center">
+  <img src="./assets/img/imprimiretiquetasproveedor.png">
+</p>
+
+#### 6.2.8 Proveedores
+
+Seleccionar el módulo de __Contabilidad__, dirigirse al menú de __Proveedores__ y buscar la opción __Proveedores.__
+
+Automáticamente se abrirá la vista de Proveedores que es igual a la vista de Contactos (para más información dirigirse a Contactos), por defecto se añadirá un filtro con el nombre de ‘Proveedor’.  Dicho contacto aparecerá en la opción de cliente si y sólo si está marcada la opción en Ventas y Compras el ítem de ‘Es Proveedor’.
+
+![submenu ajustes](./assets/img/moduloproveedores.png)
+
+En la parte superior encontrarás en boton “Accion”:
+<p align="center">
+  <img src="./assets/img/btnaccionproveedor.png">
+</p>
+
+__Archivar:__ En esta opción al momento de dar click te aparecera si desea guardar (aceptar o cancelar) 
+<p align="center">
+  <img src="./assets/img/opcarchivarproveedor.png">
+</p>
+
+__Mandar mensaje de texto SMS:__ Permite enviar mensajes de texto tanto al destinatario .
+<p align="center">
+  <img src="./assets/img/opcmandasmsproveedor.png">
+</p>
+
+__Libro mayor:__ Permite registrar los datos o movimientos de cuentas que se han realizado con el cliente.
+<p align="center">
+  <img src="./assets/img/opclibromayorproveedor.png">
+</p>
+
+En la parte inferior podrás encontrar los siguientes botones Ver ,Exportar a PDF ,Exportar a XLSX y Cancelar.
+
+__Extracto-Cliente:__ Permite realizar registro de forma detallada de las cuentas con mayor facilidad para el usuario.
+<p align="center">
+  <img src="./assets/img/opcextractoclienteproveedor.png">
+</p>
+
+En la parte inferior podrás encontrar los siguientes botones Ver ,Exportar a PDF ,Exportar a XLSX y Cancelar.
+
+__Otorgar acceso al portal:__ Permite seleccionar los contactos  dentro del sistema ya registrada el contacto, correo electrónico,etc. Y luego de terminar de llenar correctamente se podrá dar acceso al portal.
+<p align="center">
+  <img src="./assets/img/accesoalportalproveedor.png">
+</p>
+
+### 6.3 Contabilidad
+#### 6.3.1 Documentos Electrónicos / Carga de Documentos Electrónicos
+Nos dirigimos al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Documentos Electrónicos__ la opción __Carga de Documentos Electrónicos.__
+
+Esta opción permite generar los diferentes documentos electrónicos que hayan emitido.
 
 
 
@@ -1041,6 +1267,60 @@ Al momento de guardar la retención, se generará un pago pendiente el cual most
 
 
 
+
+
+
+
+
+
+### 6.4 Informes
+#### 6.4.1 Administración / Análisis de Facturas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 6.5 Configuracion
+#### 6.5.1 Contabilidad / Plan de Cuentas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 6.6 Opciones del menu 
+
+
+
+
+
+
+
+
+
+
+
+
+### 6.7 Algunos de nuestros clientes
 
 
 
