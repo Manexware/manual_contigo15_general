@@ -10,10 +10,65 @@
     - [1.3 Archivos de Importación](#13-archivos-de-importación)
   - [2. Configuración Inicial](#2-configuración-inicial)
     - [2.1 Creación de Usuarios](#21-creación-de-usuarios)
+    - [2.2 Plan_Contable](#22-plan-contable)
+    - [2.3 Grupos de Cuentas](#23-grupos-de-cuentas)
+    - [2.4 Impuestos](#24-impuestos)
+    - [2.5 Informacion_de_la_Compañia](#25-información-de-la-compañía-)
+    - [2.6 Configuracion_de_Correo_Saliente](#26-configuración-de-correo-saliente)
+    - [2.7 Creacion_de_Año_Fiscal_y_Periodos](#27-creación-de-año-fiscal-y-periodos)
+    - [2.8 Configuracion_de_Punto_de_Emision](#28-configuración-de-punto-de-emisión)
+    - [2.9 Cuentas_Bancarias](#29-cuentas-bancarias)
+    - [2.10 Diarios](#210-diarios)
   - [3. Primeros Pasos](#3-primeros-pasos)
-  - [4. Contabilidad](#4-contabilidad)
+      - [3.1 Ingreso_al_Sistema](#31-ingreso-al-sistema)
+      - [3.2 Preferencias_de_Usuario](#32-preferencias-de-usuario)
+      - [3.3 Contactos](#33-contactos)
+      - [3.4 Uso_de_Barra_de_Filtros](#34-uso-de-barra-de-filtros)
+      - [3.5 Tipos_de_Vistas](#35-tipos-de-vistas)
+      - [3.6 Acciones](#36-acciones)
+      - [3.7 Mensajes_de_Error](#37-mensajes-de-error)
+      - 
+  - [4. Conversaciones](#4-conversaciones)
+      - [4.1 Uso_y_Configuracion_Inicial](#41-uso-y-configuración-inicial)
+      - [4.2 Manejo_Apropiado](#42-manejo-apropiado)
+      - [4.3 Contigo_Bot](#43-contigo-bot-)
+      - [4.4 Interaccion_con_Usuarios](#44-interaccion-entre-usuarios-)
+      - [4.5 Canales](#45-canales)
+      - [4.6 Conversacion_/_Canales_Publicos](#46-conversación-canales-públicos)
+      - [4.7 Conversacion_entre_Usuarios](#47-conversación-entre-usuarios)
+      -  [4.8 Enviar_Mensaje](#48-enviar-mensaje)
+      -  [4.9 Poner_un_Adjunto](#49-poner-adjuntos)
+      -  [4.10 Planificar_Actividad](#410-planificar-actividad)
+      - [4.11 Adjuntos](#411-adjuntos) 
+      - [4.12 Seguidores](#412-seguidores)
   - [5. Algunos de Nuestros Clientes](#5-algunos-de-nuestros-clientes)
+      - [5.1 Contactos](#51-contactos)
+      - [5.2 Configuracion](#52-configuracion)
+        - [5.2.1 Etiquetas_de_Contacto](#521-etiquetas-de-contacto)
+        - [5.2.2 Titulos_de_Contacto](#522-títulos-de-contacto)
+        - [5.2.3 Industrias](#523-industrias)
+        - [5.2.4 Localizacion_/_Paises](#524-localización--países)
+        - [5.2.5 Localizacion_/_Provincias](#525-localización--provincia)
+        - [5.2.6 Localizacion_/_Grupo_de_Paises](#526-localización--grupo-de-paises-)
+        - [5.2.7 Localizacion_/_Ciudades](#527-localización--ciudades)
+        - [5.2.8 Localizacion_/_Parroquias](#528-localización--parroquias)
+        - [5.2.9 Cuentas_Bancarias_/_Bancos](#529-cuentas-bancarias--bancos)
+        - [5.2.10 Cuentas_Bancarias_/_Cuentas_Bancarias](#410-planificar-actividad)
+        - [5.2.11 Tipo_de_Identificacion](#5211-tipo-de-identificación)
   - [6. Contactanos](#6-contactanos)
+    - [6.1 Clientes](#61-clientes)
+        - [6.2.1 Facturas_/_Clientes](#521-etiquetas-de-contacto)
+        - [6.2.2 Notas_de_Credito](#522-títulos-de-contacto)
+        - [6.2.3 Factura_Reembolsos_de_Gastos](#523-industrias)
+        - [6.2.4 Nota_de_Debito](#524-localización--países)
+        - [6.2.5 Retenciones_Ventas](#525-localización--provincia)
+        - [6.2.6 Detalle_de_Retencion_en_Ventas](#526-localización--grupo-de-paises-)
+        - [6.2.7 Pagos](#527-localización--ciudades)
+        - [6.2.8 Vehiculo](#528-localización--parroquias)
+        - [6.2.9 Guias_de_Remision](#529-cuentas-bancarias--bancos)
+        - [6.2.10 Productos](#410-planificar-actividad)
+        - [6.2.11 Clientes](#5211-tipo-de-identificación)
+  - [7. Contactanos](#6-contactanos)
 
 ## 1. Prerrequisitos
 
@@ -1260,6 +1315,455 @@ __Otorgar acceso al portal:__ Permite seleccionar los contactos  dentro del sist
 Nos dirigimos al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Documentos Electrónicos__ la opción __Carga de Documentos Electrónicos.__
 
 Esta opción permite generar los diferentes documentos electrónicos que hayan emitido.
+
+![submenu ajustes](./assets/img/cargadocelectronico.png)
+
+1) Dirigirse al SRI y descargar el archivo de documento a cargarse.
+![submenu ajustes](./assets/img/documentosriacargar.png)
+2) Cargar dicho archivo (Subir Archivo) y dar clic en Cargar.
+![submenu ajustes](./assets/img/cargareldocelectronico.png)
+3) Los documentos cargados, se generarán en estado borrador para su respectiva revisión, para visualizar los documentos generados se debe hacer clic en “Ver Documentos”; de manera automática se abrirá una vista en “Análisis de Facturas”.
+![submenu ajustes](./assets/img/documentosgeneradossri.png)
+
+Cada documento generado por este medio se registrará según su tipo, por ejemplo: Si los documentos generados son Facturas, estas se podrán visualizar en Facturas Proveedor; de igual manera con los diferentes tipos de documentos.
+
+#### 6.3.2 Conciliaciones / Conciliación Bancarias
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Bancos__ la opción __Conciliación Bancaria.__
+
+La conciliación bancaria es una comparación que se hace entre los apuntes contables que lleva una empresa de su cuenta corriente (o cuenta de bancos) y los ajustes que el propio banco realiza sobre la misma cuenta. Se trata de un proceso que permite comparar los valores que la empresa tiene registrados de una cuenta de ahorros o cuenta corriente con los valores que el banco le suministra por medio del estado de cuenta, que suele recibirse cada mes.
+
+Se puede seleccionar el tipo del diario al que pertenece la conciliación, la fecha inicial, la fecha final, el tipo, también podemos ingresar el saldo anterior, los ingresos, egresos e inmediatamente calcula el saldo actual.
+![submenu ajustes](./assets/img/crearconciliacionbancaria.png)
+__Nota:__ En la parte superior tenemos la opción de “Confirmar todos”, “Borrar no conciliados”, “Calcular”, y “Cancelar todos”,”Confirmar”.
+
+__Confirmar:__ Confirma el asiento y el estado cambia de borrador a cerrado.
+<p align="center">
+  <img src="./assets/img/borradorcerrarconciliaciones.png">
+</p>
+
+__Confirmar todos:__ Confirma todos los asientos que se encuentran dentro de la conciliación.
+
+__Borrar no conciliados:__  Elimina los asientos que no se encuentran confirmados.
+
+__Calcular:__  Calcula los valores de los libros, bancos y diferencias (calcula sólo los asientos que están confirmados).
+
+__Conciliar líneas:__  Abre una vista en donde muestra todos los asientos para su respectiva revisión (práctico cuando hay múltiples registros).
+
+En la parte superior izquierda, tendremos una barra con la opción de confirmar dicha conciliación, sólo aparecerá dicha conciliación si y sólo si está confirmada.
+<p align="center">
+  <img src="./assets/img/conciliacionesasientos.png">
+</p>
+
+__Importante:__ Para realizar una correcta conciliación, es necesario:
+
+    • Añadir las líneas de asientos a conciliar.
+    • Confirmar dichos asientos (en el caso de que todas las líneas estén correctas, es recomendable dar clic en “Confirmar todos”).
+    • Borrar las líneas no conciliadas (dar clic en “Borrar no conciliados”).
+    • Calcular dicha conciliación (dar clic en “Calcular”).
+    • Si todo está correcto, se procede a confirmar la conciliación (dar clic en “Confirmar”).
+En la parte inferior tenemos varias opciones:
+
+![submenu ajustes](./assets/img/barraopcionesconciliar.png)
+__Cuentas:__ Permite agregar líneas en el diario de asientos contables.
+
+__D/C no incluidos-Banco:__ Detalla los depósitos y créditos no incluidos por el Banco.
+<p align="center">
+  <img src="./assets/img/noincluidosBanco.png">
+</p>
+
+__Cheques G/NC:__ Detalla los cheques girados y no cobrados.
+
+__Débitos no registrados-Banco:__ Detalla los débitos no registrados por el Banco
+<p align="center">
+  <img src="./assets/img/debitosnoregistradosBanco.png">
+</p>
+
+__D/OC no incluidos-Libros:__ Detalla los depósitos y otros créditos no incluidos en Libros.
+
+__Débitos no registrados-Libros:__ Detalla los débitos no registrados en los Libros.
+
+#### 6.3.3 Asientos Contables / Asientos contables
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Varios__  la opción __Asientos Contables.__
+
+Un asiento contable es la anotación en el libro de contabilidad que refleja los movimientos económicos de una persona o empresa, además, se realiza cada vez que una empresa contabiliza una entrada o salida relacionada con su actividad.
+
+El sistema Contigo genera de manera automática los asientos contables correspondientes a los diferentes documentos emitidos por la entidad. Si un documento se encuentra en un estado borrador, el asiento se generará como no asentado.
+
+![submenu ajustes](./assets/img/asientocontablepublicado.png)
+![submenu ajustes](./assets/img/otrainfoasientoscontables.png)
+
+__Publicar automáticamente reversión de:__ Al marcar la casilla lo que hará es que el asiento contable se valide automáticamente en la fecha.
+
+__Para revisar:__ Al marcar esta casilla este asiento queda para revisión.
+
+__Tipos de contribuyentes:__ Son posiciones fiscales. Su valor viene por defecto.
+
+__Asiento de reversión:__  Permite revertir el asiento seleccionado.
+![submenu ajustes](./assets/img/asientodereversion.png)
+
+El sistema nos permite realizar las siguientes acciones:
+
+<p align="center">
+  <img src="./assets/img/accionesasientoscontables.png">
+</p>
+
+__Duplicar:__  Duplica el asiento seleccionado.
+
+__Suprimir:__ Elimina el asiento seleccionado.
+
+__Generar enlace de pago:__ Genera un enlace para una forma de pago.
+
+__Compartir:__ Permite compartir un enlace que dirige a la página del asiento contable.
+
+__Cambiar a reembolso:__ Esta opción permite
+
+__Generar Documentos Electrónicos:__ Esta opción permite
+
+__Cambiar a borrador:__ Permite cambiar el estado del documento (publicado-borrador).
+
+__Anular facturas:__ Permite anular facturas referentes/enlazadas a ese asiento.
+
+#### 6.3.4 Asientos Contables / Apuntes contables
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Varios__ la opción __Apuntes Contables.__
+
+Un apunte contable es aquella anotación que detalla cualquier movimiento comercial o económico que modifique el patrimonio de una persona o empresa.
+
+En contabilidad, se utilizan los apuntes contables para registrar cada una de las operaciones que realiza una empresa. Cada apunte contable supone un registro contable en el libro diario, y después un registro en el libro mayor.
+
+El sistema Contigo genera los apuntes contables según el asiento contable.
+
+![submenu ajustes](./assets/img/editarapuntecontable.png)
+
+El sistema permite realizar las siguientes acciones:
+<p align="center">
+  <img src="./assets/img/accionesapuntescontables.png">
+</p>
+
+__Suprimir:__ Elimina el apunte contable.
+![submenu ajustes](./assets/img/suprimirapuntecontable.png)
+
+__Entradas automáticas:__ Permite registrar/crear asientos contables de forma automática para la respectiva utilización de estos en los diarios contables.
+![submenu ajustes](./assets/img/entradasautomaticasapuntescontables.png)
+
+__NOTA:__ La creación de asientos contables automáticos sólo se puede realizar en asientos contables no conciliados.
+
+#### 6.3.5 Acciones / Conciliación
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Acciones__ la opción __Conciliación.__
+
+![submenu ajustes](./assets/img/accion_conciliacion.png)
+__CONCILIAR:__ Esta opción permite realizar el respectivo cruce de las diferentes cuentas; tanto las cuentas por cobrar como las cuentas por pagar hasta lograr saldarlas.
+
+Para saldar dichos valores pendientes es necesario primero elegir a nuestro cliente o proveedor, al momento de seleccionarlo aparecerá en la parte de abajo el nombre del cliente o proveedor con los respectivos montos para su cruce.
+
+<p align="center">
+  <img src="./assets/img/nombreusuarioconciliar.png">
+</p>
+
+![submenu ajustes](./assets/img/cporcclientes.png)
+
+En el caso de que estén múltiples movimientos pendientes, el sistema proporciona un filtro para cada cliente o proveedor.
+<p align="center">
+  <img src="./assets/img/filtrobusquedaapuntecontables.png">
+</p>
+
+Si se desea saber cuántos cruces hay pendientes en el sistema, solo nos fijamos en la parte derecha superior del sistema; habrá una barra que indicará el número de cruces pendientes a realizar, en este ejemplo podremos observar que tenemos 1 conciliación a realizar.
+<p align="center">
+  <img src="./assets/img/pendientesaconciliar.png">
+</p>
+
+Para realizar el cruce es necesario crear un saldo, dependiendo del monto de este, nos permitirá conciliar o no.
+![submenu ajustes](./assets/img/saldoparaconciliar.png)
+
+Si se desea omitir dicho cruce, solo se debe dar clic en la opción Saltar, de esta manera no aparecerán dichos movimientos pendientes a conciliar.
+![submenu ajustes](./assets/img/omitirconciliacion.png)
+
+__Importante:__  Antes de realizar cualquier documento dentro del sistema, se debe configurar los respectivos diarios (para más información revisar __Diarios__).
+
+#### 6.3.6 Acciones / Fecha de bloqueo
+
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Acciones__ la opción __Actualizar fecha de bloqueo.__
+
+La fecha de bloqueo sirve para evitar posibles errores contables y fiscales por la creación o modificación de facturas, gastos/compras o apuntes manuales.
+
+Para evitar estos errores se bloquea la posibilidad de crear o modificar todo lo anterior a la fecha que se escoja.
+
+![submenu ajustes](./assets/img/actualizarfechabloqueo.png)
+
+#### 6.3.7 Gestión de Chequeras / Chequeras
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Gestión de Chequeras__ la opción __Chequeras.__
+
+Se trata de un documento firmado por el propietario de una cuenta en un banco que habilita al que lo recibe a disponer de una cantidad determinada de dinero (adeudo a cuenta) sobre una cuenta bancaria.
+
+Su principal finalidad es emitir un pago sin la necesidad de transportar efectivo, y dando al beneficiario más libertad para elegir el momento y el lugar del cobro.
+
+Al momento de generar una chequera, es necesario colocar el número de la chequera, la cuenta bancaria (solo se puede tener una chequera por cuenta bancaria), número inicial, número final, el relleno (número de datos que irán en los cheques).
+![submenu ajustes](./assets/img/borradorchequeras.png)
+
+Para generar los cheques de dicha chequera es necesario dar clic en la opción Revisar, de manera automática el sistema generará los cheques con los parámetros especificados anteriormente; cuando se hayan generado los cheques, ya no será posible editar los datos anteriores para su creación.
+
+<p align="center">
+  <img src="./assets/img/btnrevisarchequera.png">
+</p>
+
+![submenu ajustes](./assets/img/chequesgeneradoschequera.png)
+
+__Información:__ Permite agregar una nota.
+
+![submenu ajustes](./assets/img/apartadoinformacionchequeras.png)
+
+Para poder utilizar los cheques generados, es necesario dar clic en la opción Activar.
+<p align="center">
+  <img src="./assets/img/btnactivarchequeras.png">
+</p>
+<p align="center">
+  <img src="./assets/img/chequeraactiva.png">
+</p>
+
+__Nota:__ Si se desea cancelar la chequera, es necesario indicar el motivo de su cancelación y después de eso dar clic en la opción cancelar que se encuentra ubicada en la parte superior izquierda; en el caso de querer volver a utilizar la chequera, se deberá dar clic en la opción volver a borrador.
+<p align="center">
+  <img src="./assets/img/razondecancelacionchequeras.png">
+</p>
+
+Si se desea inactivar la chequera, más no cancelarla, es necesario dar clic en la opción hibernar la chequera, de manera automática los cheques que no se han utilizado quedarán inactivos.
+<p align="center">
+  <img src="./assets/img/btnreactivarchequera.png">
+</p>
+<p align="center">
+  <img src="./assets/img/estadoinactivochequera.png">
+</p>
+
+
+#### 6.3.8 Gestión de Chequeras / Cheques de Proveedores
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Gestión de Chequeras__ la opción __Cheques de Proveedores.__
+
+Si el pago que realizó un proveedor fue por medio de un cheque; dicho pago aparecerá en esta vista.
+
+![submenu ajustes](./assets/img/gestiodechequeras.png)
+
+![submenu ajustes](./assets/img/vistaeditarchequera.png)
+
+#### 6.3.9 Diarios Contables /Ventas
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Diarios Contables__ la opción __Ventas.__
+![submenu ajustes](./assets/img/diarioscontablesventasview.png)
+
+Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
+<p align="center">
+  <img src="./assets/img/accionesdiarioscontables.png">
+</p>
+
+__Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
+
+__Suprimir:__ Elimina el o los registros seleccionados.
+
+__Romper conciliación:__ Elimina las conciliaciones enlazadas entre cuentas.
+
+__Conciliar:__ Permite enlazar las cuentas seleccionadas.
+
+__Entradas automáticas:__ Nos permite crear asientos contables automáticamente.
+
+Existe la opción de exportar todos los registros dentro de este apartado en un archivo excel:
+
+<p align="center">
+  <img src="./assets/img/localizacionpaisesdescarga.png">
+</p>
+
+<p align="center">
+  <img src="./assets/img/exceldiariocontable.png">
+</p>
+
+![submenu ajustes](./assets/img/vistaexceldiariocontable.png)
+
+Dentro de Ventas se pueden visualizar diferentes vistas como poder ver los registros e interactuar con ellos:
+
+1) __Vista Lista:__ Muestra los datos en forma de listado
+<p align="center">
+  <img src="./assets/img/viewlistdiariocontable.png">
+</p>
+
+2) __Tabla Dinámica:__ Muestra los datos en forma de tabla que permite interactuar con los ejes y cambiar los datos (medidas), también nos permite descargar un XML
+<p align="center">
+  <img src="./assets/img/tabladinamicadiariocontableventas.png">
+</p>
+<p align="center">
+  <img src="./assets/img/excelvistadinamica.png">
+</p>
+
+4) __Vista Gráfica:__ Permite visualizar los datos en diferentes diagramas gráficos de manera ascendente y descendente.
+<p align="center">
+  <img src="./assets/img/vistagrafica.png">
+</p>
+<p align="center">
+  <img src="./assets/img/tipodevistagrafica.png">
+</p>
+
+5) __Vista Kanban:__ vista basada en tarjeta en la que se muestran los datos de manera organizada para una mejor comprensión.
+<p align="center">
+  <img src="./assets/img/vistakanbandiarioscontablesventas.png">
+</p>
+
+#### 6.3.10 Diarios Contables /Compras
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Diarios Contables__ la opción __Compras.__
+
+Al igual que el apartado anterior  muestra opciones/filtros de búsqueda, diferentes maneras de visualizar los registros.
+<p align="center">
+  <img src="./assets/img/diariocontablescompras.png">
+</p>
+
+Al seleccionar registros aparecen acciones que podemos realizar según nuestra necesidad:
+<p align="center">
+  <img src="./assets/img/accionesdiarioscompras.png">
+</p>
+
+__Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
+
+__Suprimir:__ Elimina el o los registros seleccionados.
+
+__Romper conciliación:__ Elimina las conciliaciones enlazadas entre cuentas.
+
+__Conciliar:__ Permite enlazar las cuentas seleccionadas.
+
+__Entradas automáticas:__ Permite crear asientos contables automáticamente.
+
+Existe la opción de exportar todos los registros dentro de este apartado en un archivo excel:
+
+<p align="center">
+  <img src="./assets/img/localizacionparroquiasdescarga.png">
+</p>
+
+<p align="center">
+  <img src="./assets/img/exceldiariocontable.png">
+</p>
+
+<p align="center">
+  <img src="./assets/img/exceldescargadiariocontcompras.png">
+</p>
+
+Se visualiza una barra de búsqueda en la que se puede filtrar los datos para obtener lo que se conoce como una búsqueda personalizada:
+
+<p align="center">
+  <img src="./assets/img/barrabusquedacompras.png">
+</p>
+
+Dentro de Compras obtenemos diferentes vistas de como poder visualizar los registros e interactuar con ellos:
+
+1) __Vista Lista:__ Muestra los datos en forma de listado
+<p align="center">
+  <img src="./assets/img/viewlistcompras.png">
+</p>
+
+2) __Tabla Dinámica:__ Muestra los datos en forma de tabla que permite interactuar con los ejes y cambiar los datos (medidas), también nos permite descargar un XML 
+<p align="center">
+  <img src="./assets/img/tabladinamicacompras.png">
+</p>
+<p align="center">
+  <img src="./assets/img/excelvistadinamicacompras.png">
+</p>
+
+4) __Vista Gráfica:__ Permite visualizar los datos en diferentes diagramas gráficos de manera ascendente y descendente.
+<p align="center">
+  <img src="./assets/img/vistagraficacompras.png">
+</p>
+<p align="center">
+  <img src="./assets/img/tipodevistagraficacompras.png">
+</p>
+
+5) __Vista Kanban:__ vista basada en tarjeta en la que se muestran los datos de manera organizada para una mejor comprensión.
+<p align="center">
+  <img src="./assets/img/vistakanbancompras.png">
+</p>
+
+#### 6.3.11 Diarios Contables /Banco y Efectivo
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Diarios Contables__ la opción __Banco y Efectivo.__
+
+Un diario contable es un registro detallado de todas las transacciones financieras de una empresa o entidad en un orden cronológico.
+![submenu ajustes](./assets/img/bancoyefectivo.png)
+
+__Diario de Banco:__ Este diario registra todas las transacciones relacionadas con las cuentas bancarias de la empresa. Incluye depósitos, retiros, transferencias, pagos de cheques, cobros y cualquier otro movimiento financiero que involucre las cuentas bancarias.
+
+__Diario de Efectivo:__ El diario de efectivo registra todas las transacciones de efectivo realizadas por la empresa. Esto puede incluir ventas en efectivo, pagos de gastos en efectivo, retiros de caja chica y otros movimientos que involucren dinero en efectivo. 
+
+Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
+
+<p align="center">
+  <img src="./assets/img/accionbancoefectivo.png">
+</p>
+
+__Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
+
+__Suprimir:__ Elimina el o los registros seleccionados.
+
+__Romper conciliación:__ Elimina las conciliaciones enlazadas entre cuentas.
+
+__Conciliar:__ Permite enlazar las cuentas seleccionadas.
+
+__Entradas automáticas:__ Permite crear asientos contables automáticamente.
+
+Al igual que el apartado anterior se muestra opciones/filtros de búsqueda, diferentes maneras de visualizar los registros.
+
+<p align="center">
+  <img src="./assets/img/filtrobusquedabancoefectivo.png">
+</p>
+
+Existe la opción de exportar todos los registros dentro de este apartado en un archivo excel:
+<p align="center">
+  <img src="./assets/img/localizacionpaisesdescarga.png">
+</p>
+
+<p align="center">
+  <img src="./assets/img/exceldiariocontable.png">
+</p>
+
+<p align="center">
+  <img src="./assets/img/excelbancoefectivo.png">
+</p>
+
+Dentro de Compras obtenemos diferentes vistas como poder visualizar los registros e interactuar con ellos:
+
+1) __Vista Lista:__ Muestra los datos en forma de listado
+<p align="center">
+  <img src="./assets/img/vistalistabancoefectivo.png">
+</p>
+
+2) __Tabla Dinámica:__ Muestra los datos en forma de tabla que permite interactuar con los ejes y cambiar los datos (medidas), también nos permite descargar un XML 
+<p align="center">
+  <img src="./assets/img/tabladinamicabancoefectivo.png">
+</p>
+<p align="center">
+  <img src="./assets/img/tabladinamicabancoefectivoexcel.png">
+</p>
+
+4) __Vista Gráfica:__ Permite visualizar los datos en diferentes diagramas gráficos de manera ascendente y descendente.
+<p align="center">
+  <img src="./assets/img/vistagraficabancoefectivo.png">
+</p>
+<p align="center">
+  <img src="./assets/img/tipovistagraficabancoefectivo.png">
+</p>
+
+5) __Vista Kanban:__ vista basada en tarjeta en la que se muestran los datos de manera organizada para una mejor comprensión.
+<p align="center">
+  <img src="./assets/img/vistakanbanbancoefectivo.png">
+</p>
+
+#### 6.3.12 Diarios Contables /Varios
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Diarios Contables la opción Varios.
+
+
+
+
+
+
+
 
 
 
