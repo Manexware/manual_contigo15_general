@@ -129,10 +129,8 @@
       - [6.5.21 Administración / Categoría de Productos](#6521-categoria-de-productos)
       - [6.5.22 Administración / Modos de pago](#6522-modos-de-pago)
       - [6.5.23 Administración / Métodos de pago](#6523-metodos-de-pago)
-
-    - [6.6 Opciones del menu](#66-opciones-del-menu)
-    - [6.7 Algunos de nuestros clientes](#67-algunos-de-nuestros-clientes)
-  - [7. Contactanos](#7-contactanos)
+  - [7. Algunos de Nuestros Clientes](#67-algunos-de-nuestros-clientes)
+  - [8. Contactanos](#8-contactos)
 
 ## 1. Prerrequisitos
 
