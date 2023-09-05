@@ -1810,18 +1810,191 @@ Dentro de Compras obtenemos diferentes vistas como poder visualizar los registro
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Diarios Contables la opción Varios.
 
 
+![submenu ajustes](./assets/img/6/.png)
+
+Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
+
+<p align="center">
+  <img src="./assets/img/6/.png">
+</p>
+
+__Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
+
+__Suprimir:__ Elimina el o los registros seleccionados.
+
+__Romper conciliación:__ Elimina las conciliaciones enlazadas entre cuentas.
+
+__Conciliar:__ Permite enlazar las cuentas seleccionadas.
+
+__Entradas automáticas:__ Nos permite crear asientos contables automáticamente.
+
+Al igual que el apartado anterior nos muestra opciones/filtros de búsqueda, diferentes maneras de visualizar los registros.
+
+![submenu ajustes](./assets/img/6/.png)
+
+Tenemos la opción de exportar todos los registros dentro de este apartado en un archivo excel:
+
+
+<p align="center">
+  <img src="./assets/img/6/.png">
+</p>
+
+
+<p align="center">
+  <img src="./assets/img/6/.png">
+</p>
+
+Dentro de Varios tenemos diferentes vistas como poder visualizar los registros e interactuar con ellos:
+
+    __Vista Lista:__ Muestra los datos en forma de listado
+
+![submenu ajustes](./assets/img/6/.png)
+    
+    __Tabla Dinámica:__ Muestra los datos en forma de tabla que permite interactuar con los ejes y cambiar los datos (medidas), también nos permite descargar un XML 
+
+![submenu ajustes](./assets/img/6/.png)
+
+
+![submenu ajustes](./assets/img/6/.png)
+
+    __Vista Gráfica:__ Permite visualizar los datos en diferentes diagramas gráficos de manera ascendente y descendente.
+
+![submenu ajustes](./assets/img/6/.png)
+
+![submenu ajustes](./assets/img/6/.png)
+
+![submenu ajustes](./assets/img/6/.png)
+
+     __Vista Kanban__
+
+![submenu ajustes](./assets/img/6/.png)
+
+#### 6.3.13 Libros Mayores /Libro mayor
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Libros Mayores__ la opción __Libro mayor.__
+
+Es un registro contable que recopila y resume todas las transacciones financieras de una empresa de manera organizada y sistemática. El propósito principal del Libro Mayor es proporcionar un resumen de las cuentas contables de la empresa y mostrar el saldo de cada cuenta en un momento determinado.
+
+![submenu ajustes](./assets/img/6/.png)
+
+Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
+
+<p align="center">
+  <img src="./assets/img/6/.png">
+</p>
+
+__Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
+
+__Suprimir:__ Elimina el o los registros seleccionados.
+
+__Romper conciliación:__ Elimina las conciliaciones enlazadas entre cuentas.
+
+__Conciliar:__ Permite enlazar las cuentas seleccionadas.
+
+__Entradas automáticas:__ Nos permite crear asientos contables automáticamente.
+
+Al igual que el apartado anterior nos muestra opciones/filtros de búsqueda, diferentes maneras de visualizar los registros.
+
+También nos permite descargar los datos en un archivo xlsx (excel)
+
+![submenu ajustes](./assets/img/6/.png)
+
+#### 6.3.14 Libros Mayores /Libro mayor de empresa
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Libros Mayores__ la opción __Libro mayor.__
+
+Es una parte esencial del sistema ya que permite tener un panorama completo y organizado de las actividades financieras de la empresa. 
+
+![submenu ajustes](./assets/img/6/.png)
+
+Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
+
+<p align="center">
+  <img src="./assets/img/6/.png">
+</p>
+
+__Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
+
+__Suprimir:__ Elimina el o los registros seleccionados.
+
+__Romper conciliación:__ Elimina las conciliaciones enlazadas entre cuentas.
+
+__Conciliar:__ Permite enlazar las cuentas seleccionadas.
+
+__Entradas automáticas:__ Nos permite crear asientos contables automáticamente.
+
+Al igual que el apartado anterior nos muestra opciones/filtros de búsqueda, diferentes maneras de visualizar los registros.
+
+También nos permite descargar los datos en un archivo xlsx (excel)
+
+
+![submenu ajustes](./assets/img/6/.png)
+
+#### 6.3.15 Banco y Caja /Extractos Bancarios
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Banco y Caja__ la opción __Extractos bancarios.__
+
+La conciliación de los extractos de banco es esencial para mantener la precisión en los registros financieros y asegurarse de que la información financiera refleje con precisión la situación real de la empresa. También ayuda a detectar fraudes y errores, y garantiza que los estados financieros sean confiables y precisos.
+
+![submenu ajustes](./assets/img/6/.png)
+
+Para crear un extracto bancario debemos de tener en cuenta lo siguiente:
+
+    Debemos definir la referencia a ese registro
+    Definimos el diario contable
+    Definimos fecha de comienzo y fin
+    Agregar el saldo bancario anterior y el saldo bancario final , los movimientos se calculan automáticamente al agregar una línea con el importe definido dentro del apartado transacciones
+
+![submenu ajustes](./assets/img/6/.png)
+
+Para publicar el extracto bancario tenemos que dar click en el siguiente botón:
+
+<p align="center">
+  <img src="./assets/img/6/.png">
+</p>
+
+El estado del documento estará en “procesando” hasta que no se grabe el registro:
+
+<p align="center">
+  <img src="./assets/img/6/.png">
+</p>
+
+Dentro del formulario tenemos dos opciones:
+
+<p align="center">
+  <img src="./assets/img/6/.png">
+</p>
+
+Conciliar: Permite enlazar este extracto con cuentas bancarias 
+
+![submenu ajustes](./assets/img/6/.png)
+
+Restablecer a nuevo: Envia al documento en estado de borrador 
 
 
 
+#### 6.3.16 Banco y Caja /Registros de caja 
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Banco y Caja__la opción __Registros de caja.__
+
+Dentro de estos registros incluimos una variedad de tipos de transacciones, como ventas en efectivo, compras en efectivo, gastos menores, pagos recibidos, retiros de efectivo, depósitos bancarios y más.
+
+![submenu ajustes](./assets/img/6/.png)
+
+En la primera página tenemos lo que es el botón crear, para generar nuevos registros, y por otro lado el botón de exportar todo:
+
+<p align="center">
+  <img src="./assets/img/6/.png">
+</p>
+
+Este botón nos ayuda a descargar un excel con todos los registros creados.
+
+![submenu ajustes](./assets/img/6/.png)
+
+Para crear un nuevo registro nos muestra la siguiente pantalla:
 
 
+#### 6.3.17
 
+#### 6.3.18
 
-
-
-
-
-
+#### 6.3.19
 
 
 
@@ -2019,7 +2192,6 @@ __Opciones avanzadas:__ Se añade la etiqueta que tendrá en facturas, el grupo 
 
 ![submenu ajustes](./assets/img/6/contabilidadimpuestoavanzado.png)
 
-
 #### 6.5.3 Contabilidad / Posiciones Fiscales
 
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Posiciones Fiscales__.
@@ -2106,25 +2278,321 @@ Los grupos de impuestos son categorías organizativas utilizadas en contabilidad
 
 
 
+## 6.6 Configuracion 
+
+### 6.6.1 Contabilidad / Plan de Cuentas
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Plan de Cuentas__.
+El Plan de Cuentas es un conjunto de normas que establecen los procedimientos y métodos necesarios para el registro de la actividad económica de una empresa.
+__Importante:__ Es necesario revisar el plan de cuentas para verificar si están todas las cuentas que son necesarias para la empresa, si no se encuentran todas las cuentas requeridas para tu negocio; el sistema contigo te permite crearlas para utilizarlas posteriormente.
+
+![submenu ajustes](./assets/img/6/contabilidad_plandecuentas.png)
+
+Al momento de generar una nueva cuenta, es necesario añadir el código de esta, si depende de una cuenta padre, el nombre de la cuenta, el tipo de cuenta, si contiene impuesto por defecto, si tiene etiqueta, grupo, si permite conciliación, si esta descatalogado, nivel (dependiendo de la cuenta padre, indicará el nivel de manera automática), búsqueda rápida y habilitarla para que pueda ser utilizada dentro del sistema.
+
+![submenu ajustes](./assets/img/6/Contabilidad_plandecuenta.png)
+
+__configuración__
+
+![submenu ajustes](./assets/img/6/contabilidad_configuracion.png)
+
+El sistema nos permite realizar las siguientes acciones:
+
+<p align="center">
+  <img src="assets/img/6/contabilidad_accion.png">
+</p>
+
+__Duplicar:__ Nos permite duplicar dicho registro.
+
+__Suprimir:__  Nos permite borrar.
+
+### 6.6.2   Contabilidad / Impuestos
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Impuestos.__
+
+Un impuesto es un tributo que se paga al estado para soportar los gastos públicos. Estos pagos obligatorios son exigidos tanto a personas físicas, como a personas jurídicas. Al momento de generar un nuevo impuesto es necesario añadir el nombre de este y el ámbito del impuesto (compra, venta, ninguno y ajustes).
+
+![submenu ajustes](./assets/img/6/contabilidad_impuestos.png)
+
+__Definición:__ De igual manera se debe añadir el cálculo del impuesto, el importe, la cuenta de impuestos y la cuenta de impuestos en notas de crédito.
+
+![submenu ajustes](./assets/img/6/contabilidad_difinicion.png)
+
+__Opciones avanzadas:__ Se añade la etiqueta que tendrá en facturas, el grupo de impuestos, etiquetas, si incluye en el precio, si contiene base imponible de impuestos subsiguientes.
+
+![submenu ajustes](./assets/img/6/contabilidad_opcionesavanzadas.png)
+
+### 6.6.3 Contabilidad / Posiciones Fiscales
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Posiciones Fiscales.__
+
+Una posición fiscal define, para cada cliente, un conjunto de impuestos, de modo que, si un cliente dispone de una posición fiscal específica, los impuestos pueden variar. Al momento de generar una nueva posición fiscal es necesario indicar el nombre de esta, en el caso de que se desee que se detecte de manera automática hay que dar clic en la casilla del lado derecho, esto indica si se debe aplicar automáticamente esta posición fiscal.
+
+
+![submenu ajustes](./assets/img/6/contabilidad_posicionesfiscales.png)
+
+__Mapeo de impuestos:__  Se agregan los impuestos que incluirá la posición fiscal, se añade el impuesto sobre el producto y el impuesto para aplicar.
+
+![submenu ajustes](./assets/img/6/contabilidad_mapeodeimouestos.png)
+
+__Mapeo de cuentas:__  Se agregan las cuentas que incluirá la posición fiscal, se añade la cuenta del producto y la cuenta alternativa.
+
+![submenu ajustes](./assets/img/6/contabilidad_mapeodecuentas.png)
+
+Si se desea añadir alguna advertencia, se procede a llenar la casilla de Advertencia legal.
+
+![submenu ajustes](./assets/img/6/contabilidad_advertencialegal.png)
+
+### 6.6.4 Contabilidad / Grupos de Diarios
+Se refiere a un conjunto o categoría de transacciones financieras que comparten características similares y que se registran en un mismo libro de contabilidad, conocido como el "diario". 
+
+![submenu ajustes](./assets/img/6/grupodecuentas.png)
+
+
+### 6.6.5 Contabilidad / Diarios Contables
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Diarios Contables.__
+
+El libro diario es el registro contable principal de cualquier sistema contable, en el cual se anotan todas las operaciones. Es un documento que registra de forma cronológica las transacciones económicas que una empresa realiza. Estas transacciones están relacionadas con la actividad principal de la firma.
+
+Para generar un diario, es necesario agregar el nombre de este, el tipo (venta, compra, efectivo, banco y miscelánea), el código corto, el próximo número, cuenta deudora por defecto, cuenta acreedora por defecto, si se desea transferir dicho diario a compañías, propina producto, si es caja chica, si es liquidación de gastos, si es tarjeta de crédito, si contiene un producto en descuento y el tipo de cuenta bancaria.
+
+![submenu ajustes](./assets/img/6/contabilidad_diarioscontables.png)
+
+__Configuración avanzada:__ Se indica el método de pago para los pagos recibidos de dicho diario (manual o electrónico), para pagos salientes (manual o cheques), cuentas de beneficios, cuentas de pérdidas, si se desea mostrar la cuenta, si permite la cancelación de asientos y si se valida en la conciliación bancaria.
+
+![submenu ajustes](./assets/img/6/contabilidad_avanzado.png)
+
+### 6.6.6 Contabilidad /Monedas 
+Ingresar al módulo de __Contabilidad,__ posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Monedas.__
+
+Las monedas se especifican de cada país al momento de enviar una transacción de dinero de un lugar a otro dentro de la estructura podemos ver sus ingresos y actualizaciones.
+
+![submenu ajustes](./assets/img/6/contabilidad_monedas.png)
+
+Al momento de crear nos envía un formulario donde se llenará los campos solicitados para  registrar dando grabar sin embargo también tenemos descartar para interrumpir el proceso que no queramos guardar aun.
+
+![submenu ajustes](./assets/img/6/contabilidad_moneda.png)
+
+La tasa podemos ver la fecha donde podemos agregar línea  donde se refleja unidad por USD y USD por unidad.
+
+
+### 6.6.7 Facturación / Incoterms
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Incoterms.__
+
+Los incoterms son términos, de tres letras cada uno, que reflejan las normas de aceptación voluntaria por las partes en un contrato de compraventa internacional de mercaderías acerca de las condiciones de entrega de las mercancías.  Se usan para aclarar los costes de las transacciones comerciales internacionales, delimitando las responsabilidades entre el comprador y el vendedor, y reflejan la práctica actual en el transporte internacional de mercancías.
+
+Al momento de generar un nuevo Incoterms es necesario ingresar el nombre y el código de este.
+
+
+![submenu ajustes](./assets/img/6/facturacion_Incoterms.png)
+
+
+### 6.6.8 Contabilidad / Tipos de Cuentas
+
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Tipos de Cuentas.__
+
+Al momento de generar una nueva cuenta bancaria, es necesario indicar el nombre de esta, el tipo, el tipo de informe y si se desea adelantar en el balance de cuentas; también se puede añadir una breve descripción de esta.
+
+
+![submenu ajustes](./assets/img/6/contabilidad_tiposdecuentas.png)
+
+
+### 6.6.9 Contabilidad / Etiquetas de cuenta
+Se refiere a descripciones o categorías que se asignan a las cuentas contables para ayudar a organizar y clasificar las transacciones financieras de una empresa de manera más detallada y comprensible. 
+
+![submenu ajustes](./assets/img/6/contabilidad_etiquetasdecuenta.png)
+
+### 6.6.10 Contabilidad / Grupos de cuentas
+Los grupos de cuentas son categorías organizativas utilizadas en contabilidad para agrupar cuentas similares con el propósito de facilitar la contabilización, la generación de informes financieros y el análisis.
+
+![submenu ajustes](./assets/img/6/contabilidad_gruposdecuentas.png)
+
+![submenu ajustes](./assets/img/6/contabilidad_gruposdecuenta.png)
+
+### 6.6.11   Contabilidad / Grupos de impuestos
+Los grupos de impuestos son categorías organizativas utilizadas en contabilidad y finanzas para agrupar diferentes tipos de impuestos y obligaciones tributarias con el fin de simplificar su cálculo, registro y presentación.
+
+![submenu ajustes](./assets/img/6/contabilidad_gruposdeimpuestos.png)
+
+### 6.6.12 Bancos / Agregar una cuenta bancaria
+Se refiere a registrar y configurar esa cuenta bancaria en el sistema contable de una empresa para llevar un registro preciso de todas las transacciones financieras relacionadas con esa cuenta.
+
+![submenu ajustes](./assets/img/6/banco_agregarunacuentabancaria.png)
+
+
+### 6.6.13 Bancos / Modelos de Conciliación
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Bancos__ la opción __Modelos de Conciliación.__
+
+El modelo de conciliación bancaria proporciona orientación detallada sobre cómo llevar a cabo cada aspecto del proceso de conciliación, desde la configuración hasta la creación de registros de ajuste. Cada elemento mencionado anteriormente estaría explicado en profundidad para guiar a los usuarios a través del proceso de manera efectiva.
+
+![submenu ajustes](./assets/img/6/banco_modelosdeconciliacion.png)
+
+![submenu ajustes](./assets/img/6/banco_modeloconciliacion.png)
+
+![submenu ajustes](./assets/img/6/bancos_modelosconciliacion.png)
+
+### 6.6.14 Contabilidad / Sustento de Comprobantes
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Sustento de Comprobantes.__
+
+Nos permite generar los diferentes tipos de documentos, ingresar el código, el tipo de sustento, fecha de inicio, fecha de fin y agregar los sustentos de comprobantes relacionados al tipo de documento (para más información revisar Comprobantes Autorizados).
+
+![submenu ajustes](./assets/img/6/contabilidad_sustentodecomprobantes.png)
+
+![submenu ajustes](./assets/img/6/contabilidad_sustentosdecomprobantes.png)
+
+### 6.6.15 Contabilidad / Tipos de Documentos
+Se refiere a las distintas formas o registros utilizados para respaldar y registrar las transacciones financieras de una empresa. Estos documentos son esenciales para mantener un registro adecuado de las operaciones financieras y para cumplir con los requisitos legales y contables. 
+
+![submenu ajustes](./assets/img/6/contabilidad_tiposdedocumentos.png)
+
+### 6.6.16 Facturación / Puntos de Emisión
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Puntos de Emisión.__
+
+El punto de emisión corresponde al primer grupo del número de serie de una factura o comprobante autorizado, tiene 3 dígitos, este número identifica al establecimiento o negocio en particular.
+
+En este apartado podremos controlar los diferentes puntos de emisión de cada documento realizado por la empresa.  Al momento de generar un nuevo punto es necesario ingresar el nombre, el código, la agencia y el ambiente. Por lo general cuando se genera un nuevo punto de emisión, los secuenciales para facturas, notas de crédito, notas de débito, guía de remisión, retenciones y las liquidaciones de compra por defecto serán 1.
+
+La precisión decimal consiste en el número de decimales que aparecerán en los reportes realizados, donde tendremos la precisión de precio unitario y la precisión de cantidades.
+
+Importante: El secuencial se asigna de manera automática en el sistema, por ejemplo, se ha realizado una nueva factura el secuencial de factura se aumentará al siguiente; en este caso de 1 cambiará a 2 y así sucesivamente.  En el caso de que se desee cambiar el secuencial de algún documento se lo podrá realizar, pero no es un proceso recomendable.
+
+![submenu ajustes](./assets/img/6/facturacion_puntosdeemision.png)
+
+### 6.6.17 Facturación/ Periodos
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Periodos.__
+
+Un período contable, en contabilidad, es el período en el que se hace referencia a los libros contables de cualquier entidad.
+
+Es el período durante el cual los libros están equilibrados y los estados financieros están preparados. En general, el período contable consta de 12 meses. Sin embargo, el comienzo del período contable difiere según la jurisdicción. Por ejemplo, una entidad puede seguir el año calendario regular, es decir, enero a diciembre como el año contable, mientras que otra entidad puede seguir de abril a marzo como el período contable.
+
+Se ingresa el nuevo año fiscal, el nombre, el código, la fecha de inicio y la fecha de fin.
+
+![submenu ajustes](./assets/img/6/facturacion_periodos.png)
+
+![submenu ajustes](./assets/img/6/facturacion_periodo.png)
+
+### 6.6.18 Facturación / Año Fiscal
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Año Fiscal.__
+
+Se trata del periodo de doce meses de duración con el cual una empresa organiza y planifica su calendario fiscal.  De este modo es posible llevar a cabo sus respectivas obligaciones tributarias con normalidad y planificar el siguiente ejercicio fiscal.
+
+Al momento de generar un nuevo año fiscal, es necesario ingresar el nombre de este, la fecha de inicio y la fecha de finalización.  Para generar los periodos de manera rápida tendremos en la parte superior izquierda una opción llamada ‘Crear Periodos’, esta opción tomará la fecha de inicio y la fecha fin para generar los periodos según el rango asignado.
+
+
+![submenu ajustes](./assets/img/6/facturacion_añosfiscales.png)
+
+![submenu ajustes](./assets/img/6/facturacion_añosfiscale.png)
+
+### 6.6.19 Facturación/ Payment Methods SRI (Métodos de Pago SRI)
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Payment Methods (Métodos de Pago SRI).__
+
+
+<p align="center">
+  <img src="assets/img/6/Facturacion_PaymentMethodsSRI(MetodosdePagoSRI).png">
+</p>
+
+En este apartado podemos crear diferentes métodos de pago , estos métodos se verán reflejados en secciones como Facturas entre otros.
+
+Al momento de generar un nuevo  es necesario llenar los campos , el nombre y el código. Damos en en la parte superior izquierda damos en Grabar y listo !.
+
+![submenu ajustes](./assets/img/6/Facturacion_PaymentMethodsSRI.png)
+
+
+### 6.6.20 Facturación / Plazos de Pago
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Plazos de Pago.__
+
+Se denomina compraventa a plazos a una modalidad de compraventa utilizada, normalmente, para bienes duraderos, a través del cual el pago del precio no se hace en el momento de la adquisición del bien, sino que se difiere en el tiempo a través de una serie de pagos denominados "plazos", "cuotas" o "abonos" (en ocasiones, también reciben coloquialmente el nombre de "letras").
+
+Para generar un plazo de pago se debe ingresar el nombre de este, una breve descripción para indicar el motivo del plazo, al momento de añadir un término de pago es necesario crearlo en el caso de que no exista ninguno; se indica el tipo de término, el cálculo de fechas de vencimiento y el
+
+número del mes.
+
+![submenu ajustes](./assets/img/6/facturacion_plazodepagos.png)
+
+![submenu ajustes](./assets/img/6/facturacion_tipodeplazo.png)
+
+
+
+### 6.6.21 Administración / Categoría de Productos
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Administración__ la opción __Categoría de Productos.__
+
+Las categorías te permiten clasificar tus productos de forma que se puedan agrupar productos similares en los listados. Al momento de ingresar una nueva categoría es necesario ingresar el nombre de esta, si esta depende de otra categoría (categoría padre) se la puede agregar, forzar las estrategias de retiradas por medio de los métodos FIFO y LIFO, indicar el método de coste, la valoración del inventario, la cuenta de ingreso del producto, la cuenta de gasto de este, la cuenta de entrada de stock, la cuenta de salida de stock, la cuenta de valoración de stock y el diario del stock.
+
+![submenu ajustes](./assets/img/6/administracion_categoriadeproductos.png)
+
+
+![submenu ajustes](./assets/img/6/administracion_categoria.png)
+
+
+Si se desea observar todos los productos que contengan dicha categoría, podremos observarlos en esta opción.
+
+
+<p align="center">
+  <img src="assets/img/6/administracion_producto.png">
+</p>
+
+
+### 6.6.22 Administración / Modos de pago
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Administración__ la opción __Modos de pago.__
+
+La información en estos campos se utilizaría para llevar un registro de las transacciones financieras y para garantizar que los pagos se realicen de manera adecuada y segura.
+
+![submenu ajustes](./assets/img/6/administracion_modosdepago.png)
+
+![submenu ajustes](./assets/img/6/administracion_mododepago.png)
+
+
+### 6.6.23 Administración / Métodos de pago
+Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Administración__ la opción __Métodos de pago.__
+
+Estos campos se utilizan para describir, categorizar y gestionar las diferentes opciones disponibles para realizar transacciones financieras. Cada campo proporciona información clave sobre cómo se realiza el pago, qué requisitos pueden estar involucrados y cómo se clasifica el método de pago en relación con otros.
+
+![submenu ajustes](./assets/img/6/administracion_metododepago.png)
+
+![submenu ajustes](./assets/img/6/administracion_metodosdepago.png)
 
 
 
 
-### 6.6 Opciones del menu 
+## 7. Algunos de nuestros clientes
+
+<table>
+  <tr>
+    <td><img src="assets/img/7/armada.png" alt="Imagen 1"></td>
+    <td><img src="assets/img/7/conexiontotal.png" alt="Imagen 2"></td>
+    <td><img src="assets/img/7/maint.png" alt="Imagen 3"></td>
+    <td><img src="assets/img/7/sms.png" alt="Imagen 4"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="assets/img/7/learning.png" alt="Imagen 1"></td>
+    <td><img src="assets/img/7/versatily.png" alt="Imagen 2"></td>
+    <td><img src="assets/img/7/reybanpac.png" alt="Imagen 3"></td>
+    <td><img src="assets/img/7/centop.png" alt="Imagen 4"></td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td><img src="assets/img/7/smslatinoamerica.png" alt="Imagen 1"></td>
+    <td><img src="assets/img/7/istg.png" alt="Imagen 2"></td>
+    <td><img src="assets/img/7/serviciosinmediato.png" alt="Imagen 3"></td>
+    <td><img src="assets/img/7/technet.png" alt="Imagen 4"></td>
+  </tr>
+</table>
 
 
+## 8. Contactanos
 
+<table>
+  <tr>
+    <td><img src="assets/img/7/facebook.jpg" alt="Imagen 1"></td>
+    <td><img src="assets/img/7/twitter.jpg" alt="Imagen 2"></td>
+    <td><img src="assets/img/7/instagram.jpg" alt="Imagen 3"></td>
+    <td><img src="assets/img/7/linkedln.jpg" alt="Imagen 4"></td>
+  </tr>
+</table>
 
-
-
-
-
-
-
-
-
-### 6.7 Algunos de nuestros clientes
-
-
-
-## 7. Contactanos
+ info@manexware.com - www.manexware.com
