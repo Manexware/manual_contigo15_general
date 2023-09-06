@@ -1821,12 +1821,12 @@ Dentro de Compras obtenemos diferentes vistas como poder visualizar los registro
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Diarios Contables la opción Varios.
 
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/diarioscontables_varios.png)
 
 Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
 
 <p align="center">
-  <img src="./assets/img/6/.png">
+  <img src="./assets/img/6/diarioscontables_accion.png">
 </p>
 
 __Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
@@ -1841,56 +1841,59 @@ __Entradas automáticas:__ Nos permite crear asientos contables automáticamente
 
 Al igual que el apartado anterior nos muestra opciones/filtros de búsqueda, diferentes maneras de visualizar los registros.
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/diarioscontables_entradasautomaticas.png)
 
 Tenemos la opción de exportar todos los registros dentro de este apartado en un archivo excel:
 
 
 <p align="center">
-  <img src="./assets/img/6/.png">
+  <img src="./assets/img/6/diarioscontables_descarga.png">
 </p>
 
 
 <p align="center">
-  <img src="./assets/img/6/.png">
+  <img src="./assets/img/6/diarioscontables_apuntecontable.png">
 </p>
+
+![submenu ajustes](./assets/img/6/diarioscontables_apuntecontables.png)
 
 Dentro de Varios tenemos diferentes vistas como poder visualizar los registros e interactuar con ellos:
 
     __Vista Lista:__ Muestra los datos en forma de listado
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/diarioscontables_vistalista.png)
     
+
     __Tabla Dinámica:__ Muestra los datos en forma de tabla que permite interactuar con los ejes y cambiar los datos (medidas), también nos permite descargar un XML 
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/diarioscontables_tabladinamica.png)
 
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/diarioscontables_tablasdinamica.png)
 
     __Vista Gráfica:__ Permite visualizar los datos en diferentes diagramas gráficos de manera ascendente y descendente.
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/diarioscontables_vistagrafica.png)
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/diarioscontable_vistagraficas.png)
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/diarioscontables_vistagrafic.png)
 
      __Vista Kanban__
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/diarioscontables_vistakanban.png)
 
 #### 6.3.13 Libros Mayores /Libro mayor
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Libros Mayores__ la opción __Libro mayor.__
 
 Es un registro contable que recopila y resume todas las transacciones financieras de una empresa de manera organizada y sistemática. El propósito principal del Libro Mayor es proporcionar un resumen de las cuentas contables de la empresa y mostrar el saldo de cada cuenta en un momento determinado.
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/librosmayores_libromayor.png)
 
 Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
 
 <p align="center">
-  <img src="./assets/img/6/.png">
+  <img src="./assets/img/6/librosmayores_accion.png">
 </p>
 
 __Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
@@ -1907,19 +1910,19 @@ Al igual que el apartado anterior nos muestra opciones/filtros de búsqueda, dif
 
 También nos permite descargar los datos en un archivo xlsx (excel)
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/librosmayores_apuntecontable.png)
 
 #### 6.3.14 Libros Mayores /Libro mayor de empresa
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Libros Mayores__ la opción __Libro mayor.__
 
 Es una parte esencial del sistema ya que permite tener un panorama completo y organizado de las actividades financieras de la empresa. 
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/librosmayores_libromayordeempresa.png)
 
 Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
 
 <p align="center">
-  <img src="./assets/img/6/.png">
+  <img src="./assets/img/6/librosmayores_acciones.png">
 </p>
 
 __Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
@@ -1937,14 +1940,14 @@ Al igual que el apartado anterior nos muestra opciones/filtros de búsqueda, dif
 También nos permite descargar los datos en un archivo xlsx (excel)
 
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/librosmayores_apuntecontables.png)
 
 #### 6.3.15 Banco y Caja /Extractos Bancarios
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Banco y Caja__ la opción __Extractos bancarios.__
 
 La conciliación de los extractos de banco es esencial para mantener la precisión en los registros financieros y asegurarse de que la información financiera refleje con precisión la situación real de la empresa. También ayuda a detectar fraudes y errores, y garantiza que los estados financieros sean confiables y precisos.
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/bancoycaja_extractosbancarios.png)
 
 Para crear un extracto bancario debemos de tener en cuenta lo siguiente:
 
@@ -1953,29 +1956,29 @@ Para crear un extracto bancario debemos de tener en cuenta lo siguiente:
     Definimos fecha de comienzo y fin
     Agregar el saldo bancario anterior y el saldo bancario final , los movimientos se calculan automáticamente al agregar una línea con el importe definido dentro del apartado transacciones
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/bancoycaja_transacciones.png)
 
 Para publicar el extracto bancario tenemos que dar click en el siguiente botón:
 
 <p align="center">
-  <img src="./assets/img/6/.png">
+  <img src="./assets/img/6/bancoycaja_publica.png">
 </p>
 
 El estado del documento estará en “procesando” hasta que no se grabe el registro:
 
 <p align="center">
-  <img src="./assets/img/6/.png">
+  <img src="./assets/img/6/bancoycaja_procesando.png">
 </p>
 
 Dentro del formulario tenemos dos opciones:
 
 <p align="center">
-  <img src="./assets/img/6/.png">
+  <img src="./assets/img/6/bancoycja_conciliar.png">
 </p>
 
 Conciliar: Permite enlazar este extracto con cuentas bancarias 
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/bancoycaja_extractos.png)
 
 Restablecer a nuevo: Envia al documento en estado de borrador 
 
@@ -1986,28 +1989,58 @@ Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilid
 
 Dentro de estos registros incluimos una variedad de tipos de transacciones, como ventas en efectivo, compras en efectivo, gastos menores, pagos recibidos, retiros de efectivo, depósitos bancarios y más.
 
-![submenu ajustes](./assets/img/6/.png)
+
+![submenu ajustes](./assets/img/6/bancoycaja_registrosdecaja.png)
 
 En la primera página tenemos lo que es el botón crear, para generar nuevos registros, y por otro lado el botón de exportar todo:
 
 <p align="center">
-  <img src="./assets/img/6/.png">
+  <img src="./assets/img/6/bancoycaja_descarga.png">
 </p>
 
 Este botón nos ayuda a descargar un excel con todos los registros creados.
 
-![submenu ajustes](./assets/img/6/.png)
+![submenu ajustes](./assets/img/6/bancoycaja_extractobancario.png)
 
 Para crear un nuevo registro nos muestra la siguiente pantalla:
 
 
-#### 6.3.17
+![submenu ajustes](./assets/img/6/bancoycaja_cajasregistradora.png)
 
-#### 6.3.18
+SE DEBE TOMAR EN CUENTA LO SIGUIENTE:
 
-#### 6.3.19
+    Los campos en celeste son campos obligatorios para poder crear el registro.
+
+![submenu ajustes](./assets/img/6/bancoycaja_cajaregistradora.png)
+
+Una vez creado el registro nos muestra algunas opciones para realizar en el registro:
+
+__Editar:__ Solo nos permitirá editar el tipo de diario y la fecha inicial. Para poder editar todos los campos debemos usar el botón RESTABLECER A PROCESANDO.
+
+__Validar:__ Concilia todos los campos/líneas.
+
+__Publicar:__ Envía el registro al estado de procesamiento.
+
+__Restablecer a nuevo:__ Envía el registro al estado de edición completa.
+
+__Imprimir:__ Se descarga un pdf imprimible del extracto.
+
+![submenu ajustes](./assets/img/6/bancoycaja_imprimir.png)
+
+El sistema permite realizar las siguientes acciones:
+
+<p align="center">
+  <img src="./assets/img/6/bancoycaja_accion.png">
+</p>
 
 
+__Duplicar:__ Permite clonar el registro.
+
+__Suprimir:__ Permite eliminar el registro.
+
+El apartado de transacciones permite agregar los movimientos bancarios relacionados a ese registro de caja, con fecha de la transacción, el detalle, y el importe.
+
+![submenu ajustes](./assets/img/6/bancoycaja_transsaciones.png)
 
 
 
