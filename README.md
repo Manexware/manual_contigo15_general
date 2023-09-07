@@ -14,7 +14,7 @@
     - [2.3 Grupos de cuentas](#23-grupos-de-cuentas)
     - [2.4 Impuestos](#24-impuestos)
     - [2.5 Información de la compañía](#25-información-de-la-compañía)
-    - [2.6 Configuración de correo saliente](#26-configuración-de-correo-saliente)
+    - [2.7 Configuración de correo saliente](#27-configuración-de-correo-saliente)
     - [2.7 Creación de año fiscal y periodos](#27-creación-de-año-fiscal-y-periodos)
     - [2.8 Configuración de Punto de Emisión](#28-configuración-de-punto-de-emisión)
     - [2.9 Cuentas Bancarias](#29-cuentas-bancarias)
@@ -25,7 +25,7 @@
     - [3.3 Contactos](#33-contactos)
     - [3.4 Uso de Barra de Filtros](#34-uso-de-barra-de-filtros)
     - [3.5 Tipos de Vistas](#35-tipos-de-vistas)
-    - [3.6 Acciones](#36-acciones)
+    - [3.7 Acciones](#37-acciones)
     - [3.7 Mensajes de error](#37-mensajes-de-error)
   - [4. Conversaciones](#4-conversaciones)
     - [4.1 Uso y configuración inicial](#41-uso-y-configuración-inicial)
@@ -33,7 +33,7 @@
     - [4.3 Contigo Bot](#43-contigo-bot)
     - [4.4 Interaccion entre usuarios](#44-interaccion-entre-usuarios)
     - [4.5 Canales](#45-canales)
-    - [4.6 Conversación/ canales públicos](#46-conversación-canales-públicos)
+    - [4.7 Conversación/ canales públicos](#47-conversación-canales-públicos)
     - [4.7 Conversación entre Usuarios](#47-conversación-entre-usuarios)
     - [4.8 Enviar Mensaje](#48-enviar-mensaje)
     - [4.9 Poner Adjuntos](#49-poner-adjuntos)
@@ -48,88 +48,90 @@
     - [5.2.3 Industrias](#523-industrias)
     - [5.2.4 Localización / Países](#524-localización--países)
     - [5.2.5 Localización / Provincia](#525-localización--provincia)
-    - [5.2.6 Localización / Grupo de paises](#526-localización--grupo-de-paises)
+    - [5.2.7 Localización / Grupo de paises](#527-localización--grupo-de-paises)
     - [5.2.7 Localización / Ciudades](#527-localización--ciudades)
     - [5.2.8 Localización / Parroquias](#528-localización--parroquias)
     - [5.2.9 Cuentas Bancarias / Bancos](#529-cuentas-bancarias--bancos)
     - [5.2.10 Cuentas Bancarias / Cuentas Bancarias](#5210-cuentas-bancarias--cuentas-bancarias)
     - [5.2.11 Tipo de Identificación](#5211-tipo-de-identificación)
-  - [6. Contabilidad](#6-contabilidad)
-    - [6.1 Clientes](#61-clientes)
-      - [6.1.1 Facturas/Clientes](#611-facturasclientes)
-      - [6.1.2 Notas de Credito](#612-notas-de-credito)
-      - [6.1.3 Facturas de Reembolso de Gastos](#613-facturas-de-reembolso-de-gastos)
-      - [6.1.4 Notas de Débito](#614-notas-de-débito)
-      - [6.1.5  Retenciones Ventas](#615--retenciones-ventas)
-      - [6.1.6 Detalle de Retención en Ventas](#616-detalle-de-retención-en-ventas)
-      - [6.1.7 Pagos](#617-pagos)
-      - [6.1.8 Vehìculo](#618-vehìculo)
-      - [6.1.9 Guías de Remisión](#619-guías-de-remisión)
-      - [6.1.10 Productos](#6110-productos)
-      - [6.1.11 Clientes](#6111-clientes)
-    - [6.2 Proveedores](#62-proveedores)
-      - [6.2.1 Facturas/Proveedores](#621-facturasproveedores)
-      - [6.2.2 Notas de Crédito](#622-notas-de-crédito)
-      - [6.2.3 Retenciones Compras](#623-retenciones-compras)
-      - [6.2.4 Detalle de Retenciones en Compras](#624-detalle-de-retenciones-en-compras)
-      - [6.2.5 Liquidaciones de Compras](#625-liquidaciones-de-compras)
-      - [6.2.6 Pagos](#626-pagos)
-      - [6.2.7 Productos](#627-productos)
-      - [6.2.8 Proveedores](#628-proveedores)
-    - [6.3 Contabilidad](#63-contabilidad)
-      - [6.3.1 Documentos Electrónicos / Carga de Documentos Electrónicos](#631-documentos-electrónicos--carga-de-documentos-electrónicos)
-      - [6.3.2 Conciliaciones / Conciliación Bancarias](#632-conciliaciones--conciliación-bancarias)
-      - [6.3.3 Asientos Contables / Asientos contables](#633-asientos-contables--asientos-contables)
-      - [6.3.4 Asientos Contables / Apuntes contables](#634-asientos-contables--apuntes-contables)
-      - [6.3.5 Acciones / Conciliación](#635-acciones--conciliación)
-      - [6.3.6 Acciones / Fecha de bloqueo](#636-acciones--fecha-de-bloqueo)
-      - [6.3.7 Gestión de Chequeras / Chequeras](#637-gestión-de-chequeras--chequeras)
-      - [6.3.8 Gestión de Chequeras / Cheques de Proveedores](#638-gestión-de-chequeras--cheques-de-proveedores)
-      - [6.3.9 Diarios Contables /Ventas](#639-diarios-contables-ventas)
-      - [6.3.10 Diarios Contables /Compras](#6310-diarios-contables-compras)
-      - [6.3.11 Diarios Contables /Banco y Efectivo](#6311-diarios-contables-banco-y-efectivo)
-      - [6.3.12 Diarios Contables /Varios](#6312-diarios-contables-varios)
-    - [6.4 Informes](#64-informes)
-      - [6.4.1 Administración / Análisis de Facturas](#641-administración--análisis-de-facturas)
-      - [6.4.2 Administración / Cuentas por Pagar](#642-administración--cuentas-por-pagar)
-      - [6.4.3 Administración / Cuentas por Cobrar](#643-administración--cuentas-por-cobrar)
-      - [6.4.4 Administración / Información de Ventas](#644-administración--información-de-ventas)
-      - [6.4.5 Administración / Información de Compras](#645-administración--información-de-compras)
-      - [6.4.6 Informes de Contabilidad OCA/Libro mayor](#646-informes-de-contabilidad-ocalibro-mayor)
-      - [6.4.7 Informes de Contabilidad OCA/Libro diario](#647-informes-de-contabilidad-ocalibro-diario)
-      - [6.4.8 Informes de Contabilidad OCA/Balance de Sumas y Saldos](#648-informes-de-contabilidad-ocabalance-de-sumas-y-saldos)
-      - [6.4.9 Informes de Contabilidad OCA/Pérdidas y Ganancias](#649-informes-de-contabilidad-ocapérdidas-y-ganancias)
-      - [6.4.10 Informes de Contabilidad OCA/Balance General](#6410-informes-de-contabilidad-ocabalance-general)
-      - [6.4.11 Informes de Contabilidad OCA/Partidas abiertas](#6411-informes-de-contabilidad-ocapartidas-abiertas)
-      - [6.4.12 Informes de Contabilidad OCA/Calidad de la deuda](#6412-informes-de-contabilidad-ocacalidad-de-la-deuda)
-      - [6.4.13 Informes de Contabilidad OCA/Informe de Impuestos](#6413-informes-de-contabilidad-ocainforme-de-impuestos)
-      - [6.4.14 Reportes Financieros/Plan Contable](#6414-reportes-financierosplan-contable)
-      - [6.4.15 SRI/Generar y Exportar A.T.S.](#6415-srigenerar-y-exportar-ats)
-    - [6.5 Configuracion](#65-configuracion)
-      - [6.5.1 Contabilidad / Plan de Cuentas](#651-contabilidad--plan-de-cuentas)
-      - [6.5.2 Contabilidad / Impuestos](#652-contabilidad--impuestos)
-      - [6.5.3 Contabilidad / Posiciones Fiscales](#653-contabilidad--posiciones-fiscales)
-      - [6.5.4 Contabilidad / Grupos de Diarios](#654-contabilidad--grupos-de-diarios)
-      - [6.5.5 Contabilidad / Diarios Contables](#655-contabilidad--diarios-contables)
-      - [6.5.6 Contabilidad /Monedas](#656-contabilidad-monedas)
-      - [6.5.7  Facturación / Incoterms](#657--facturación--incoterms)
-      - [6.5.8 Contabilidad / Tipos de Cuentas](#658-contabilidad--tipos-de-cuentas)
-      - [6.5.9 Contabilidad / Etiquetas de cuenta](#659-contabilidad--etiquetas-de-cuenta)
-      - [6.5.10 Contabilidad / Grupos de cuentas](#6510-contabilidad--grupos-de-cuentas)
-      - [6.5.11 Contabilidad / Grupos de impuestos](#6511-contabilidad--grupos-de-impuestos)
-      - [6.5.12 Bancos / Agregar una cuenta bancaria](#6512-agregar-una-cuenta-bancaria)
-      - [6.5.13 Bancos / Modelos de Conciliación](#6513-modelos-de-conciliacion)
-      - [6.5.14 Contabilidad / Sustento de Comprobantes](#6514-sustento-de-comprobante)
-      - [6.5.15 Contabilidad / Tipos de Documentos](#6515-tipos-de-documentos)
-      - [6.5.16 Facturación / Puntos de Emisión](#6516-puntos-de-emision)
-      - [6.5.17 Facturación/ Periodos](#6517-periodos)
-      - [6.5.18 Facturación / Año Fiscal](#6518-año-fiscal)
-      - [6.5.19 Facturación/ Payment Methods SRI (Métodos de Pago SRI)](#6519-metodos-de-pago-sri)
-      - [6.5.20 Facturación / Plazos de Pago](#6520-plazos-de-pago)
-      - [6.5.21 Administración / Categoría de Productos](#6521-categoria-de-productos)
-      - [6.5.22 Administración / Modos de pago](#6522-modos-de-pago)
-      - [6.5.23 Administración / Métodos de pago](#6523-metodos-de-pago)
-  - [7. Algunos de Nuestros Clientes](#67-algunos-de-nuestros-clientes)
+  - [6. Administracion](#6-administracion)
+    - 
+  - [7. Contabilidad](#7-contabilidad)
+    - [7.1 Clientes](#71-clientes)
+      - [7.1.1 Facturas/Clientes](#711-facturasclientes)
+      - [7.1.2 Notas de Credito](#712-notas-de-credito)
+      - [7.1.3 Facturas de Reembolso de Gastos](#713-facturas-de-reembolso-de-gastos)
+      - [7.1.4 Notas de Débito](#714-notas-de-débito)
+      - [7.1.5  Retenciones Ventas](#715--retenciones-ventas)
+      - [7.1.7 Detalle de Retención en Ventas](#717-detalle-de-retención-en-ventas)
+      - [7.1.7 Pagos](#717-pagos)
+      - [7.1.8 Vehìculo](#718-vehìculo)
+      - [7.1.9 Guías de Remisión](#719-guías-de-remisión)
+      - [7.1.10 Productos](#7110-productos)
+      - [7.1.11 Clientes](#7111-clientes)
+    - [7.2 Proveedores](#72-proveedores)
+      - [7.2.1 Facturas/Proveedores](#721-facturasproveedores)
+      - [7.2.2 Notas de Crédito](#722-notas-de-crédito)
+      - [7.2.3 Retenciones Compras](#723-retenciones-compras)
+      - [7.2.4 Detalle de Retenciones en Compras](#724-detalle-de-retenciones-en-compras)
+      - [7.2.5 Liquidaciones de Compras](#725-liquidaciones-de-compras)
+      - [7.2.7 Pagos](#727-pagos)
+      - [7.2.7 Productos](#727-productos)
+      - [7.2.8 Proveedores](#728-proveedores)
+    - [7.3 Contabilidad](#73-contabilidad)
+      - [7.3.1 Documentos Electrónicos / Carga de Documentos Electrónicos](#731-documentos-electrónicos--carga-de-documentos-electrónicos)
+      - [7.3.2 Conciliaciones / Conciliación Bancarias](#732-conciliaciones--conciliación-bancarias)
+      - [7.3.3 Asientos Contables / Asientos contables](#733-asientos-contables--asientos-contables)
+      - [7.3.4 Asientos Contables / Apuntes contables](#734-asientos-contables--apuntes-contables)
+      - [7.3.5 Acciones / Conciliación](#735-acciones--conciliación)
+      - [7.3.7 Acciones / Fecha de bloqueo](#737-acciones--fecha-de-bloqueo)
+      - [7.3.7 Gestión de Chequeras / Chequeras](#737-gestión-de-chequeras--chequeras)
+      - [7.3.8 Gestión de Chequeras / Cheques de Proveedores](#738-gestión-de-chequeras--cheques-de-proveedores)
+      - [7.3.9 Diarios Contables /Ventas](#739-diarios-contables-ventas)
+      - [7.3.10 Diarios Contables /Compras](#7310-diarios-contables-compras)
+      - [7.3.11 Diarios Contables /Banco y Efectivo](#7311-diarios-contables-banco-y-efectivo)
+      - [7.3.12 Diarios Contables /Varios](#7312-diarios-contables-varios)
+    - [7.4 Informes](#74-informes)
+      - [7.4.1 Administración / Análisis de Facturas](#741-administración--análisis-de-facturas)
+      - [7.4.2 Administración / Cuentas por Pagar](#742-administración--cuentas-por-pagar)
+      - [7.4.3 Administración / Cuentas por Cobrar](#743-administración--cuentas-por-cobrar)
+      - [7.4.4 Administración / Información de Ventas](#744-administración--información-de-ventas)
+      - [7.4.5 Administración / Información de Compras](#745-administración--información-de-compras)
+      - [7.4.7 Informes de Contabilidad OCA/Libro mayor](#747-informes-de-contabilidad-ocalibro-mayor)
+      - [7.4.7 Informes de Contabilidad OCA/Libro diario](#747-informes-de-contabilidad-ocalibro-diario)
+      - [7.4.8 Informes de Contabilidad OCA/Balance de Sumas y Saldos](#748-informes-de-contabilidad-ocabalance-de-sumas-y-saldos)
+      - [7.4.9 Informes de Contabilidad OCA/Pérdidas y Ganancias](#749-informes-de-contabilidad-ocapérdidas-y-ganancias)
+      - [7.4.10 Informes de Contabilidad OCA/Balance General](#7410-informes-de-contabilidad-ocabalance-general)
+      - [7.4.11 Informes de Contabilidad OCA/Partidas abiertas](#7411-informes-de-contabilidad-ocapartidas-abiertas)
+      - [7.4.12 Informes de Contabilidad OCA/Calidad de la deuda](#7412-informes-de-contabilidad-ocacalidad-de-la-deuda)
+      - [7.4.13 Informes de Contabilidad OCA/Informe de Impuestos](#7413-informes-de-contabilidad-ocainforme-de-impuestos)
+      - [7.4.14 Reportes Financieros/Plan Contable](#7414-reportes-financierosplan-contable)
+      - [7.4.15 SRI/Generar y Exportar A.T.S.](#7415-srigenerar-y-exportar-ats)
+    - [7.5 Configuracion](#75-configuracion)
+      - [7.5.1 Contabilidad / Plan de Cuentas](#751-contabilidad--plan-de-cuentas)
+      - [7.5.2 Contabilidad / Impuestos](#752-contabilidad--impuestos)
+      - [7.5.3 Contabilidad / Posiciones Fiscales](#753-contabilidad--posiciones-fiscales)
+      - [7.5.4 Contabilidad / Grupos de Diarios](#754-contabilidad--grupos-de-diarios)
+      - [7.5.5 Contabilidad / Diarios Contables](#755-contabilidad--diarios-contables)
+      - [7.5.7 Contabilidad /Monedas](#757-contabilidad-monedas)
+      - [7.5.7  Facturación / Incoterms](#757--facturación--incoterms)
+      - [7.5.8 Contabilidad / Tipos de Cuentas](#758-contabilidad--tipos-de-cuentas)
+      - [7.5.9 Contabilidad / Etiquetas de cuenta](#759-contabilidad--etiquetas-de-cuenta)
+      - [7.5.10 Contabilidad / Grupos de cuentas](#7510-contabilidad--grupos-de-cuentas)
+      - [7.5.11 Contabilidad / Grupos de impuestos](#7511-contabilidad--grupos-de-impuestos)
+      - [7.5.12 Bancos / Agregar una cuenta bancaria](#7512-agregar-una-cuenta-bancaria)
+      - [7.5.13 Bancos / Modelos de Conciliación](#7513-modelos-de-conciliacion)
+      - [7.5.14 Contabilidad / Sustento de Comprobantes](#7514-sustento-de-comprobante)
+      - [7.5.15 Contabilidad / Tipos de Documentos](#7515-tipos-de-documentos)
+      - [7.5.17 Facturación / Puntos de Emisión](#7517-puntos-de-emision)
+      - [7.5.17 Facturación/ Periodos](#7517-periodos)
+      - [7.5.18 Facturación / Año Fiscal](#7518-año-fiscal)
+      - [7.5.19 Facturación/ Payment Methods SRI (Métodos de Pago SRI)](#7519-metodos-de-pago-sri)
+      - [7.5.20 Facturación / Plazos de Pago](#7520-plazos-de-pago)
+      - [7.5.21 Administración / Categoría de Productos](#7521-categoria-de-productos)
+      - [7.5.22 Administración / Modos de pago](#7522-modos-de-pago)
+      - [7.5.23 Administración / Métodos de pago](#7523-metodos-de-pago)
+  - [7. Algunos de Nuestros Clientes](#77-algunos-de-nuestros-clientes)
   - [8. Contactanos](#8-contactos)
 
 ## 1. Prerrequisitos
@@ -144,7 +146,7 @@
 
 ### 1.2 Información de Correo
 - Servidor SMTP - ejemplo: smtp.dominio.com
-- Puerto SMTP - ejemplo: 465
+- Puerto SMTP - ejemplo: 475
 - Usuario
 - Contraseña
 
@@ -292,14 +294,14 @@ __Agencia__
 Esta tarea puede ser realizada por el administrador, debe dirigirse al módulo de __Administración__, seleccionar la opción __Agencia__.
 ![submenu ajustes](./assets/img/2/moduloagencia.png)
 ![submenu ajustes](./assets/img/2/crearagencia.png)
-### 2.6 Configuración de correo saliente
+### 2.7 Configuración de correo saliente
 Nos dirigimos al módulo de __Administración__ y buscamos en el menú __Servidor de Correo Saliente__.
 ![submenu ajustes](./assets/img/2/modulocorreosaliente.png)
 Para crear el servidor de correo saliente, añadimos una descripción de nuestro correo y seleccionamos su prioridad (entre más bajo el número mayor será la prioridad); en la información de la conexión colocamos:
 
 __Servidor SMTP =__ smtp.dominio.com
 
-__Puerto SMTP =__ 465
+__Puerto SMTP =__ 475
 
 Por último, se selecciona en seguridad de la conexión SSL/TLS y posteriormente se configura el usuario y la contraseña del correo, se prueba la conexión y listo.
 ![submenu ajustes](./assets/img/2/crearcorreosaliente.png)
@@ -453,7 +455,7 @@ __Vista Lista__: Muestra los múltiples registros en forma de lista.
 ![submenu ajustes](./assets/img/3/vistalista.png)
 __Nota__: Si deseas saber en qué tipo de vista estas, dirígete a la esquina superior derecha, pasas el ratón en los diferentes tipos vistas que se muestran y el sistema te arrojará el nombre de la vista.
 
-### 3.6 Acciones
+### 3.7 Acciones
 Como su propio nombre indica son procesos que el usuario podrá realizar en uno o múltiples registros, las acciones más comunes son las de Suprimir y Duplicar, dependiendo del módulo en que te encuentres; pueden tener más de una acción en el módulo y éstas nos permitirán realizar actividades de manera más rápida, dependiendo de su función asignada en el sistema.
 <p align="center">
   <img src="./assets/img/3/accionesbarra.png">
@@ -509,7 +511,7 @@ Para el grupo de usuarios seleccionado, la opción Suscribir automáticamente gr
 
 La elección de Enviar mensajes por correo electrónico configura el canal para que se comporte como una lista de correo.
 Habilitar esta opción le permite moderar este canal, lo que significa que los mensajes deberán ser aprobados antes de enviarse.
-### 4.6 Conversación/ canales públicos
+### 4.7 Conversación/ canales públicos
 ![submenu ajustes](./assets/img/4/canalespublicos.png)
 ![submenu ajustes](./assets/img/4/descripcanalespublicos.png)
 
@@ -616,7 +618,7 @@ Nota: Es importante añadir los estados a los países que más utilicen, ya que 
 
 Dentro de este apartado, se encuentra el botón gráfico para exportar todo los datos:
 <p align="center">
-  <img src="./assets/img/6/localizacionpaisesdescarga.png">
+  <img src="./assets/img/7/localizacionpaisesdescarga.png">
 </p>
 
 ![submenu ajustes](./assets/img/5/localizacionpaisesdatos.png)
@@ -638,7 +640,7 @@ Dentro de este apartado, se encuentra el botón gráfico para exportar todo los 
 
 ![submenu ajustes](./assets/img/5/localizacionprovinciadatos.png)
 
-### 5.2.6 Localización / Grupo de paises 
+### 5.2.7 Localización / Grupo de paises 
 Seleccionar el módulo de __Contactos__, dirigirse al menú de __Configuración__ y buscar en __Localización__ la opción __Grupo de países__.
 
 Nos permite agrupar países para la formación de “continentes” en el sistema e inclusive añadir alguna tarifa pre creada en el sistema.
@@ -751,46 +753,46 @@ Permite exportar los documentos,archivarlos y desarchivarlos:
 ![submenu ajustes](./assets/img/5/exportartiposdedocumentacion.png)
 ![submenu ajustes](./assets/img/5/exceltipodedocumentacion.png)
 
-## 6.Administraccion
+## 7.Administraccion
 
-### 6.1 Usuarios
+### 7.1 Usuarios
 Los usuarios del sistema o usuarios cliente son personas que se conectan al sistema para hacer uso de los servicios que éste les proporciona. Dentro de los usuarios del sistema podemos distinguir diferentes perfiles o niveles de usuario, y dependiendo de dicho nivel poseerá más o menos privilegios en su estancia dentro del sistema Contigo.
 Es necesario indicar que rol o función tendrán los usuarios, porque dependerá de los mismos para la correcta navegación del sistema.
 Un usuario consta de 3 datos que permitirán el reconocimiento del mismo dentro del sistema contable Contigo, los cuales son: Nombre del usuario, correo electrónico y una contraseña dada por el sistema.
 __Importante:__ Para generar usuarios dentro del sistema, es recomendable hacerlo dentro del módulo de Contactos (Para más información revise el manual __Contigo General__).
 
 
-![submenu ajustes](./assets/img/6/administracion_usuario.png)
+![submenu ajustes](./assets/img/7/administracion_usuario.png)
 
 Es importante definir los Permisos de acceso, la tienda (Agencias) en donde se encuentra laborando y las preferencias de usuario (El mismo usuario puede configurar sus preferencias dentro del sistema).
 
 Permisos de acceso: El usuario debe tener permisos para acceder a los diferentes módulos que existen dentro del sistema y también para poder ver o interactuar con la información presente en los mismos. Se pueden asignar los permisos cuando se cree un usuario y dependiendo de los permisos asignados para dicho usuario, el sistema le indicará a qué acciones puede realizar en el mismo, tales como las ventas, la contabilidad, el inventario, otros, además de las opciones técnicas, los derechos extras y una última opción de otro que contiene creación de contacto.
 
-![submenu ajustes](./assets/img/6/administracion_usuarios.png)
+![submenu ajustes](./assets/img/7/administracion_usuarios.png)
 
 Tiendas: Permite identificar las tiendas/agencias en las cuales se encuentra el usuario y en las tiendas que tiene permitido trabajar.
 
-![submenu ajustes](./assets/img/6/administracion_tienda.png)
+![submenu ajustes](./assets/img/7/administracion_tienda.png)
 
 Preferencias: Permite una serie de configuraciones dentro del sistema, como el idioma, la zona horaria, notificación (Manejar por correos electrónicos o Manejar en Odoo), firma de correo electrónico y por último una firma digital.
 
-![submenu ajustes](./assets/img/6/administracion_preferencia.png)
+![submenu ajustes](./assets/img/7/administracion_preferencia.png)
 
 
 Cuando seleccione firma de firma digital, le va a aparecer una ventana que dice adopte su firma, si no tiene una firma guardada en la computadora seleccione “Dibujar”, si ya posee una firma en la computadora seleccione “Cargar” para subir el archivo que contiene una firma  y si está seguro de su decisión presione “Aprobar y firmar”.
 
-![submenu ajustes](./assets/img/6/administracion_adoptesufirma.png)
+![submenu ajustes](./assets/img/7/administracion_adoptesufirma.png)
 
 Importante: Para asignar una contraseña y restablecer la misma, se requiere seguir los siguientes procesos.
 1.- Asignación de contraseña por medio del administrador: Esta opción permite al administrador del sistema establecer o asignar la contraseña de usuario. Para que está acción se ejecute; el usuario debe dirigirse en la parte superior del sistema e identificar el botón de Acción, presionarlo después de eso saldrán tres opciones elija la opción que dice “Cambiar la contraseña”.
 
 <p align="center">
-  <img src="./assets/img/6/administracion_accion.png">
+  <img src="./assets/img/7/administracion_accion.png">
 </p>
 
 El sistema mostrará un formulario simple, el cual consta del correo del usuario en la parte izquierda y el espacio para la nueva contraseña en la parte derecha. Cuando se haya ingresado la nueva contraseña, se procede a confirmar (Cambiar la contraseña).
 
-![submenu ajustes](./assets/img/6/administracion_cambiarcontraseña.png)
+![submenu ajustes](./assets/img/7/administracion_cambiarcontraseña.png)
 
 Nota: Este proceso se recomienda utilizarlo si es necesario que el usuario ingrese de manera urgente al sistema, caso contrario se recomienda que los usuarios sigan el paso 3.
 
@@ -798,12 +800,12 @@ Nota: Este proceso se recomienda utilizarlo si es necesario que el usuario ingre
 
 
 <p align="center">
-  <img src="./assets/img/6/administracion_enviarinstrucciones.png">
+  <img src="./assets/img/7/administracion_enviarinstrucciones.png">
 </p>
 
 
 <p align="center">
-  <img src="./assets/img/6/administracion_cambiarcontraseñas.png">
+  <img src="./assets/img/7/administracion_cambiarcontraseñas.png">
 </p>
 
 
@@ -811,33 +813,33 @@ Nota: Este proceso se recomienda utilizarlo si es necesario que el usuario ingre
 
 
 <p align="center">
-  <img src="./assets/img/6/administracion_cambiarcontraseñaa.png">
+  <img src="./assets/img/7/administracion_cambiarcontraseñaa.png">
 </p>
 
 
-### 6.2 Compañias
+### 7.2 Compañias
 
 La opción de “Compañías” permite el ingreso de datos que se mostrará dentro del sistema, dependiendo de cómo se configure, se habilitan o deshabilitan opciones que se reflejarán en un manejo diferente en el sistema. Por defecto hay un registro con el nombre de My Company (Mi Compañía), es necesario ingresar a dicho registro para poder configurar con los respectivos datos de la empresa.
 Se procede a llenar los campos con su respectiva información según la empresa, especialmente los campos obligatorios empezando por el nombre de la compañía.
 
 <p align="center">
-  <img src="./assets/img/6/administracion_compañia.png">
+  <img src="./assets/img/7/administracion_compañia.png">
 </p>
 
 
 <p align="center">
-  <img src="./assets/img/6/administracion_nombredelacompañia.png">
+  <img src="./assets/img/7/administracion_nombredelacompañia.png">
 </p>
 
 Información General: Se debe registrar todos los datos de la compañía y si la compañía posee factura electrónica, llenar en el sistema sus respectivos campos para su posterior utilización.
 
 
-![submenu ajustes](./assets/img/6/administracion_informaciongeneral.png)
+![submenu ajustes](./assets/img/7/administracion_informaciongeneral.png)
 
 Contabilidad: Permite indicar al sistema las retenciones, sustentos tributarios, las cuentas contables y la cuenta de transferencia entre bancos que la empresa utiliza para toda su actividad contable.
 
 
-![submenu ajustes](./assets/img/6/administracion_contabilidad.png)
+![submenu ajustes](./assets/img/7/administracion_contabilidad.png)
 
 El sistema muestra opciones que afectarán a otros módulos como:
 Contabilidad
@@ -854,7 +856,7 @@ __Número de resolución de agente de retención:__ Se deberá llenar esta opci�
 __Obligar identificación contactos:__ Si esta opción está marcada, los contactos dentro del sistema estarán obligados a llenar los campos Tipo ID y Cedula/Ruc.
 
 
-![submenu ajustes](./assets/img/6/administracion_verificacion.png)
+![submenu ajustes](./assets/img/7/administracion_verificacion.png)
 
 __Retenciones__
 Para utilizar correctamente los siguientes apartados, se requiere ya tener configurado las siguientes retenciones:
@@ -863,62 +865,62 @@ Ret. Renta Bienes
 Ret. IVA Servicios
 Ret. Renta Servicios
 
-![submenu ajustes](./assets/img/6/administracion_retenciones.png)
+![submenu ajustes](./assets/img/7/administracion_retenciones.png)
 
 Cuentas Contables. – Permite enlazar las cuentas de ingreso y gastos a los elementos del plan contable.
 
-![submenu ajustes](./assets/img/6/administracion_cuentacontable.png)
+![submenu ajustes](./assets/img/7/administracion_cuentacontable.png)
 
 Anticipos. – Permite configurar las cuentas de anticipos para clientes y proveedores.
 
 
-![submenu ajustes](./assets/img/6/administracion_anticipos.png)
+![submenu ajustes](./assets/img/7/administracion_anticipos.png)
 
 Conciliaciones Bancarias. – Permite la configuración de dos cuentas, las cuales sirven para realizar los pagos no registrados o no identificados en el sistema y así obtener cuadre de la conciliación.
 
-![submenu ajustes](./assets/img/6/administracion_conciliacionesbancarias.png)
+![submenu ajustes](./assets/img/7/administracion_conciliacionesbancarias.png)
 
 Firmas Asientos Contable. - Al momento de guardar un asiento, dependiendo de los usuarios seleccionados en esta opción; el mismo aparecerá en el registro y posteriores.
 
-![submenu ajustes](./assets/img/6/administracion_firmascontable.png)
+![submenu ajustes](./assets/img/7/administracion_firmascontable.png)
 
 Bancos. - Se tiene que poner el número de la cuenta de transferencias interbancarias.
 
-![submenu ajustes](./assets/img/6/administracion_banco.png)
+![submenu ajustes](./assets/img/7/administracion_banco.png)
 
-### 6.3 Agencias
+### 7.3 Agencias
 
 Establecimiento comercial creado por una empresa o una sociedad, que goza de cierta autonomía con relación a la empresa o sociedad creadora, sin ser jurídicamente distinta de ella.
 En esta opción se procede con la creación de las diferentes agencias o sucursales que se desee manejar en el sistema.  Se puede tener sucursales principales o padres y secundarias.
 
-![submenu ajustes](./assets/img/6/administracion_agencias.png)
+![submenu ajustes](./assets/img/7/administracion_agencias.png)
 
-![submenu ajustes](./assets/img/6/administracion_agencia.png)
+![submenu ajustes](./assets/img/7/administracion_agencia.png)
 
 En el campo __Sucursal Padre__ se selecciona el nombre de una sucursal previamente creada, esto nos permite diferenciar cual es la sucursal principal y cuáles son las secundarias, dependientes de la principal.
 
-### 6.4 Servidores Correo Saliente
+### 7.4 Servidores Correo Saliente
 Un servidor de correo saliente es un servidor que se ocupa de enviar correos desde su buzón de correo. Para crear el servidor de correo saliente, se añade una descripción de nuestro correo y seleccionamos su prioridad (entre más bajo el número mayor será la prioridad); en la información de la conexión colocamos:
 Servidor SMTP = smtp.dominio.com
-Puerto SMTP = 465
+Puerto SMTP = 475
 Por último, se selecciona en seguridad de la conexión SSL/TLS y posteriormente se configura el usuario y la contraseña del correo, se prueba la conexión y listo.
 
-![submenu ajustes](./assets/img/6/administracion_servidorescorreosaliente.png)
+![submenu ajustes](./assets/img/7/administracion_servidorescorreosaliente.png)
 
-![submenu ajustes](./assets/img/6/adminsitracion_servidorcontigo.png)
+![submenu ajustes](./assets/img/7/adminsitracion_servidorcontigo.png)
 
-![submenu ajustes](./assets/img/6/administracion_servidor.png)
+![submenu ajustes](./assets/img/7/administracion_servidor.png)
 
 
 
-### 6.5 Secuencia
+### 7.5 Secuencia
 Aquí es donde se encuentran los códigos de secuencia creados por el propio usuario, con un código de secuencia, nombre, el prefijo, tamaño de frecuencia, próximo número, pasó y por último la implementación.
 
-![submenu ajustes](./assets/img/6/administracion_secuencia.png)
+![submenu ajustes](./assets/img/7/administracion_secuencia.png)
 
 Estas son creadas por el nombre, el código de secuencia, la implementación (para saber si es Estandar o es sin hueco) y ver si está activo caso contrario no se va a seleccionar el activo.
 
-![submenu ajustes](./assets/img/6/administracion_secuencias.png)
+![submenu ajustes](./assets/img/7/administracion_secuencias.png)
 
 __Secuencia:__
 En secuencia se tienen que llenar unos datos más:
@@ -930,18 +932,18 @@ Paso: El número siguiente de la secuencia será incrementado por esté número.
 Próximo número: Es el próximo número que se utilizará, este número puede incrementarse frecuentemente por lo que el valor mostrado puede ya estar obsoleto
 
 
-![submenu ajustes](./assets/img/6/administracion_prefijo.png)
+![submenu ajustes](./assets/img/7/administracion_prefijo.png)
 
 
-### 6.6 Precisión decimal
+### 7.7 Precisión decimal
 La precisión decimal permite indicar al sistema cuál será la referencia de los diferentes datos numéricos y los decimales de los mismos. Por ejemplo:
 El sistema muestra una precisión decimal llamada Precio Producto el cual solo será utilizada al momento de registrar el precio de un producto, si el digito ingresado como precio es de ‘5.789’ el sistema lo mostrará como ‘5.79’ ya que aplica redondeo y el número de dígitos decimales son dos.
 
-![submenu ajustes](./assets/img/6/administracion_precisiondecimal.png)
+![submenu ajustes](./assets/img/7/administracion_precisiondecimal.png)
 
-![submenu ajustes](./assets/img/6/administracion_precision.png)
+![submenu ajustes](./assets/img/7/administracion_precision.png)
 
-### 6.7 Correo Electrónico
+### 7.7 Correo Electrónico
 En el correo electrónico se van a mostrar los mensajes que han sido enviados por el usuario o el sistema, estos están conformados por la fecha, asunto, y el usuario. 
 
 Cuando presione en un mensaje va a ser llevado a la página del mensaje mostrando el contenido del asunto, por quien está hecho, desde donde es, hasta donde va a ser enviado, a qué empresa va a ser llevado, el destinatario en copia carbón, si llega “responder a” en caso de existir un inconveniente con el mensaje, fecha planeada de envío para saber cuando fue enviado o debió haber sido enviado.
@@ -949,27 +951,27 @@ Cuando presione en un mensaje va a ser llevado a la página del mensaje mostrand
 Si se presiona en editar, se podrá editar el contenido del mensaje y las opciones ya dichas
 
 
-![submenu ajustes](./assets/img/6/administracion_correoelectronicos.png)
+![submenu ajustes](./assets/img/7/administracion_correoelectronicos.png)
 
 
-![submenu ajustes](./assets/img/6/administracion_correoelectronico.png)
+![submenu ajustes](./assets/img/7/administracion_correoelectronico.png)
 
 
 Contenido: Aquí se muestra que contiene el mensaje
 
 
-![submenu ajustes](./assets/img/6/administracion_contenido.png)
+![submenu ajustes](./assets/img/7/administracion_contenido.png)
 
 Adjuntos: Se asocian un documento mediante el modelo/res_id y al mensaje mediante este campo.
 
 
-![submenu ajustes](./assets/img/6/administracion_adjuntos.png)
+![submenu ajustes](./assets/img/7/administracion_adjuntos.png)
 
 
 Razón del fallo: Aquí se muestra la razón del fallo de la entrega de correo del porque no fue enviado
 
 
-![submenu ajustes](./assets/img/6/administracion_razondelfallo.png)
+![submenu ajustes](./assets/img/7/administracion_razondelfallo.png)
 
 
 ## 7. Contabilidad
@@ -985,7 +987,7 @@ Se procede a llenar los campos obligatorios (campos de color azul), se seleccion
 ![submenu ajustes](./assets/img/7/detallefactura.png)
 Las líneas de factura, sirven para agregar los productos a la factura, para agregar un producto dar clic en __Agregar línea__, automáticamente se puede seleccionar un producto que esté en el sistema y al momento de añadirlo en la línea se cargarán por defecto los datos del producto como la descripción, el tipo de cuenta (se puede seleccionar otro tipo si se desea), el impuesto que por defecto es IVA 12% o código 401, el precio dependerá del producto (para más información revisar __Productos__), en el caso que un producto tenga un descuento específico, se lo puede añadir en la línea, indica la cantidad de dicho producto y el subtotal dependerá del resultado de: cantidad * precio del producto - descuento + impuestos.
 <p align="center">
-  <img src="./assets/img/6/calculosfacturas.png">
+  <img src="./assets/img/7/calculosfacturas.png">
 </p>
 Al momento de completar las líneas de factura, el sistema le mostrará los cálculos realizados para la obtención del total a cobrar.
 
@@ -1001,7 +1003,7 @@ La factura se rige por los siguientes estados: __Borrador__ y __Publicado__
 
 
 <p align="center">
-  <img src="./assets/img/6/estadosfacturas.png">
+  <img src="./assets/img/7/estadosfacturas.png">
 </p>
 
 
@@ -1016,24 +1018,24 @@ __Generar Edoc:__ Al momento de dar clic en esta opción se generará el documen
 __Ride:__ Al dar click aparecerá el documento factura completa.
 
 <p align="center">
-  <img src="./assets/img/6/generaride.png">
+  <img src="./assets/img/7/generaride.png">
 </p>
 
 __Enviar e imprimir:__ Esta opción visualizará el documento ya procesado dentro del sistema para enviar e imprimir.
 
 __Vista Previa:__ Este botón muestra en pantalla cómo se verá la factura, podremos descargar dicha previsualización en formato PDF o enviarla a imprimir.  Para poder previsualizar la factura se deberá tener llenos los siguientes campos: Fecha de la factura, RUC del cliente, secuencia interna de la factura, tipo de comprobante y la forma de pago.
 <p align="center">
-  <img src="./assets/img/6/vistapreviafactura.png">
+  <img src="./assets/img/7/vistapreviafactura.png">
 </p>
 
 __Añadir nota de crédito:__ Esta opción le permite crear créditos de forma rápida y sencilla. Se recomienda utilizar este método al ingresar facturas al sistema, ya que optimiza el tiempo dentro del proceso de creación de notas de crédito. El proceso es fácil. Seleccione el método de crédito y la fecha de cancelación.
 <p align="center">
-  <img src="./assets/img/6/añadirnotadecredito.png">
+  <img src="./assets/img/7/añadirnotadecredito.png">
 </p>
 
 __Crear nota de débito:__ Esta opción le permite crear deditos de forma rápida y sencilla. Se recomienda utilizar este método al ingresar en el  sistema, ya que optimiza el tiempo dentro del proceso de creación de notas de débito. El proceso es fácil. Seleccione el método de débito y la fecha de la nota de débito.
 <p align="center">
-  <img src="./assets/img/6/crearnotadedebito.png">
+  <img src="./assets/img/7/crearnotadedebito.png">
 </p>
 
 __Agregar Retención:__  Para añadir una retención a la factura, se debe dar clic en esta opción, se llenan los campos obligatorios como el número de documento, la fecha, periodo fiscal, el número de autorización, el diario, cliente y el detalle de la retención.
@@ -1041,32 +1043,32 @@ __Agregar Retención:__  Para añadir una retención a la factura, se debe dar c
 ![submenu ajustes](./assets/img/7/borradorretenciones.png)
 Al momento de guardar la retención, se generará un pago pendiente el cual mostrará en los valores totales de la factura un ítem llamado “créditos pendientes”, dicho ítem nos mostrará todos los valores de pago pendientes y se  dará la opción de añadir dicho pago al monto total de la factura; en el caso de que se le añada el pago, el monto total de la factura se sumará con el valor pendiente dando como resultado un monto total diferente.
 <p align="center">
-  <img src="./assets/img/6/montototalfactura.png">
+  <img src="./assets/img/7/montototalfactura.png">
 </p>
 
 __Anular Facturas:__ Permite la anulación de la factura enviando la misma a un estado adicional llamado Anulado, dicho estado sólo aparecerá si se anuló la factura.
 <p align="center">
-  <img src="./assets/img/6/anularfacturas.png">
+  <img src="./assets/img/7/anularfacturas.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/vistaanulado.png">
+  <img src="./assets/img/7/vistaanulado.png">
 </p>
 Cuando la factura está en este estado, solo mostrará los siguientes botones: “Generar Edoc”, “Ride”, “ Vista Previa” y “Restablecer a Borrador”.  
 Si se desea reactivar dicha factura se debe hacer clic en “Restablecer a borrador”, en ese momento el sistema cambiará de estado anulado a borrador, es el mismo estado que tienen las facturas al momento de recién creadas; luego se procederá a modificar los datos existentes y después se valida cuando esté completada.
 <p align="center">
-  <img src="./assets/img/6/botonesfacturas2.png">
+  <img src="./assets/img/7/botonesfacturas2.png">
 </p>
 Se añadirá a nuestras facturas creadas los términos y condiciones en la sección final del documento, solo se podrá editar dicho término si la factura se encuentra en estado de borrador.
 <p align="center">
-  <img src="./assets/img/6/terminosycondiciones.png">
+  <img src="./assets/img/7/terminosycondiciones.png">
 </p>
 
 __Compartir:__ Esta acción se permitirá enviar el documento a uno o más de los destinatarios designados, dichos destinatarios deben tener definido el correo en su perfil de contacto.Compartir: Esta acción se permitirá enviar el documento a uno o más de los destinatarios designados, dichos destinatarios deben tener definido el correo en su perfil de contacto.
 <p align="center">
-  <img src="./assets/img/6/accionesfcts.png">
+  <img src="./assets/img/7/accionesfcts.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/compartirdocumento.png">
+  <img src="./assets/img/7/compartirdocumento.png">
 </p>
 
 #### 7.1.2 Notas de Credito
@@ -1075,34 +1077,34 @@ Una nota de crédito es un documento legal que se utiliza en transacciones de co
 Para la correcta creación de una nota de crédito, es recomendable realizarla a través de la factura (para más información revisar “Factura Clientes”).
 El sistema permitirá la edición del documento, al momento de editarlo es necesario llenar los campos obligatorios que existen en el mismo, la vista que proyectará el sistema es casi idéntica a la factura con la diferencia que se debe especificar el número de documento tributario para poder generar la nota; también es idéntica a la de nota de débito. La nota de crédito podremos validarla, previsualizarla, cancelarla, registrar pagos, etc.
 <p align="center">
-  <img src="./assets/img/6/vistanotasdecreditos.png">
+  <img src="./assets/img/7/vistanotasdecreditos.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/notadecreditocreada.png">
+  <img src="./assets/img/7/notadecreditocreada.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/detallenotadecredito.png">
+  <img src="./assets/img/7/detallenotadecredito.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/formadepagonotacredito.png">
+  <img src="./assets/img/7/formadepagonotacredito.png">
 </p>
 Se sabe que es una nota de crédito porque en la pestaña “Otra Información” existe el “Tipo de comprobante” que indica “Nota de Crédito”.
 <p align="center">
-  <img src="./assets/img/6/otrainfonotacredito.png">
+  <img src="./assets/img/7/otrainfonotacredito.png">
 </p>
 Entre otras se encontrara  lo que es el botón de __“imprimir”:__ 
 <p align="center">
-  <img src="./assets/img/6/btnimprimir.png">
+  <img src="./assets/img/7/btnimprimir.png">
 </p>
 
 __Facturas:__ La factura es un documento que indicará una compraventa de un producto que se ha registrado en la compra.
 <p align="center">
-  <img src="./assets/img/6/facturanotadecredito.png">
+  <img src="./assets/img/7/facturanotadecredito.png">
 </p>
 
 Se presenta un boton de __acciones__:
 <p align="center">
-  <img src="./assets/img/6/accionesnotadecredito.png">
+  <img src="./assets/img/7/accionesnotadecredito.png">
 </p>
 
 __Duplicar:__ Duplica la información de la nota de crédito ya creada en el sistema.
@@ -1111,17 +1113,17 @@ __Suprimir:__ Se eliminará el documento dentro de la nota de crédito.
 
 __Generar un enlace de pago:__ Los enlaces de pago no son más que una url que podemos enviar al cliente a través de cualquier medio y al clicar en él, el consumidor accede directamente a la página final de pago de nuestro producto o servicio.
 <p align="center">
-  <img src="./assets/img/6/enlacedepago.png">
+  <img src="./assets/img/7/enlacedepago.png">
 </p>
 
 __Compartir:__ Consiste en un enlace o URL único o abierto, que se genera para cada compra y que puedes compartir con tu cliente a través de diferentes canales como correo electrónico, mensajes de texto, entre otros.
 <p align="center">
-  <img src="./assets/img/6/compartirnotadecredito.png">
+  <img src="./assets/img/7/compartirnotadecredito.png">
 </p>
 
 __Cambiar a reembolso/nota de crédito:__ 
 <p align="center">
-  <img src="./assets/img/6/cambiar a reembolso.png">
+  <img src="./assets/img/7/cambiar a reembolso.png">
 </p>
 
 #### 7.1.3 Facturas de Reembolso de Gastos
@@ -1135,13 +1137,13 @@ Además, quien solicita el reembolso debe adjuntar los originales de los comprob
 
 En el caso de que el intermediario del reembolso sea un empleado en relación de dependencia con la empresa, éste podrá emitir una liquidación de compra de bienes y prestación de servicios en sustitución de la factura por el reembolso.
 <p align="center">
-  <img src="./assets/img/6/facturarembolsos.png">
+  <img src="./assets/img/7/facturarembolsos.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/lineafacturareembolsos.png">
+  <img src="./assets/img/7/lineafacturareembolsos.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/formadepagoreembolsos.png">
+  <img src="./assets/img/7/formadepagoreembolsos.png">
 </p>
 
 #### 7.1.4 Notas de Débito
@@ -1153,12 +1155,12 @@ El sistema permitirá la edición del documento; al momento de editarlo es neces
 
 ![submenu ajustes](./assets/img/7/borradornotadedebito.png)
 <p align="center">
-  <img src="./assets/img/6/formadepagonotadedebito.png">
+  <img src="./assets/img/7/formadepagonotadedebito.png">
 </p>
 
 Sabemos que es una nota de crédito porque en la pestaña “Otra Información” existe el “Tipo de comprobante” que indica “Nota de Débito”.
 <p align="center">
-  <img src="./assets/img/6/otrainfonotadedebito.png">
+  <img src="./assets/img/7/otrainfonotadedebito.png">
 </p>
 
 #### 7.1.5  Retenciones Ventas
@@ -1174,7 +1176,7 @@ __Información Extra:__ Seleccionar el tipo de comprobante. En la esquina superi
 ![submenu ajustes](./assets/img/7/retencionesventas.png)
 ![submenu ajustes](./assets/img/7/detalleretencionventas.png)
 
-#### 7.1.6 Detalle de Retención en Ventas
+#### 7.1.7 Detalle de Retención en Ventas
 En el módulo de __Contabilidad__, seleccionar en el menú la opción __Detalle de Retención Ventas.__
 Como su propio nombre lo indica, muestra todas las retenciones en ventas de los clientes a una vista sencilla.
 ![submenu ajustes](./assets/img/7/vistadetalleretencionventa.png)
@@ -1195,12 +1197,12 @@ También el sistema permitirá imprimir el recibo de pago, el comprobante de pag
 ![submenu ajustes](./assets/img/7/vistapagos.png)
 En el momento de seleccionar al cliente, si existen pagos pendientes el sistema de manera automática nos mostrará el número de pagos pendientes y la cantidad de estos.
 <p align="center">
-  <img src="./assets/img/6/movpendientrescruce.png">
+  <img src="./assets/img/7/movpendientrescruce.png">
 </p>
 
 En el caso de que se desee cancelar el asiento para volver a realizarlo, es necesario configurar el diario para que permita la cancelación de pagos (para más información dirigirse a Diarios).
 <p align="center">
-  <img src="./assets/img/6/cancelarasientoerror.png">
+  <img src="./assets/img/7/cancelarasientoerror.png">
 </p>
 
 Al momento de realizar un pago en cheque es necesario primero configurar la chequera en el sistema (para más información revisar __Chequeras__ ), la opción de cheques sólo aparecerá si el pago es __enviar dinero__ o una __transferencia interna__ y se selecciona la opción de cheques.
@@ -1209,42 +1211,42 @@ Se procederá a llenar el punto de emisión correspondiente, la ciudad y la fech
 ![submenu ajustes](./assets/img/7/pagosborrador.png)
 Imprimir: El sistema nos permitirá realizar los siguientes reportes ,“recibo de pago”, “cheque”.
 <p align="center">
-  <img src="./assets/img/6/btnimprimirnd.png">
+  <img src="./assets/img/7/btnimprimirnd.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/opcimprimirpagos.png">
+  <img src="./assets/img/7/opcimprimirpagos.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/recibopagopdf.png">
+  <img src="./assets/img/7/recibopagopdf.png">
 </p>
 
 __Acciones:__ La opción de pagos cuenta con las opciones duplicar, suprimir y enviar recibo por correo electrónico.
 <p align="center">
-  <img src="./assets/img/6/accionespago.png">
+  <img src="./assets/img/7/accionespago.png">
 </p>
 En la parte superior encontraremos dos botones:
 <p align="center">
-  <img src="./assets/img/6/botonespagos.png">
+  <img src="./assets/img/7/botonespagos.png">
 </p>
 
 __Factura:__
 <p align="center">
-  <img src="./assets/img/6/facturaenpagos.png">
+  <img src="./assets/img/7/facturaenpagos.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/detallefacturaenpagos.png">
+  <img src="./assets/img/7/detallefacturaenpagos.png">
 </p>
 
 __Asiento contables:__
 <p align="center">
-  <img src="./assets/img/6/asientoscontablespagos.png">
+  <img src="./assets/img/7/asientoscontablespagos.png">
 </p>
 
 __Nota:__ En el caso de que se necesite crear un pago con múltiples facturas, primero se debe visualizar que las facturas estén en estado Abierto.
 
 Se seleccionan las facturas del mismo cliente, por consiguiente, se debe dirigir en la opción Acción y seleccionar Registrar Pago.
 <p align="center">
-  <img src="./assets/img/6/accionregistropago.png">
+  <img src="./assets/img/7/accionregistropago.png">
 </p>
 
 Después de dar clic en la opción Registrar Pago, se debe llenar el formulario seleccionando la cantidad, el diario de pago, la fecha del pago y seleccionar en la opción grupo de facturas; al finalizar dar clic en el botón Validar.
@@ -1255,7 +1257,7 @@ Para terminar de registrar el pago, se debe editar el nuevo formulario que el si
 
 ![submenu ajustes](./assets/img/7/llenarfacturaenpagos.png)
 <p align="center">
-  <img src="./assets/img/6/facturaapartirdepagos.png">
+  <img src="./assets/img/7/facturaapartirdepagos.png">
 </p>
 
 #### 7.1.8 Vehìculo
@@ -1290,7 +1292,7 @@ Se podrá añadir una imagen o foto que identifica el producto, el nombre del pr
 
 En la esquina superior derecha podremos observar tres recuadros: Precio extra, Entrada y Salida, y Unidades vendidos la primera nos permite ver todos los movimientos que ha tenido dicho producto en la empresa, mientras que la segunda nos permite archivar y desarchivar el producto; en el caso de que se archive este producto no aparecerá en las compras o ventas hasta que se desarchive.
 <p align="center">
-  <img src="./assets/img/6/botonesproductos.png">
+  <img src="./assets/img/7/botonesproductos.png">
 </p>
 
 __Información General:__ Se permitirá ingresar detalles específicos del producto y también dejará notas para una mejor referencia como el tipo de producto, referencia interna, código de barras, categoría del producto (si se desea añadir una nueva categoría, el sistema le permitirá crearla desde el ítem de selección), el precio de venta, precio al por mayor, el impuesto a cliente y el costo; también se podrá añadir una nota interna.
@@ -1305,7 +1307,7 @@ __Contabilidad:__ Permite seleccionar la cuenta de ingreso (A cobrar) y la cuent
 
 También el sistema permitirá imprimir en este caso la etiqueta del producto y el código de barra del producto. 
 <p align="center">
-  <img src="./assets/img/6/imprimiretiquetas.png">
+  <img src="./assets/img/7/imprimiretiquetas.png">
 </p>
 
 #### 7.1.11 Clientes
@@ -1330,20 +1332,20 @@ Se procedera a llenar los campos obligatorios (campos de color azul), es importa
 Las líneas de factura, sirven para agregar los productos a la factura, para agregar un producto dar clic en “Agregar línea”, automáticamente puedes seleccionar un producto que esté en el sistema y al momento de añadirlo en la línea se cargarán por defecto los datos del producto como la descripción del mismo, el tipo de cuenta (se puede seleccionar otro tipo si se desea), el impuesto (que por defecto es IVA 12% o código 500 si el producto cuenta con retención); es necesario añadir la línea según el número de retención aplicado en dicho producto, en este caso el código de la retención es 303, el precio dependerá del producto (para más información revisar __Productos__), si en el caso de que un producto tenga un descuento específico se lo puede añadir en la línea, indicas la cantidad de dicho producto y el subtotal dependerá de la suma de : cantidad + precio del producto + descuento + impuestos.
 
 <p align="center">
-  <img src="./assets/img/6/montototalproveedor.png">
+  <img src="./assets/img/7/montototalproveedor.png">
 </p>
 En el caso de que la factura exceda los mil dólares, el sistema le notificará que se debe crear una forma de pago para dicha factura, esta se encuentra la parte inferior, para ingresar una forma de pago se debe hacer clic en agregar línea, se selecciona la forma de dicho pago para esa factura, el total, los plazos y la unidad de tiempo.
 <p align="center">
-  <img src="./assets/img/6/formadepagoproveedor.png">
+  <img src="./assets/img/7/formadepagoproveedor.png">
 </p>
 
 La factura se rige por los siguientes estados: “Borrador”, “Publicado”.
 <p align="center">
-  <img src="./assets/img/6/estadofactproveedor.png">
+  <img src="./assets/img/7/estadofactproveedor.png">
 </p>
 Para cambiar el estado de la factura, se deberá hacer lo siguiente: se dirige a la esquina superior izquierda, donde nos encontraremos con los siguientes botones.
 <p align="center">
-  <img src="./assets/img/6/botonestadosproveedor.png">
+  <img src="./assets/img/7/botonestadosproveedor.png">
 </p>
 
 __Confirmar:__  Antes de validar la factura del proveedor es necesario hacer clic en esta opción, ya que nos ayuda a guardar el cálculo de los impuestos y añade las líneas correspondientes en retenciones.
@@ -1353,10 +1355,10 @@ __Cancelar:__  Permitirá suspender el proceso de guardar el registro del docume
 ![submenu ajustes](./assets/img/7/cancelarfactproveedor.png)
 __Imprimir:__ Esta opción nos permite realizar el reporte de la factura realizada.
 <p align="center">
-  <img src="./assets/img/6/imprimirfactproveedor.png">
+  <img src="./assets/img/7/imprimirfactproveedor.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/factproveedorpdf.png">
+  <img src="./assets/img/7/factproveedorpdf.png">
 </p>
 
 __Comprobante:__ Imprime un archivo PDF que muestra los datos de los asientos contables.
@@ -1373,32 +1375,32 @@ En el caso de que el pago en las líneas de contrapartida no sea igual al valor 
 
 Al momento de guardar la retención, se generará un pago pendiente el cual mostrará en los valores totales de la factura un ítem llamado créditos pendientes, dicho ítem que se mostrará todos los valores de pago pendientes y nos dará la opción de añadir dicho pago al monto total de la factura, en el caso de que se le añada el pago, el monto total de la factura se sumará con el valor pendiente dando como resultado un monto total diferente.
 <p align="center">
-  <img src="./assets/img/6/montototalapagarproveedor.png">
+  <img src="./assets/img/7/montototalapagarproveedor.png">
 </p>
 
 __Agregar nota de crédito:__ Esta opción permite la creación de notas de crédito de manera rápida y sencilla, si la factura está ingresada al sistema es recomendable utilizar este método, ya que permite la optimización del tiempo dentro del proceso de creación de notas de crédito. El proceso es simple: se selecciona el método de crédito (en este caso es el número de la factura) y la fecha de la nota de crédito.
 <p align="center">
-  <img src="./assets/img/6/agregarnotadecreditoproveedor.png">
+  <img src="./assets/img/7/agregarnotadecreditoproveedor.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/crearnotadedebitoproveedor.png">
+  <img src="./assets/img/7/crearnotadedebitoproveedor.png">
 </p>
 
 __Cancelar:__  Permite la cancelación de la factura enviando la misma en un estado adicional llamado cancelado, dicho estado sólo aparecerá si se canceló la factura.
 <p align="center">
-  <img src="./assets/img/6/estadocancelarproveedor.png">
+  <img src="./assets/img/7/estadocancelarproveedor.png">
 </p>
 
 Cuando la factura está en este estado, solo mostrará los siguientes botones: “Documento Electrónico”, “ Previsualizar” y “Cambiar a Borrador”.  
 Si se desea reactivar dicha factura se debe hacer clic en “Cambiar a borrador”, en ese momento el sistema cambiará de estado cancelado a borrador, es el mismo estado que tienen las facturas al momento de recién creadas; luego se procede a modificar los datos existentes y después de válida cuando esté completada.
 
 <p align="center">
-  <img src="./assets/img/6/grabardescartarproveedor.png">
+  <img src="./assets/img/7/grabardescartarproveedor.png">
 </p>
 
 __Nota:__ Cuando la factura se encuentra en los estados “Validado” o “Cancelado”, nos mostrará dentro de la vista de la factura los siguientes botones.
 <p align="center">
-  <img src="./assets/img/6/botonesfactproveedores.png">
+  <img src="./assets/img/7/botonesfactproveedores.png">
 </p>
 
 La primera opción mostrará las retenciones creadas que correspondan a dicha factura.
@@ -1407,14 +1409,14 @@ La segunda opción va a aparecer para los clientes que estén usando el módulo 
 
 __Compartir:__ Esta acción nos permite enviar el documento a uno o más de los destinatarios designados, dichos destinatarios deben tener registrado su correo electrónico en su perfil de contacto.
 <p align="center">
-  <img src="./assets/img/6/accionesproveedor.png">
+  <img src="./assets/img/7/accionesproveedor.png">
 </p>
 
 ![submenu ajustes](./assets/img/7/compartirdocproveedor.png)
 
 __Procesar XML:__ Esta opción permitirá procesar datos de un documento con extensión XML al sistema; primero se debe subir el archivo y después de que el archivo esté cargado, de manera automática el sistema llenará los campos con los datos del XML. Si el proveedor no existe, creará de manera automática los datos de este y los utilizará a la vez en el documento.
 <p align="center">
-  <img src="./assets/img/6/subirxmlproveedor.png">
+  <img src="./assets/img/7/subirxmlproveedor.png">
 </p>
 
 #### 7.2.2 Notas de Crédito
@@ -1443,7 +1445,7 @@ __Información Extra:__  Seleccionar el tipo de comprobante.
 
 En la esquina superior izquierda, debajo de la opción Guardar nos aparecerá una barra para poder validar , y generar el documento electrónico.
 <p align="center">
-  <img src="./assets/img/6/barraretencioncompras.png">
+  <img src="./assets/img/7/barraretencioncompras.png">
 </p>
 
 ![submenu ajustes](./assets/img/7/ejemploretencionesencompras.png)
@@ -1463,7 +1465,7 @@ La Liquidación de compra es un comprobante de pago emitido por las personas nat
 El sistema permitirá la creación y edición del documento, al momento de generar una nueva liquidación es necesario llenar los campos obligatorios que existen en el mismo, la vista que proyectará el sistema es casi idéntica a la factura con la diferencia que se debe especificar el tipo de documento, que en este caso será una liquidación de compra, si se selecciona otro tipo aparecerán unos datos que se deberán llenar; estos son el número de documento tributario, el número de la autorización y la fecha del mismo para poder generar el documento. Podrá validar la liquidación de compra, previsualizar, cancelar, registrar pagos, generar notas de créditos, etc.
 ![submenu ajustes](./assets/img/7/liquidacioncompras.png)
 
-#### 7.2.6 Pagos
+#### 7.2.7 Pagos
 En el módulo de __Contabilidad__, seleccionar en el menú __Proveedores__ la opción __Pagos.__
 
 Un pago es lo que una persona o entidad realiza para poder cancelar o suprimir una obligación que se tenía contraída.  El pago puede efectuarse mediante la entrega de un bien, servicio o activo financiero a cambio de otro bien, servicio o activo financiero.
@@ -1484,7 +1486,7 @@ En el momento de seleccionar al cliente, si existen pagos pendientes el sistema 
 __Desglose de pago:__ Consiste en detallar el gasto total, lo cual permitirá realizar un seguimiento de los gastos se deberá cancelar la proporción del impuesto que tuvo vigente de aquel año.
 
 <p align="center">
-  <img src="./assets/img/6/pagoavanzadoproveedores.png">
+  <img src="./assets/img/7/pagoavanzadoproveedores.png">
 </p>
 
 Para realizar un pago en cheque es necesario primero configurar la cuenta bancaria y chequera en el sistema (para más información revisar __Cuentas Bancarias__  y __Chequeras__ ), la opción de cheques sólo aparecerá si el pago es __enviar dinero__ o una __transferencia interna__ y se selecciona la opción de cheques.
@@ -1493,25 +1495,25 @@ Se procede a llenar el punto de emisión correspondiente, la ciudad y la fecha d
 
 __Imprimir:__ El sistema permitirá realizar los siguientes reportes.
 <p align="center">
-  <img src="./assets/img/6/btnimprimirnd.png">
+  <img src="./assets/img/7/btnimprimirnd.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/opcionesimprimirproveedores.png">
+  <img src="./assets/img/7/opcionesimprimirproveedores.png">
 </p>
 
 __Recibo de pago:__ El recibo de pago es la transacción realizada donde se especificará la cantidad que el cliente ha comprado.
 <p align="center">
-  <img src="./assets/img/6/recibodepagoproveedor.png">
+  <img src="./assets/img/7/recibodepagoproveedor.png">
 </p>
 
 __Cheque:__ Específica en diseño de cuanto es el  monto.
 <p align="center">
-  <img src="./assets/img/6/chequeproveedor.png">
+  <img src="./assets/img/7/chequeproveedor.png">
 </p>
 
 __Acciones:__ La opción de pagos cuenta con las opciones de duplicar, suprimir y enviar recibo por correo.
 <p align="center">
-  <img src="./assets/img/6/accionespago.png">
+  <img src="./assets/img/7/accionespago.png">
 </p>
 
 #### 7.2.7 Productos
@@ -1523,36 +1525,36 @@ Se puede añadir una imagen o foto que identifica el producto, el nombre del pro
 
 ![submenu ajustes](./assets/img/7/ejemploproductoproveedor.png)
 
-En la esquina superior derecha podremos observar 6 recuadros: precios extra, a mano , previsto, entrada y salida, regla de reabastecer.
+En la esquina superior derecha podremos observar 7 recuadros: precios extra, a mano , previsto, entrada y salida, regla de reabastecer.
 <p align="center">
-  <img src="./assets/img/6/botonesproveedorvista.png">
+  <img src="./assets/img/7/botonesproveedorvista.png">
 </p>
 
 
 __Información General:__ Permitir ingresar detalles específicos del producto y también dejar notas para una mejor referencia como el tipo de producto, referencia interna, código de barras, categoría del producto (si se desea añadir una nueva categoría, el sistema le permitirá crearla desde el ítem de selección), el precio de venta, precio al por mayor, el impuesto al cliente y el costo; también se podrá añadir una nota interna.	
 <p align="center">
-  <img src="./assets/img/6/infogeneralproductos.png">
+  <img src="./assets/img/7/infogeneralproductos.png">
 </p>
 
 __Compra:__ Esta opción sólo aparecerá si está marcado ‘Puede ser Comprado’ y especifica el número de impuesto del proveedor para futuras facturas.
 
 <p align="center">
-  <img src="./assets/img/6/apartadocompraproveedor.png">
+  <img src="./assets/img/7/apartadocompraproveedor.png">
 </p>
 
 __Inventario:__ Nos permite ingresar cómo será la operación y logística de dicho producto, agregar descripción para pedidos de entrega y recepciones.
 <p align="center">
-  <img src="./assets/img/6/apartadoinventarioproveedor.png">
+  <img src="./assets/img/7/apartadoinventarioproveedor.png">
 </p>
 
 __Contabilidad:__ Permite seleccionar la cuenta de ingreso (A cobrar) y la cuenta de gastos (A pagar) de dicho producto.
 <p align="center">
-  <img src="./assets/img/6/apartadocontabilidadproveedor.png">
+  <img src="./assets/img/7/apartadocontabilidadproveedor.png">
 </p>
 
 También el sistema en la parte superior en las izquierda nos permite imprimir en este caso la etiqueta del producto , actualización de cantidad y reabastecer .
 <p align="center">
-  <img src="./assets/img/6/imprimiretiquetasproveedor.png">
+  <img src="./assets/img/7/imprimiretiquetasproveedor.png">
 </p>
 
 #### 7.2.8 Proveedores
@@ -1565,36 +1567,36 @@ Automáticamente se abrirá la vista de Proveedores que es igual a la vista de C
 
 En la parte superior encontrarás en boton “Accion”:
 <p align="center">
-  <img src="./assets/img/6/btnaccionproveedor.png">
+  <img src="./assets/img/7/btnaccionproveedor.png">
 </p>
 
 __Archivar:__ En esta opción al momento de dar click te aparecera si desea guardar (aceptar o cancelar) 
 <p align="center">
-  <img src="./assets/img/6/opcarchivarproveedor.png">
+  <img src="./assets/img/7/opcarchivarproveedor.png">
 </p>
 
 __Mandar mensaje de texto SMS:__ Permite enviar mensajes de texto tanto al destinatario .
 <p align="center">
-  <img src="./assets/img/6/opcmandasmsproveedor.png">
+  <img src="./assets/img/7/opcmandasmsproveedor.png">
 </p>
 
 __Libro mayor:__ Permite registrar los datos o movimientos de cuentas que se han realizado con el cliente.
 <p align="center">
-  <img src="./assets/img/6/opclibromayorproveedor.png">
+  <img src="./assets/img/7/opclibromayorproveedor.png">
 </p>
 
 En la parte inferior podrás encontrar los siguientes botones Ver ,Exportar a PDF ,Exportar a XLSX y Cancelar.
 
 __Extracto-Cliente:__ Permite realizar registro de forma detallada de las cuentas con mayor facilidad para el usuario.
 <p align="center">
-  <img src="./assets/img/6/opcextractoclienteproveedor.png">
+  <img src="./assets/img/7/opcextractoclienteproveedor.png">
 </p>
 
 En la parte inferior podrás encontrar los siguientes botones Ver ,Exportar a PDF ,Exportar a XLSX y Cancelar.
 
 __Otorgar acceso al portal:__ Permite seleccionar los contactos  dentro del sistema ya registrada el contacto, correo electrónico,etc. Y luego de terminar de llenar correctamente se podrá dar acceso al portal.
 <p align="center">
-  <img src="./assets/img/6/accesoalportalproveedor.png">
+  <img src="./assets/img/7/accesoalportalproveedor.png">
 </p>
 
 ### 7.3 Contabilidad
@@ -1625,7 +1627,7 @@ __Nota:__ En la parte superior tenemos la opción de “Confirmar todos”, “B
 
 __Confirmar:__ Confirma el asiento y el estado cambia de borrador a cerrado.
 <p align="center">
-  <img src="./assets/img/6/borradorcerrarconciliaciones.png">
+  <img src="./assets/img/7/borradorcerrarconciliaciones.png">
 </p>
 
 __Confirmar todos:__ Confirma todos los asientos que se encuentran dentro de la conciliación.
@@ -1638,7 +1640,7 @@ __Conciliar líneas:__  Abre una vista en donde muestra todos los asientos para 
 
 En la parte superior izquierda, tendremos una barra con la opción de confirmar dicha conciliación, sólo aparecerá dicha conciliación si y sólo si está confirmada.
 <p align="center">
-  <img src="./assets/img/6/conciliacionesasientos.png">
+  <img src="./assets/img/7/conciliacionesasientos.png">
 </p>
 
 __Importante:__ Para realizar una correcta conciliación, es necesario:
@@ -1655,14 +1657,14 @@ __Cuentas:__ Permite agregar líneas en el diario de asientos contables.
 
 __D/C no incluidos-Banco:__ Detalla los depósitos y créditos no incluidos por el Banco.
 <p align="center">
-  <img src="./assets/img/6/noincluidosBanco.png">
+  <img src="./assets/img/7/noincluidosBanco.png">
 </p>
 
 __Cheques G/NC:__ Detalla los cheques girados y no cobrados.
 
 __Débitos no registrados-Banco:__ Detalla los débitos no registrados por el Banco
 <p align="center">
-  <img src="./assets/img/6/debitosnoregistradosBanco.png">
+  <img src="./assets/img/7/debitosnoregistradosBanco.png">
 </p>
 
 __D/OC no incluidos-Libros:__ Detalla los depósitos y otros créditos no incluidos en Libros.
@@ -1692,7 +1694,7 @@ __Asiento de reversión:__  Permite revertir el asiento seleccionado.
 El sistema nos permite realizar las siguientes acciones:
 
 <p align="center">
-  <img src="./assets/img/6/accionesasientoscontables.png">
+  <img src="./assets/img/7/accionesasientoscontables.png">
 </p>
 
 __Duplicar:__  Duplica el asiento seleccionado.
@@ -1725,7 +1727,7 @@ El sistema Contigo genera los apuntes contables según el asiento contable.
 
 El sistema permite realizar las siguientes acciones:
 <p align="center">
-  <img src="./assets/img/6/accionesapuntescontables.png">
+  <img src="./assets/img/7/accionesapuntescontables.png">
 </p>
 
 __Suprimir:__ Elimina el apunte contable.
@@ -1746,19 +1748,19 @@ __CONCILIAR:__ Esta opción permite realizar el respectivo cruce de las diferent
 Para saldar dichos valores pendientes es necesario primero elegir a nuestro cliente o proveedor, al momento de seleccionarlo aparecerá en la parte de abajo el nombre del cliente o proveedor con los respectivos montos para su cruce.
 
 <p align="center">
-  <img src="./assets/img/6/nombreusuarioconciliar.png">
+  <img src="./assets/img/7/nombreusuarioconciliar.png">
 </p>
 
 ![submenu ajustes](./assets/img/7/cporcclientes.png)
 
 En el caso de que estén múltiples movimientos pendientes, el sistema proporciona un filtro para cada cliente o proveedor.
 <p align="center">
-  <img src="./assets/img/6/filtrobusquedaapuntecontables.png">
+  <img src="./assets/img/7/filtrobusquedaapuntecontables.png">
 </p>
 
 Si se desea saber cuántos cruces hay pendientes en el sistema, solo nos fijamos en la parte derecha superior del sistema; habrá una barra que indicará el número de cruces pendientes a realizar, en este ejemplo podremos observar que tenemos 1 conciliación a realizar.
 <p align="center">
-  <img src="./assets/img/6/pendientesaconciliar.png">
+  <img src="./assets/img/7/pendientesaconciliar.png">
 </p>
 
 Para realizar el cruce es necesario crear un saldo, dependiendo del monto de este, nos permitirá conciliar o no.
@@ -1769,7 +1771,7 @@ Si se desea omitir dicho cruce, solo se debe dar clic en la opción Saltar, de e
 
 __Importante:__  Antes de realizar cualquier documento dentro del sistema, se debe configurar los respectivos diarios (para más información revisar __Diarios__).
 
-#### 7.3.6 Acciones / Fecha de bloqueo
+#### 7.3.7 Acciones / Fecha de bloqueo
 
 
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Acciones__ la opción __Actualizar fecha de bloqueo.__
@@ -1794,7 +1796,7 @@ Al momento de generar una chequera, es necesario colocar el número de la cheque
 Para generar los cheques de dicha chequera es necesario dar clic en la opción Revisar, de manera automática el sistema generará los cheques con los parámetros especificados anteriormente; cuando se hayan generado los cheques, ya no será posible editar los datos anteriores para su creación.
 
 <p align="center">
-  <img src="./assets/img/6/btnrevisarchequera.png">
+  <img src="./assets/img/7/btnrevisarchequera.png">
 </p>
 
 ![submenu ajustes](./assets/img/7/chequesgeneradoschequera.png)
@@ -1805,23 +1807,23 @@ __Información:__ Permite agregar una nota.
 
 Para poder utilizar los cheques generados, es necesario dar clic en la opción Activar.
 <p align="center">
-  <img src="./assets/img/6/btnactivarchequeras.png">
+  <img src="./assets/img/7/btnactivarchequeras.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/chequeraactiva.png">
+  <img src="./assets/img/7/chequeraactiva.png">
 </p>
 
 __Nota:__ Si se desea cancelar la chequera, es necesario indicar el motivo de su cancelación y después de eso dar clic en la opción cancelar que se encuentra ubicada en la parte superior izquierda; en el caso de querer volver a utilizar la chequera, se deberá dar clic en la opción volver a borrador.
 <p align="center">
-  <img src="./assets/img/6/razondecancelacionchequeras.png">
+  <img src="./assets/img/7/razondecancelacionchequeras.png">
 </p>
 
 Si se desea inactivar la chequera, más no cancelarla, es necesario dar clic en la opción hibernar la chequera, de manera automática los cheques que no se han utilizado quedarán inactivos.
 <p align="center">
-  <img src="./assets/img/6/btnreactivarchequera.png">
+  <img src="./assets/img/7/btnreactivarchequera.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/estadoinactivochequera.png">
+  <img src="./assets/img/7/estadoinactivochequera.png">
 </p>
 
 
@@ -1842,7 +1844,7 @@ Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilid
 
 Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
 <p align="center">
-  <img src="./assets/img/6/accionesdiarioscontables.png">
+  <img src="./assets/img/7/accionesdiarioscontables.png">
 </p>
 
 __Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
@@ -1858,11 +1860,11 @@ __Entradas automáticas:__ Nos permite crear asientos contables automáticamente
 Existe la opción de exportar todos los registros dentro de este apartado en un archivo excel:
 
 <p align="center">
-  <img src="./assets/img/6/localizacionpaisesdescarga.png">
+  <img src="./assets/img/7/localizacionpaisesdescarga.png">
 </p>
 
 <p align="center">
-  <img src="./assets/img/6/exceldiariocontable.png">
+  <img src="./assets/img/7/exceldiariocontable.png">
 </p>
 
 ![submenu ajustes](./assets/img/7/vistaexceldiariocontable.png)
@@ -1871,15 +1873,15 @@ Dentro de Ventas se pueden visualizar diferentes vistas como poder ver los regis
 
 1) __Vista Lista:__ Muestra los datos en forma de listado
 <p align="center">
-  <img src="./assets/img/6/viewlistdiariocontable.png">
+  <img src="./assets/img/7/viewlistdiariocontable.png">
 </p>
 
 2) __Tabla Dinámica:__ Muestra los datos en forma de tabla que permite interactuar con los ejes y cambiar los datos (medidas), también nos permite descargar un XML
 <p align="center">
-  <img src="./assets/img/6/tabladinamicadiariocontableventas.png">
+  <img src="./assets/img/7/tabladinamicadiariocontableventas.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/excelvistadinamica.png">
+  <img src="./assets/img/7/excelvistadinamica.png">
 </p>
 
 4) __Vista Gráfica:__ Permite visualizar los datos en diferentes diagramas gráficos de manera ascendente y descendente.
@@ -1887,12 +1889,12 @@ Dentro de Ventas se pueden visualizar diferentes vistas como poder ver los regis
   <img src="assets/img/7/vistagrafica.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/tipodevistagrafica.png">
+  <img src="./assets/img/7/tipodevistagrafica.png">
 </p>
 
 5) __Vista Kanban:__ vista basada en tarjeta en la que se muestran los datos de manera organizada para una mejor comprensión.
 <p align="center">
-  <img src="./assets/img/6/vistakanbandiarioscontablesventas.png">
+  <img src="./assets/img/7/vistakanbandiarioscontablesventas.png">
 </p>
 
 #### 7.3.10 Diarios Contables /Compras
@@ -1901,12 +1903,12 @@ Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilid
 
 Al igual que el apartado anterior  muestra opciones/filtros de búsqueda, diferentes maneras de visualizar los registros.
 <p align="center">
-  <img src="./assets/img/6/diariocontablescompras.png">
+  <img src="./assets/img/7/diariocontablescompras.png">
 </p>
 
 Al seleccionar registros aparecen acciones que podemos realizar según nuestra necesidad:
 <p align="center">
-  <img src="./assets/img/6/accionesdiarioscompras.png">
+  <img src="./assets/img/7/accionesdiarioscompras.png">
 </p>
 
 __Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
@@ -1926,45 +1928,45 @@ Existe la opción de exportar todos los registros dentro de este apartado en un 
 </p>
 
 <p align="center">
-  <img src="./assets/img/6/exceldiariocontable.png">
+  <img src="./assets/img/7/exceldiariocontable.png">
 </p>
 
 <p align="center">
-  <img src="./assets/img/6/exceldescargadiariocontcompras.png">
+  <img src="./assets/img/7/exceldescargadiariocontcompras.png">
 </p>
 
 Se visualiza una barra de búsqueda en la que se puede filtrar los datos para obtener lo que se conoce como una búsqueda personalizada:
 
 <p align="center">
-  <img src="./assets/img/6/barrabusquedacompras.png">
+  <img src="./assets/img/7/barrabusquedacompras.png">
 </p>
 
 Dentro de Compras obtenemos diferentes vistas de como poder visualizar los registros e interactuar con ellos:
 
 1) __Vista Lista:__ Muestra los datos en forma de listado
 <p align="center">
-  <img src="./assets/img/6/viewlistcompras.png">
+  <img src="./assets/img/7/viewlistcompras.png">
 </p>
 
 2) __Tabla Dinámica:__ Muestra los datos en forma de tabla que permite interactuar con los ejes y cambiar los datos (medidas), también nos permite descargar un XML 
 <p align="center">
-  <img src="./assets/img/6/tabladinamicacompras.png">
+  <img src="./assets/img/7/tabladinamicacompras.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/excelvistadinamicacompras.png">
+  <img src="./assets/img/7/excelvistadinamicacompras.png">
 </p>
 
 4) __Vista Gráfica:__ Permite visualizar los datos en diferentes diagramas gráficos de manera ascendente y descendente.
 <p align="center">
-  <img src="./assets/img/6/vistagraficacompras.png">
+  <img src="./assets/img/7/vistagraficacompras.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/tipodevistagraficacompras.png">
+  <img src="./assets/img/7/tipodevistagraficacompras.png">
 </p>
 
 5) __Vista Kanban:__ vista basada en tarjeta en la que se muestran los datos de manera organizada para una mejor comprensión.
 <p align="center">
-  <img src="./assets/img/6/vistakanbancompras.png">
+  <img src="./assets/img/7/vistakanbancompras.png">
 </p>
 
 #### 7.3.11 Diarios Contables /Banco y Efectivo
@@ -1981,7 +1983,7 @@ __Diario de Efectivo:__ El diario de efectivo registra todas las transacciones d
 Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
 
 <p align="center">
-  <img src="./assets/img/6/accionbancoefectivo.png">
+  <img src="./assets/img/7/accionbancoefectivo.png">
 </p>
 
 __Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
@@ -1997,48 +1999,48 @@ __Entradas automáticas:__ Permite crear asientos contables automáticamente.
 Al igual que el apartado anterior se muestra opciones/filtros de búsqueda, diferentes maneras de visualizar los registros.
 
 <p align="center">
-  <img src="./assets/img/6/filtrobusquedabancoefectivo.png">
+  <img src="./assets/img/7/filtrobusquedabancoefectivo.png">
 </p>
 
 Existe la opción de exportar todos los registros dentro de este apartado en un archivo excel:
 <p align="center">
-  <img src="./assets/img/6/localizacionpaisesdescarga.png">
+  <img src="./assets/img/7/localizacionpaisesdescarga.png">
 </p>
 
 <p align="center">
-  <img src="./assets/img/6/exceldiariocontable.png">
+  <img src="./assets/img/7/exceldiariocontable.png">
 </p>
 
 <p align="center">
-  <img src="./assets/img/6/excelbancoefectivo.png">
+  <img src="./assets/img/7/excelbancoefectivo.png">
 </p>
 
 Dentro de Compras obtenemos diferentes vistas como poder visualizar los registros e interactuar con ellos:
 
 1) __Vista Lista:__ Muestra los datos en forma de listado
 <p align="center">
-  <img src="./assets/img/6/vistalistabancoefectivo.png">
+  <img src="./assets/img/7/vistalistabancoefectivo.png">
 </p>
 
 2) __Tabla Dinámica:__ Muestra los datos en forma de tabla que permite interactuar con los ejes y cambiar los datos (medidas), también nos permite descargar un XML 
 <p align="center">
-  <img src="./assets/img/6/tabladinamicabancoefectivo.png">
+  <img src="./assets/img/7/tabladinamicabancoefectivo.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/tabladinamicabancoefectivoexcel.png">
+  <img src="./assets/img/7/tabladinamicabancoefectivoexcel.png">
 </p>
 
 4) __Vista Gráfica:__ Permite visualizar los datos en diferentes diagramas gráficos de manera ascendente y descendente.
 <p align="center">
-  <img src="./assets/img/6/vistagraficabancoefectivo.png">
+  <img src="./assets/img/7/vistagraficabancoefectivo.png">
 </p>
 <p align="center">
-  <img src="./assets/img/6/tipovistagraficabancoefectivo.png">
+  <img src="./assets/img/7/tipovistagraficabancoefectivo.png">
 </p>
 
 5) __Vista Kanban:__ vista basada en tarjeta en la que se muestran los datos de manera organizada para una mejor comprensión.
 <p align="center">
-  <img src="./assets/img/6/vistakanbanbancoefectivo.png">
+  <img src="./assets/img/7/vistakanbanbancoefectivo.png">
 </p>
 
 #### 7.3.12 Diarios Contables /Varios
@@ -2051,7 +2053,7 @@ Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilid
 Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
 
 <p align="center">
-  <img src="./assets/img/6/diarioscontables_accion.png">
+  <img src="./assets/img/7/diarioscontables_accion.png">
 </p>
 
 __Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
@@ -2072,12 +2074,12 @@ Tenemos la opción de exportar todos los registros dentro de este apartado en un
 
 
 <p align="center">
-  <img src="./assets/img/6/diarioscontables_descarga.png">
+  <img src="./assets/img/7/diarioscontables_descarga.png">
 </p>
 
 
 <p align="center">
-  <img src="./assets/img/6/diarioscontables_apuntecontable.png">
+  <img src="./assets/img/7/diarioscontables_apuntecontable.png">
 </p>
 
 ![submenu ajustes](./assets/img/7/diarioscontables_apuntecontables.png)
@@ -2118,7 +2120,7 @@ Es un registro contable que recopila y resume todas las transacciones financiera
 Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
 
 <p align="center">
-  <img src="./assets/img/6/librosmayores_accion.png">
+  <img src="./assets/img/7/librosmayores_accion.png">
 </p>
 
 __Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
@@ -2147,7 +2149,7 @@ Es una parte esencial del sistema ya que permite tener un panorama completo y or
 Al seleccionar registros nos aparecen acciones que podemos realizar según nuestra necesidad:
 
 <p align="center">
-  <img src="./assets/img/6/librosmayores_acciones.png">
+  <img src="./assets/img/7/librosmayores_acciones.png">
 </p>
 
 __Exportar:__ Permite descargar los datos en un archivo excel o en un archivo csv.
@@ -2186,19 +2188,19 @@ Para crear un extracto bancario debemos de tener en cuenta lo siguiente:
 Para publicar el extracto bancario tenemos que dar click en el siguiente botón:
 
 <p align="center">
-  <img src="./assets/img/6/bancoycaja_publica.png">
+  <img src="./assets/img/7/bancoycaja_publica.png">
 </p>
 
 El estado del documento estará en “procesando” hasta que no se grabe el registro:
 
 <p align="center">
-  <img src="./assets/img/6/bancoycaja_procesando.png">
+  <img src="./assets/img/7/bancoycaja_procesando.png">
 </p>
 
 Dentro del formulario tenemos dos opciones:
 
 <p align="center">
-  <img src="./assets/img/6/bancoycja_conciliar.png">
+  <img src="./assets/img/7/bancoycja_conciliar.png">
 </p>
 
 Conciliar: Permite enlazar este extracto con cuentas bancarias 
@@ -2209,7 +2211,7 @@ Restablecer a nuevo: Envia al documento en estado de borrador
 
 
 
-#### 7.3.16 Banco y Caja /Registros de caja 
+#### 7.3.17 Banco y Caja /Registros de caja 
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Contabilidad__ y buscar en __Banco y Caja__la opción __Registros de caja.__
 
 Dentro de estos registros incluimos una variedad de tipos de transacciones, como ventas en efectivo, compras en efectivo, gastos menores, pagos recibidos, retiros de efectivo, depósitos bancarios y más.
@@ -2220,7 +2222,7 @@ Dentro de estos registros incluimos una variedad de tipos de transacciones, como
 En la primera página tenemos lo que es el botón crear, para generar nuevos registros, y por otro lado el botón de exportar todo:
 
 <p align="center">
-  <img src="./assets/img/6/bancoycaja_descarga.png">
+  <img src="./assets/img/7/bancoycaja_descarga.png">
 </p>
 
 Este botón nos ayuda a descargar un excel con todos los registros creados.
@@ -2255,7 +2257,7 @@ __Imprimir:__ Se descarga un pdf imprimible del extracto.
 El sistema permite realizar las siguientes acciones:
 
 <p align="center">
-  <img src="./assets/img/6/bancoycaja_accion.png">
+  <img src="./assets/img/7/bancoycaja_accion.png">
 </p>
 
 
@@ -2284,7 +2286,7 @@ Esta opción nos permite ver cuánto se ha facturado en lo que va de los meses t
 #### 7.4.2 Administración / Cuentas por Pagar
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Administración__ la opción __Cuentas por Pagar.__
 
-El sistema mostrará los apuntes contables realizados, la fecha de creación, los montos vencidos dentro de 30, 60, 90 o más días y el total pendiente; de esta manera nos permite visualizar los pagos realizados hacia nuestros clientes/proveedores y observar los pagos pendientes de realizar.
+El sistema mostrará los apuntes contables realizados, la fecha de creación, los montos vencidos dentro de 30, 70, 90 o más días y el total pendiente; de esta manera nos permite visualizar los pagos realizados hacia nuestros clientes/proveedores y observar los pagos pendientes de realizar.
 
 ![submenu ajustes](./assets/img/7/cuentasporpagar.png)
 
@@ -2292,7 +2294,7 @@ El sistema mostrará los apuntes contables realizados, la fecha de creación, lo
 
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Administración__ la opción Cuentas por __Cobrar__.
 
-El sistema mostrará los apuntes contables realizados, la fecha de creación, los montos vencidos dentro de 30, 60, 90 o más días y el total pendiente; de esta manera nos permite visualizar los pagos realizados hacia nuestros clientes/proveedores y observar los cobros pendientes de realizar.
+El sistema mostrará los apuntes contables realizados, la fecha de creación, los montos vencidos dentro de 30, 70, 90 o más días y el total pendiente; de esta manera nos permite visualizar los pagos realizados hacia nuestros clientes/proveedores y observar los cobros pendientes de realizar.
 
 
 ![submenu ajustes](./assets/img/7/Administracioncuentasporcobrar.png)
@@ -2315,7 +2317,7 @@ Genera un reporte con la información de compra en un rango de fechas especifica
 
 ![submenu ajustes](./assets/img/7/informaciondeCompras.png)
 
-#### 7.4.6 Informes de Contabilidad OCA/Libro mayor
+#### 7.4.7 Informes de Contabilidad OCA/Libro mayor
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ y buscar en __Informes de Contabilidad__ OCA la opción __Libro mayor__.
 
 Genera una tabla con todo el balance con la información de un periodo desde una fecha inicial hasta una fecha final, los movimientos de destino en el cual se puede elegir entre dos opciones: Todos los asientos publicados o solo todos los asientos que son los asientos que han sido creados pero no han sido publicados, además de haber un grupo llamado “agrupado por: ” (Empresas, Impuestos o Ninguna), sigue por elegir entre varias opciones entre las cuales se encuentra: Activar centralización que mostrará los valores con las fechas, Ocultar saldos finales con valor 0, Mostrar Moneda Extranjera, Mostrar etiquetas analíticas y Mostrar Cuenta Analítica, también tendremos filtros, filtros de cuenta en el cual si desea que les muestre solo las cuentas a pagar, las cuentas a cobrar o ambas, también puede poner desde que código hasta que código pero también hay una barra para poner los código que quiere ver, en filtrar empresa se encuentra una barra para poner cuantas empresas desea mostrar, filtrar por etiquetas analíticas permite ver cuales datos desea ver que contienen la etiquetas que deseamos y filtrado adicional que nos permite combinar todos los registros según el dominio que hayamos editado, sino elige ningun cambio por los filtros el resultado sería que esté mostrará todas las tablas de datos que hayamos insertados, al final puedes mostrar la tabla o importarla a XLS o a Pdf, se mostrará una tabla conformada por fecha, asiento, diario, cuenta, impuestos, empresas, referencias, cuentas analiticas, el debe, el haber y el saldo acumulado
@@ -2403,7 +2405,7 @@ Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Informe__ 
 
 Genera un reporte con la información del plan contable de la empresa, por defecto seleccionará la compañía y los niveles que se desean visualizar en el reporte.
 
-Importante: El plan contable cuenta con niveles (del 1 al 6), al momento de seleccionar el nivel en el plan contable por ejemplo 5, el reporte mostrará desde el nivel 1 hasta el nivel 5.
+Importante: El plan contable cuenta con niveles (del 1 al 7), al momento de seleccionar el nivel en el plan contable por ejemplo 5, el reporte mostrará desde el nivel 1 hasta el nivel 5.
 
 ![submenu ajustes](./assets/img/7/reporfinancierosplancontable.png)
 ![submenu ajustes](./assets/img/7/plancontable.png)
@@ -2440,7 +2442,7 @@ Al momento de generar una nueva cuenta, es necesario añadir el código de esta,
 El sistema nos permite realizar las siguientes acciones:
 
 <p align="center">
-  <img src="assets/img/6/contplandecuentasaccion.png">
+  <img src="assets/img/7/contplandecuentasaccion.png">
 </p>
 
 __Duplicar__: Nos permite duplicar dicho registro.
@@ -2498,7 +2500,7 @@ __Configuración avanzada:__ Se indica el método de pago para los pagos recibid
 
 ![submenu ajustes](./assets/img/7/contabilidadconfiguracionavanzada.png)
 
-#### 7.5.6 Contabilidad /Monedas 
+#### 7.5.7 Contabilidad /Monedas 
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Monedas__.
 
 Las monedas se especifican de cada país al momento de enviar una transacción de dinero de un lugar a otro dentro de la estructura podemos ver sus ingresos y  actualizaciones.
@@ -2547,9 +2549,9 @@ Los grupos de impuestos son categorías organizativas utilizadas en contabilidad
 
 
 
-## 7.6 Configuracion 
+## 7.7 Configuracion 
 
-### 7.6.1 Contabilidad / Plan de Cuentas
+### 7.7.1 Contabilidad / Plan de Cuentas
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Plan de Cuentas__.
 El Plan de Cuentas es un conjunto de normas que establecen los procedimientos y métodos necesarios para el registro de la actividad económica de una empresa.
 __Importante:__ Es necesario revisar el plan de cuentas para verificar si están todas las cuentas que son necesarias para la empresa, si no se encuentran todas las cuentas requeridas para tu negocio; el sistema contigo te permite crearlas para utilizarlas posteriormente.
@@ -2567,14 +2569,14 @@ __configuración__
 El sistema nos permite realizar las siguientes acciones:
 
 <p align="center">
-  <img src="assets/img/6/contabilidad_accion.png">
+  <img src="assets/img/7/contabilidad_accion.png">
 </p>
 
 __Duplicar:__ Nos permite duplicar dicho registro.
 
 __Suprimir:__  Nos permite borrar.
 
-### 7.6.2   Contabilidad / Impuestos
+### 7.7.2   Contabilidad / Impuestos
 
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Impuestos.__
 
@@ -2590,7 +2592,7 @@ __Opciones avanzadas:__ Se añade la etiqueta que tendrá en facturas, el grupo 
 
 ![submenu ajustes](./assets/img/7/contabilidad_opcionesavanzadas.png)
 
-### 7.6.3 Contabilidad / Posiciones Fiscales
+### 7.7.3 Contabilidad / Posiciones Fiscales
 
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Posiciones Fiscales.__
 
@@ -2611,13 +2613,13 @@ Si se desea añadir alguna advertencia, se procede a llenar la casilla de Advert
 
 ![submenu ajustes](./assets/img/7/contabilidad_advertencialegal.png)
 
-### 7.6.4 Contabilidad / Grupos de Diarios
+### 7.7.4 Contabilidad / Grupos de Diarios
 Se refiere a un conjunto o categoría de transacciones financieras que comparten características similares y que se registran en un mismo libro de contabilidad, conocido como el "diario". 
 
 ![submenu ajustes](./assets/img/7/grupodecuentas.png)
 
 
-### 7.6.5 Contabilidad / Diarios Contables
+### 7.7.5 Contabilidad / Diarios Contables
 
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Diarios Contables.__
 
@@ -2631,7 +2633,7 @@ __Configuración avanzada:__ Se indica el método de pago para los pagos recibid
 
 ![submenu ajustes](./assets/img/7/contabilidad_avanzado.png)
 
-### 7.6.6 Contabilidad /Monedas 
+### 7.7.7 Contabilidad /Monedas 
 Ingresar al módulo de __Contabilidad,__ posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Monedas.__
 
 Las monedas se especifican de cada país al momento de enviar una transacción de dinero de un lugar a otro dentro de la estructura podemos ver sus ingresos y actualizaciones.
@@ -2645,7 +2647,7 @@ Al momento de crear nos envía un formulario donde se llenará los campos solici
 La tasa podemos ver la fecha donde podemos agregar línea  donde se refleja unidad por USD y USD por unidad.
 
 
-### 7.6.7 Facturación / Incoterms
+### 7.7.7 Facturación / Incoterms
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Incoterms.__
 
 Los incoterms son términos, de tres letras cada uno, que reflejan las normas de aceptación voluntaria por las partes en un contrato de compraventa internacional de mercaderías acerca de las condiciones de entrega de las mercancías.  Se usan para aclarar los costes de las transacciones comerciales internacionales, delimitando las responsabilidades entre el comprador y el vendedor, y reflejan la práctica actual en el transporte internacional de mercancías.
@@ -2656,7 +2658,7 @@ Al momento de generar un nuevo Incoterms es necesario ingresar el nombre y el c�
 ![submenu ajustes](./assets/img/7/facturacion_Incoterms.png)
 
 
-### 7.6.8 Contabilidad / Tipos de Cuentas
+### 7.7.8 Contabilidad / Tipos de Cuentas
 
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Tipos de Cuentas.__
 
@@ -2666,30 +2668,30 @@ Al momento de generar una nueva cuenta bancaria, es necesario indicar el nombre 
 ![submenu ajustes](./assets/img/7/contabilidad_tiposdecuentas.png)
 
 
-### 7.6.9 Contabilidad / Etiquetas de cuenta
+### 7.7.9 Contabilidad / Etiquetas de cuenta
 Se refiere a descripciones o categorías que se asignan a las cuentas contables para ayudar a organizar y clasificar las transacciones financieras de una empresa de manera más detallada y comprensible. 
 
 ![submenu ajustes](./assets/img/7/contabilidad_etiquetasdecuenta.png)
 
-### 7.6.10 Contabilidad / Grupos de cuentas
+### 7.7.10 Contabilidad / Grupos de cuentas
 Los grupos de cuentas son categorías organizativas utilizadas en contabilidad para agrupar cuentas similares con el propósito de facilitar la contabilización, la generación de informes financieros y el análisis.
 
 ![submenu ajustes](./assets/img/7/contabilidad_gruposdecuentas.png)
 
 ![submenu ajustes](./assets/img/7/contabilidad_gruposdecuenta.png)
 
-### 7.6.11   Contabilidad / Grupos de impuestos
+### 7.7.11   Contabilidad / Grupos de impuestos
 Los grupos de impuestos son categorías organizativas utilizadas en contabilidad y finanzas para agrupar diferentes tipos de impuestos y obligaciones tributarias con el fin de simplificar su cálculo, registro y presentación.
 
 ![submenu ajustes](./assets/img/7/contabilidad_gruposdeimpuestos.png)
 
-### 7.6.12 Bancos / Agregar una cuenta bancaria
+### 7.7.12 Bancos / Agregar una cuenta bancaria
 Se refiere a registrar y configurar esa cuenta bancaria en el sistema contable de una empresa para llevar un registro preciso de todas las transacciones financieras relacionadas con esa cuenta.
 
 ![submenu ajustes](./assets/img/7/banco_agregarunacuentabancaria.png)
 
 
-### 7.6.13 Bancos / Modelos de Conciliación
+### 7.7.13 Bancos / Modelos de Conciliación
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Bancos__ la opción __Modelos de Conciliación.__
 
 El modelo de conciliación bancaria proporciona orientación detallada sobre cómo llevar a cabo cada aspecto del proceso de conciliación, desde la configuración hasta la creación de registros de ajuste. Cada elemento mencionado anteriormente estaría explicado en profundidad para guiar a los usuarios a través del proceso de manera efectiva.
@@ -2700,7 +2702,7 @@ El modelo de conciliación bancaria proporciona orientación detallada sobre có
 
 ![submenu ajustes](./assets/img/7/bancos_modelosconciliacion.png)
 
-### 7.6.14 Contabilidad / Sustento de Comprobantes
+### 7.7.14 Contabilidad / Sustento de Comprobantes
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Contabilidad__ la opción __Sustento de Comprobantes.__
 
 Nos permite generar los diferentes tipos de documentos, ingresar el código, el tipo de sustento, fecha de inicio, fecha de fin y agregar los sustentos de comprobantes relacionados al tipo de documento (para más información revisar Comprobantes Autorizados).
@@ -2709,12 +2711,12 @@ Nos permite generar los diferentes tipos de documentos, ingresar el código, el 
 
 ![submenu ajustes](./assets/img/7/contabilidad_sustentosdecomprobantes.png)
 
-### 7.6.15 Contabilidad / Tipos de Documentos
+### 7.7.15 Contabilidad / Tipos de Documentos
 Se refiere a las distintas formas o registros utilizados para respaldar y registrar las transacciones financieras de una empresa. Estos documentos son esenciales para mantener un registro adecuado de las operaciones financieras y para cumplir con los requisitos legales y contables. 
 
 ![submenu ajustes](./assets/img/7/contabilidad_tiposdedocumentos.png)
 
-### 7.6.16 Facturación / Puntos de Emisión
+### 7.7.17 Facturación / Puntos de Emisión
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Puntos de Emisión.__
 
 El punto de emisión corresponde al primer grupo del número de serie de una factura o comprobante autorizado, tiene 3 dígitos, este número identifica al establecimiento o negocio en particular.
@@ -2727,7 +2729,7 @@ Importante: El secuencial se asigna de manera automática en el sistema, por eje
 
 ![submenu ajustes](./assets/img/7/facturacion_puntosdeemision.png)
 
-### 7.6.17 Facturación/ Periodos
+### 7.7.17 Facturación/ Periodos
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Periodos.__
 
 Un período contable, en contabilidad, es el período en el que se hace referencia a los libros contables de cualquier entidad.
@@ -2740,7 +2742,7 @@ Se ingresa el nuevo año fiscal, el nombre, el código, la fecha de inicio y la 
 
 ![submenu ajustes](./assets/img/7/facturacion_periodo.png)
 
-### 7.6.18 Facturación / Año Fiscal
+### 7.7.18 Facturación / Año Fiscal
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Año Fiscal.__
 
 Se trata del periodo de doce meses de duración con el cual una empresa organiza y planifica su calendario fiscal.  De este modo es posible llevar a cabo sus respectivas obligaciones tributarias con normalidad y planificar el siguiente ejercicio fiscal.
@@ -2752,12 +2754,12 @@ Al momento de generar un nuevo año fiscal, es necesario ingresar el nombre de e
 
 ![submenu ajustes](./assets/img/7/facturacion_añosfiscale.png)
 
-### 7.6.19 Facturación/ Payment Methods SRI (Métodos de Pago SRI)
+### 7.7.19 Facturación/ Payment Methods SRI (Métodos de Pago SRI)
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Payment Methods (Métodos de Pago SRI).__
 
 
 <p align="center">
-  <img src="assets/img/6/Facturacion_PaymentMethodsSRI(MetodosdePagoSRI).png">
+  <img src="assets/img/7/Facturacion_PaymentMethodsSRI(MetodosdePagoSRI).png">
 </p>
 
 En este apartado podemos crear diferentes métodos de pago , estos métodos se verán reflejados en secciones como Facturas entre otros.
@@ -2767,7 +2769,7 @@ Al momento de generar un nuevo  es necesario llenar los campos , el nombre y el 
 ![submenu ajustes](./assets/img/7/Facturacion_PaymentMethodsSRI.png)
 
 
-### 7.6.20 Facturación / Plazos de Pago
+### 7.7.20 Facturación / Plazos de Pago
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Facturación__ la opción __Plazos de Pago.__
 
 Se denomina compraventa a plazos a una modalidad de compraventa utilizada, normalmente, para bienes duraderos, a través del cual el pago del precio no se hace en el momento de la adquisición del bien, sino que se difiere en el tiempo a través de una serie de pagos denominados "plazos", "cuotas" o "abonos" (en ocasiones, también reciben coloquialmente el nombre de "letras").
@@ -2782,7 +2784,7 @@ número del mes.
 
 
 
-### 7.6.21 Administración / Categoría de Productos
+### 7.7.21 Administración / Categoría de Productos
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Administración__ la opción __Categoría de Productos.__
 
 Las categorías te permiten clasificar tus productos de forma que se puedan agrupar productos similares en los listados. Al momento de ingresar una nueva categoría es necesario ingresar el nombre de esta, si esta depende de otra categoría (categoría padre) se la puede agregar, forzar las estrategias de retiradas por medio de los métodos FIFO y LIFO, indicar el método de coste, la valoración del inventario, la cuenta de ingreso del producto, la cuenta de gasto de este, la cuenta de entrada de stock, la cuenta de salida de stock, la cuenta de valoración de stock y el diario del stock.
@@ -2797,11 +2799,11 @@ Si se desea observar todos los productos que contengan dicha categoría, podremo
 
 
 <p align="center">
-  <img src="assets/img/6/administracion_producto.png">
+  <img src="assets/img/7/administracion_producto.png">
 </p>
 
 
-### 7.6.22 Administración / Modos de pago
+### 7.7.22 Administración / Modos de pago
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Administración__ la opción __Modos de pago.__
 
 La información en estos campos se utilizaría para llevar un registro de las transacciones financieras y para garantizar que los pagos se realicen de manera adecuada y segura.
@@ -2811,7 +2813,7 @@ La información en estos campos se utilizaría para llevar un registro de las tr
 ![submenu ajustes](./assets/img/7/administracion_mododepago.png)
 
 
-### 7.6.23 Administración / Métodos de pago
+### 7.7.23 Administración / Métodos de pago
 Ingresar al módulo de __Contabilidad__, posteriormente seleccionar __Configuración__ y buscar en __Administración__ la opción __Métodos de pago.__
 
 Estos campos se utilizan para describir, categorizar y gestionar las diferentes opciones disponibles para realizar transacciones financieras. Cada campo proporciona información clave sobre cómo se realiza el pago, qué requisitos pueden estar involucrados y cómo se clasifica el método de pago en relación con otros.
