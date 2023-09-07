@@ -753,46 +753,51 @@ Permite exportar los documentos,archivarlos y desarchivarlos:
 ![submenu ajustes](./assets/img/5/exportartiposdedocumentacion.png)
 ![submenu ajustes](./assets/img/5/exceltipodedocumentacion.png)
 
-## 7.Administraccion
+## 6.Administraccion
 
-### 7.1 Usuarios
+### 6.1 Usuarios
 Los usuarios del sistema o usuarios cliente son personas que se conectan al sistema para hacer uso de los servicios que éste les proporciona. Dentro de los usuarios del sistema podemos distinguir diferentes perfiles o niveles de usuario, y dependiendo de dicho nivel poseerá más o menos privilegios en su estancia dentro del sistema Contigo.
 Es necesario indicar que rol o función tendrán los usuarios, porque dependerá de los mismos para la correcta navegación del sistema.
 Un usuario consta de 3 datos que permitirán el reconocimiento del mismo dentro del sistema contable Contigo, los cuales son: Nombre del usuario, correo electrónico y una contraseña dada por el sistema.
 __Importante:__ Para generar usuarios dentro del sistema, es recomendable hacerlo dentro del módulo de Contactos (Para más información revise el manual __Contigo General__).
 
 
-![submenu ajustes](./assets/img/7/administracion_usuario.png)
+![submenu ajustes](./assets/img/6/administracion_usuario.png)
+
 
 Es importante definir los Permisos de acceso, la tienda (Agencias) en donde se encuentra laborando y las preferencias de usuario (El mismo usuario puede configurar sus preferencias dentro del sistema).
 
 Permisos de acceso: El usuario debe tener permisos para acceder a los diferentes módulos que existen dentro del sistema y también para poder ver o interactuar con la información presente en los mismos. Se pueden asignar los permisos cuando se cree un usuario y dependiendo de los permisos asignados para dicho usuario, el sistema le indicará a qué acciones puede realizar en el mismo, tales como las ventas, la contabilidad, el inventario, otros, además de las opciones técnicas, los derechos extras y una última opción de otro que contiene creación de contacto.
 
-![submenu ajustes](./assets/img/7/administracion_usuarios.png)
+
+![submenu ajustes](./assets/img/6/administracion_usuarios.png)
+
 
 Tiendas: Permite identificar las tiendas/agencias en las cuales se encuentra el usuario y en las tiendas que tiene permitido trabajar.
 
-![submenu ajustes](./assets/img/7/administracion_tienda.png)
+
+![submenu ajustes](./assets/img/6/administracion_tienda.png)
+
 
 Preferencias: Permite una serie de configuraciones dentro del sistema, como el idioma, la zona horaria, notificación (Manejar por correos electrónicos o Manejar en Odoo), firma de correo electrónico y por último una firma digital.
 
-![submenu ajustes](./assets/img/7/administracion_preferencia.png)
+![submenu ajustes](./assets/img/6/administracion_preferencia.png)
 
 
 Cuando seleccione firma de firma digital, le va a aparecer una ventana que dice adopte su firma, si no tiene una firma guardada en la computadora seleccione “Dibujar”, si ya posee una firma en la computadora seleccione “Cargar” para subir el archivo que contiene una firma  y si está seguro de su decisión presione “Aprobar y firmar”.
 
-![submenu ajustes](./assets/img/7/administracion_adoptesufirma.png)
+![submenu ajustes](./assets/img/6/administracion_adoptesufirma.png)
 
 Importante: Para asignar una contraseña y restablecer la misma, se requiere seguir los siguientes procesos.
 1.- Asignación de contraseña por medio del administrador: Esta opción permite al administrador del sistema establecer o asignar la contraseña de usuario. Para que está acción se ejecute; el usuario debe dirigirse en la parte superior del sistema e identificar el botón de Acción, presionarlo después de eso saldrán tres opciones elija la opción que dice “Cambiar la contraseña”.
 
 <p align="center">
-  <img src="./assets/img/7/administracion_accion.png">
+  <img src="./assets/img/6/administracion_accion.png">
 </p>
 
 El sistema mostrará un formulario simple, el cual consta del correo del usuario en la parte izquierda y el espacio para la nueva contraseña en la parte derecha. Cuando se haya ingresado la nueva contraseña, se procede a confirmar (Cambiar la contraseña).
 
-![submenu ajustes](./assets/img/7/administracion_cambiarcontraseña.png)
+![submenu ajustes](./assets/img/6/administracion_cambiarcontraseña.png)
 
 Nota: Este proceso se recomienda utilizarlo si es necesario que el usuario ingrese de manera urgente al sistema, caso contrario se recomienda que los usuarios sigan el paso 3.
 
@@ -800,12 +805,12 @@ Nota: Este proceso se recomienda utilizarlo si es necesario que el usuario ingre
 
 
 <p align="center">
-  <img src="./assets/img/7/administracion_enviarinstrucciones.png">
+  <img src="./assets/img/6/administracion_enviarinstrucciones.png">
 </p>
 
 
 <p align="center">
-  <img src="./assets/img/7/administracion_cambiarcontraseñas.png">
+  <img src="./assets/img/6/administracion_cambiarcontraseñas.png">
 </p>
 
 
@@ -813,33 +818,33 @@ Nota: Este proceso se recomienda utilizarlo si es necesario que el usuario ingre
 
 
 <p align="center">
-  <img src="./assets/img/7/administracion_cambiarcontraseñaa.png">
+  <img src="./assets/img/6/administracion_cambiarcontraseñaa.png">
 </p>
 
 
-### 7.2 Compañias
+### 6.2 Compañias
 
 La opción de “Compañías” permite el ingreso de datos que se mostrará dentro del sistema, dependiendo de cómo se configure, se habilitan o deshabilitan opciones que se reflejarán en un manejo diferente en el sistema. Por defecto hay un registro con el nombre de My Company (Mi Compañía), es necesario ingresar a dicho registro para poder configurar con los respectivos datos de la empresa.
 Se procede a llenar los campos con su respectiva información según la empresa, especialmente los campos obligatorios empezando por el nombre de la compañía.
 
 <p align="center">
-  <img src="./assets/img/7/administracion_compañia.png">
+  <img src="./assets/img/6/administracion_compañia.png">
 </p>
 
 
 <p align="center">
-  <img src="./assets/img/7/administracion_nombredelacompañia.png">
+  <img src="./assets/img/6/administracion_nombredelacompañia.png">
 </p>
 
 Información General: Se debe registrar todos los datos de la compañía y si la compañía posee factura electrónica, llenar en el sistema sus respectivos campos para su posterior utilización.
 
 
-![submenu ajustes](./assets/img/7/administracion_informaciongeneral.png)
+![submenu ajustes](./assets/img/6/administracion_informaciongeneral.png)
 
 Contabilidad: Permite indicar al sistema las retenciones, sustentos tributarios, las cuentas contables y la cuenta de transferencia entre bancos que la empresa utiliza para toda su actividad contable.
 
 
-![submenu ajustes](./assets/img/7/administracion_contabilidad.png)
+![submenu ajustes](./assets/img/6/administracion_contabilidad.png)
 
 El sistema muestra opciones que afectarán a otros módulos como:
 Contabilidad
@@ -856,7 +861,7 @@ __Número de resolución de agente de retención:__ Se deberá llenar esta opci�
 __Obligar identificación contactos:__ Si esta opción está marcada, los contactos dentro del sistema estarán obligados a llenar los campos Tipo ID y Cedula/Ruc.
 
 
-![submenu ajustes](./assets/img/7/administracion_verificacion.png)
+![submenu ajustes](./assets/img/6/administracion_verificacion.png)
 
 __Retenciones__
 Para utilizar correctamente los siguientes apartados, se requiere ya tener configurado las siguientes retenciones:
@@ -865,62 +870,62 @@ Ret. Renta Bienes
 Ret. IVA Servicios
 Ret. Renta Servicios
 
-![submenu ajustes](./assets/img/7/administracion_retenciones.png)
+![submenu ajustes](./assets/img/6/administracion_retenciones.png)
 
 Cuentas Contables. – Permite enlazar las cuentas de ingreso y gastos a los elementos del plan contable.
 
-![submenu ajustes](./assets/img/7/administracion_cuentacontable.png)
+![submenu ajustes](./assets/img/6/administracion_cuentacontable.png)
 
 Anticipos. – Permite configurar las cuentas de anticipos para clientes y proveedores.
 
 
-![submenu ajustes](./assets/img/7/administracion_anticipos.png)
+![submenu ajustes](./assets/img/6/administracion_anticipos.png)
 
 Conciliaciones Bancarias. – Permite la configuración de dos cuentas, las cuales sirven para realizar los pagos no registrados o no identificados en el sistema y así obtener cuadre de la conciliación.
 
-![submenu ajustes](./assets/img/7/administracion_conciliacionesbancarias.png)
+![submenu ajustes](./assets/img/6/administracion_conciliacionesbancarias.png)
 
 Firmas Asientos Contable. - Al momento de guardar un asiento, dependiendo de los usuarios seleccionados en esta opción; el mismo aparecerá en el registro y posteriores.
 
-![submenu ajustes](./assets/img/7/administracion_firmascontable.png)
+![submenu ajustes](./assets/img/6/administracion_firmascontable.png)
 
 Bancos. - Se tiene que poner el número de la cuenta de transferencias interbancarias.
 
-![submenu ajustes](./assets/img/7/administracion_banco.png)
+![submenu ajustes](./assets/img/6/administracion_banco.png)
 
-### 7.3 Agencias
+### 6.3 Agencias
 
 Establecimiento comercial creado por una empresa o una sociedad, que goza de cierta autonomía con relación a la empresa o sociedad creadora, sin ser jurídicamente distinta de ella.
 En esta opción se procede con la creación de las diferentes agencias o sucursales que se desee manejar en el sistema.  Se puede tener sucursales principales o padres y secundarias.
 
-![submenu ajustes](./assets/img/7/administracion_agencias.png)
+![submenu ajustes](./assets/img/6/administracion_agencias.png)
 
-![submenu ajustes](./assets/img/7/administracion_agencia.png)
+![submenu ajustes](./assets/img/6/administracion_agencia.png)
 
 En el campo __Sucursal Padre__ se selecciona el nombre de una sucursal previamente creada, esto nos permite diferenciar cual es la sucursal principal y cuáles son las secundarias, dependientes de la principal.
 
-### 7.4 Servidores Correo Saliente
+### 6.4 Servidores Correo Saliente
 Un servidor de correo saliente es un servidor que se ocupa de enviar correos desde su buzón de correo. Para crear el servidor de correo saliente, se añade una descripción de nuestro correo y seleccionamos su prioridad (entre más bajo el número mayor será la prioridad); en la información de la conexión colocamos:
 Servidor SMTP = smtp.dominio.com
 Puerto SMTP = 475
 Por último, se selecciona en seguridad de la conexión SSL/TLS y posteriormente se configura el usuario y la contraseña del correo, se prueba la conexión y listo.
 
-![submenu ajustes](./assets/img/7/administracion_servidorescorreosaliente.png)
+![submenu ajustes](./assets/img/6/administracion_servidorescorreosaliente.png)
 
-![submenu ajustes](./assets/img/7/adminsitracion_servidorcontigo.png)
+![submenu ajustes](./assets/img/6/adminsitracion_servidorcontigo.png)
 
-![submenu ajustes](./assets/img/7/administracion_servidor.png)
+![submenu ajustes](./assets/img/6/administracion_servidor.png)
 
 
 
-### 7.5 Secuencia
+### 6.5 Secuencia
 Aquí es donde se encuentran los códigos de secuencia creados por el propio usuario, con un código de secuencia, nombre, el prefijo, tamaño de frecuencia, próximo número, pasó y por último la implementación.
 
-![submenu ajustes](./assets/img/7/administracion_secuencia.png)
+![submenu ajustes](./assets/img/6/administracion_secuencia.png)
 
 Estas son creadas por el nombre, el código de secuencia, la implementación (para saber si es Estandar o es sin hueco) y ver si está activo caso contrario no se va a seleccionar el activo.
 
-![submenu ajustes](./assets/img/7/administracion_secuencias.png)
+![submenu ajustes](./assets/img/6/administracion_secuencias.png)
 
 __Secuencia:__
 En secuencia se tienen que llenar unos datos más:
@@ -932,18 +937,18 @@ Paso: El número siguiente de la secuencia será incrementado por esté número.
 Próximo número: Es el próximo número que se utilizará, este número puede incrementarse frecuentemente por lo que el valor mostrado puede ya estar obsoleto
 
 
-![submenu ajustes](./assets/img/7/administracion_prefijo.png)
+![submenu ajustes](./assets/img/6/administracion_prefijo.png)
 
 
-### 7.7 Precisión decimal
+### 6.7 Precisión decimal
 La precisión decimal permite indicar al sistema cuál será la referencia de los diferentes datos numéricos y los decimales de los mismos. Por ejemplo:
 El sistema muestra una precisión decimal llamada Precio Producto el cual solo será utilizada al momento de registrar el precio de un producto, si el digito ingresado como precio es de ‘5.789’ el sistema lo mostrará como ‘5.79’ ya que aplica redondeo y el número de dígitos decimales son dos.
 
-![submenu ajustes](./assets/img/7/administracion_precisiondecimal.png)
+![submenu ajustes](./assets/img/6/administracion_precisiondecimal.png)
 
-![submenu ajustes](./assets/img/7/administracion_precision.png)
+![submenu ajustes](./assets/img/6/administracion_precision.png)
 
-### 7.7 Correo Electrónico
+### 6.7 Correo Electrónico
 En el correo electrónico se van a mostrar los mensajes que han sido enviados por el usuario o el sistema, estos están conformados por la fecha, asunto, y el usuario. 
 
 Cuando presione en un mensaje va a ser llevado a la página del mensaje mostrando el contenido del asunto, por quien está hecho, desde donde es, hasta donde va a ser enviado, a qué empresa va a ser llevado, el destinatario en copia carbón, si llega “responder a” en caso de existir un inconveniente con el mensaje, fecha planeada de envío para saber cuando fue enviado o debió haber sido enviado.
@@ -951,27 +956,27 @@ Cuando presione en un mensaje va a ser llevado a la página del mensaje mostrand
 Si se presiona en editar, se podrá editar el contenido del mensaje y las opciones ya dichas
 
 
-![submenu ajustes](./assets/img/7/administracion_correoelectronicos.png)
+![submenu ajustes](./assets/img/6/administracion_correoelectronicos.png)
 
 
-![submenu ajustes](./assets/img/7/administracion_correoelectronico.png)
+![submenu ajustes](./assets/img/6/administracion_correoelectronico.png)
 
 
 Contenido: Aquí se muestra que contiene el mensaje
 
 
-![submenu ajustes](./assets/img/7/administracion_contenido.png)
+![submenu ajustes](./assets/img/6/administracion_contenido.png)
 
 Adjuntos: Se asocian un documento mediante el modelo/res_id y al mensaje mediante este campo.
 
 
-![submenu ajustes](./assets/img/7/administracion_adjuntos.png)
+![submenu ajustes](./assets/img/6/administracion_adjuntos.png)
 
 
 Razón del fallo: Aquí se muestra la razón del fallo de la entrega de correo del porque no fue enviado
 
 
-![submenu ajustes](./assets/img/7/administracion_razondelfallo.png)
+![submenu ajustes](./assets/img/6/administracion_razondelfallo.png)
 
 
 ## 7. Contabilidad
@@ -1029,6 +1034,7 @@ __Vista Previa:__ Este botón muestra en pantalla cómo se verá la factura, pod
 </p>
 
 __Añadir nota de crédito:__ Esta opción le permite crear créditos de forma rápida y sencilla. Se recomienda utilizar este método al ingresar facturas al sistema, ya que optimiza el tiempo dentro del proceso de creación de notas de crédito. El proceso es fácil. Seleccione el método de crédito y la fecha de cancelación.
+
 <p align="center">
   <img src="./assets/img/7/añadirnotadecredito.png">
 </p>
@@ -1122,8 +1128,9 @@ __Compartir:__ Consiste en un enlace o URL único o abierto, que se genera para 
 </p>
 
 __Cambiar a reembolso/nota de crédito:__ 
+
 <p align="center">
-  <img src="./assets/img/7/cambiar a reembolso.png">
+  <img src="./assets/img/7/cambiar_a_reembolso.png">
 </p>
 
 #### 7.1.3 Facturas de Reembolso de Gastos
@@ -1893,6 +1900,7 @@ Dentro de Ventas se pueden visualizar diferentes vistas como poder ver los regis
 </p>
 
 5) __Vista Kanban:__ vista basada en tarjeta en la que se muestran los datos de manera organizada para una mejor comprensión.
+
 <p align="center">
   <img src="./assets/img/7/vistakanbandiarioscontablesventas.png">
 </p>
@@ -2825,44 +2833,46 @@ Estos campos se utilizan para describir, categorizar y gestionar las diferentes 
 
 
 
-## 7. Algunos de nuestros clientes
+## 8. Algunos de nuestros clientes
+
 
 <table>
   <tr>
-    <td><img src="assets/img/7/armada.png" alt="Imagen 1"></td>
-    <td><img src="assets/img/7/conexiontotal.png" alt="Imagen 2"></td>
-    <td><img src="assets/img/7/maint.png" alt="Imagen 3"></td>
-    <td><img src="assets/img/7/sms.png" alt="Imagen 4"></td>
+    <td><img src="assets/img/8/armada.png" alt="Imagen 1"></td>
+    <td><img src="assets/img/8/conexiontotal.png" alt="Imagen 2"></td>
+    <td><img src="assets/img/8/maint.png" alt="Imagen 3"></td>
+    <td><img src="assets/img/8/sms.png" alt="Imagen 4"></td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <td><img src="assets/img/8/learning.png" alt="Imagen 1"></td>
+    <td><img src="assets/img/8/versatily.png" alt="Imagen 2"></td>
+    <td><img src="assets/img/8/reybanpac.png" alt="Imagen 3"></td>
+    <td><img src="assets/img/8/centop.png" alt="Imagen 4"></td>
   </tr>
 </table>
 
 <table>
   <tr>
-    <td><img src="assets/img/7/learning.png" alt="Imagen 1"></td>
-    <td><img src="assets/img/7/versatily.png" alt="Imagen 2"></td>
-    <td><img src="assets/img/7/reybanpac.png" alt="Imagen 3"></td>
-    <td><img src="assets/img/7/centop.png" alt="Imagen 4"></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td><img src="assets/img/7/smslatinoamerica.png" alt="Imagen 1"></td>
-    <td><img src="assets/img/7/istg.png" alt="Imagen 2"></td>
-    <td><img src="assets/img/7/serviciosinmediato.png" alt="Imagen 3"></td>
-    <td><img src="assets/img/7/technet.png" alt="Imagen 4"></td>
+    <td><img src="assets/img/8/smslatinoamerica.png" alt="Imagen 1"></td>
+    <td><img src="assets/img/8/istg.png" alt="Imagen 2"></td>
+    <td><img src="assets/img/8/serviciosinmediato.png" alt="Imagen 3"></td>
+    <td><img src="assets/img/8/technet.png" alt="Imagen 4"></td>
   </tr>
 </table>
 
 
-## 8. Contactanos
+## 8.1 Contactanos
 
 <table>
   <tr>
-    <td><img src="assets/img/7/facebook.jpg" alt="Imagen 1"></td>
-    <td><img src="assets/img/7/twitter.jpg" alt="Imagen 2"></td>
-    <td><img src="assets/img/7/instagram.jpg" alt="Imagen 3"></td>
-    <td><img src="assets/img/7/linkedln.jpg" alt="Imagen 4"></td>
+    <td><img src="assets/img/8/facebook.jpg" alt="Imagen 1"></td>
+    <td><img src="assets/img/8/twitter.jpg" alt="Imagen 2"></td>
+    <td><img src="assets/img/8/instagram.jpg" alt="Imagen 3"></td>
+    <td><img src="assets/img/8/linkedln.jpg" alt="Imagen 4"></td>
   </tr>
 </table>
 
