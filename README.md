@@ -1,4 +1,4 @@
-![Logo Contigo](./assets/img/contigo_logo.png)
+![Logo Contigo](./assets/img/2/contigo_logo.png)
 # Manual General Sistema Contigo
 
 ## Índice de Contenido
@@ -815,7 +815,7 @@ Nota: Este proceso se recomienda utilizarlo si es necesario que el usuario ingre
 </p>
 
 
-### 6.1 Compañias
+### 6.2 Compañias
 
 La opción de “Compañías” permite el ingreso de datos que se mostrará dentro del sistema, dependiendo de cómo se configure, se habilitan o deshabilitan opciones que se reflejarán en un manejo diferente en el sistema. Por defecto hay un registro con el nombre de My Company (Mi Compañía), es necesario ingresar a dicho registro para poder configurar con los respectivos datos de la empresa.
 Se procede a llenar los campos con su respectiva información según la empresa, especialmente los campos obligatorios empezando por el nombre de la compañía.
@@ -886,7 +886,7 @@ Bancos. - Se tiene que poner el número de la cuenta de transferencias interbanc
 
 ![submenu ajustes](./assets/img/6/administracion_banco.png)
 
-### 6.2 Agencias
+### 6.3 Agencias
 
 Establecimiento comercial creado por una empresa o una sociedad, que goza de cierta autonomía con relación a la empresa o sociedad creadora, sin ser jurídicamente distinta de ella.
 En esta opción se procede con la creación de las diferentes agencias o sucursales que se desee manejar en el sistema.  Se puede tener sucursales principales o padres y secundarias.
@@ -897,7 +897,7 @@ En esta opción se procede con la creación de las diferentes agencias o sucursa
 
 En el campo __Sucursal Padre__ se selecciona el nombre de una sucursal previamente creada, esto nos permite diferenciar cual es la sucursal principal y cuáles son las secundarias, dependientes de la principal.
 
-### 6.3 Servidores Correo Saliente
+### 6.4 Servidores Correo Saliente
 Un servidor de correo saliente es un servidor que se ocupa de enviar correos desde su buzón de correo. Para crear el servidor de correo saliente, se añade una descripción de nuestro correo y seleccionamos su prioridad (entre más bajo el número mayor será la prioridad); en la información de la conexión colocamos:
 Servidor SMTP = smtp.dominio.com
 Puerto SMTP = 465
@@ -911,7 +911,7 @@ Por último, se selecciona en seguridad de la conexión SSL/TLS y posteriormente
 
 
 
-### 6.4 Secuencia
+### 6.5 Secuencia
 Aquí es donde se encuentran los códigos de secuencia creados por el propio usuario, con un código de secuencia, nombre, el prefijo, tamaño de frecuencia, próximo número, pasó y por último la implementación.
 
 ![submenu ajustes](./assets/img/6/administracion_secuencia.png)
@@ -933,7 +933,7 @@ Próximo número: Es el próximo número que se utilizará, este número puede i
 ![submenu ajustes](./assets/img/6/administracion_prefijo.png)
 
 
-### 6.5 Precisión decimal
+### 6.6 Precisión decimal
 La precisión decimal permite indicar al sistema cuál será la referencia de los diferentes datos numéricos y los decimales de los mismos. Por ejemplo:
 El sistema muestra una precisión decimal llamada Precio Producto el cual solo será utilizada al momento de registrar el precio de un producto, si el digito ingresado como precio es de ‘5.789’ el sistema lo mostrará como ‘5.79’ ya que aplica redondeo y el número de dígitos decimales son dos.
 
@@ -941,7 +941,7 @@ El sistema muestra una precisión decimal llamada Precio Producto el cual solo s
 
 ![submenu ajustes](./assets/img/6/administracion_precision.png)
 
-### 6.6 Correo Electrónico
+### 6.7 Correo Electrónico
 En el correo electrónico se van a mostrar los mensajes que han sido enviados por el usuario o el sistema, estos están conformados por la fecha, asunto, y el usuario. 
 
 Cuando presione en un mensaje va a ser llevado a la página del mensaje mostrando el contenido del asunto, por quien está hecho, desde donde es, hasta donde va a ser enviado, a qué empresa va a ser llevado, el destinatario en copia carbón, si llega “responder a” en caso de existir un inconveniente con el mensaje, fecha planeada de envío para saber cuando fue enviado o debió haber sido enviado.
@@ -973,7 +973,7 @@ Razón del fallo: Aquí se muestra la razón del fallo de la entrega de correo d
 
 
 ## 7. Contabilidad
-![submenu ajustes](./assets/img/5/modulocontabilidad.png)
+![submenu ajustes](assets/img/7/modulocontabilidad.png)
 ### 7.1 Clientes
 #### 7.1.1 Facturas/Clientes
 Seleccionar el módulo de __Contabilidad__, dirigirse al menú de __Clientes__ y buscar la opción __Facturas.__
@@ -1317,7 +1317,7 @@ Automáticamente se abrirá la vista de Clientes que es igual a la vista de Cont
 
 
 ### 7.2 Proveedores
-![submenu ajustes](./assets/img/5/modulocontabilidad.png)
+![submenu ajustes](assets/img/7/modulocontabilidad.png)
 
 #### 7.2.1 Facturas/Proveedores
 En el módulo de __Contabilidad__, seleccionar en el menú de __Proveedores__ la opción __Facturas.__
@@ -1884,7 +1884,7 @@ Dentro de Ventas se pueden visualizar diferentes vistas como poder ver los regis
 
 4) __Vista Gráfica:__ Permite visualizar los datos en diferentes diagramas gráficos de manera ascendente y descendente.
 <p align="center">
-  <img src="./assets/img/3/vistagrafica.png">
+  <img src="assets/img/7/vistagrafica.png">
 </p>
 <p align="center">
   <img src="./assets/img/6/tipodevistagrafica.png">
