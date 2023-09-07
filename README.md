@@ -2860,7 +2860,7 @@ Estos campos se utilizan para describir, categorizar y gestionar las diferentes 
     <td><img src="assets/img/8/smslatinoamerica.png" alt="Imagen 1"></td>
     <td><img src="assets/img/8/istg.png" alt="Imagen 2"></td>
     <td><img src="assets/img/8/serviciosinmediato.png" alt="Imagen 3"></td>
-    <td><img src="assets/img/8/technet.png" alt="Imagen 4"></td>
+    <td><img src="assets/img/8/techcnet.png" alt="Imagen 4"></td>
   </tr>
 </table>
 
